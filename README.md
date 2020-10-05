@@ -1,0 +1,1 @@
+# rdmo-rki-catalog
