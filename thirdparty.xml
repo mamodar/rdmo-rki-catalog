@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.rki.de/terms/questions/thirdparty">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>thirdparty</key>
+		<dc:comment/>
+		<order>2</order>
+		<title lang="en">Third-party funding notification</title>
+		<title lang="de">Drittmittelanzeige</title>
+	</catalog>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>general</key>
+		<path>thirdparty/general</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/thirdparty"/>
+		<order>0</order>
+		<title lang="en">General</title>
+		<title lang="de">Allgemein</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-partners-name</key>
+		<path>thirdparty/general/project-partners-name</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Project coordination</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project coordination</verbose_name>
+		<verbose_name_plural lang="en">Project coordinations</verbose_name_plural>
+		<title lang="de">Projektkoordination</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektkoordination</verbose_name>
+		<verbose_name_plural lang="de">Projektkoordinationen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-name/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>thirdparty/general/project-partners-name/unit</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/unit"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Which organizational unit is responsible?</text>
+		<verbose_name lang="en">Organizational unit</verbose_name>
+		<verbose_name_plural lang="en">Organizational units</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welche Organisationseinheit ist verantwortlich?</text>
+		<verbose_name lang="de">Organisationseinheit</verbose_name>
+		<verbose_name_plural lang="de">Organisationseinheiten</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-name/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>thirdparty/general/project-partners-name/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>10</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Which persons are responsible for the project coordination (principal investigators)?</text>
+		<verbose_name lang="en">Principal investigator</verbose_name>
+		<verbose_name_plural lang="en">Principal investigators</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Welche Personen sind verantwortlich für die Projektkoordination (Projektleiter*innen)?</text>
+		<verbose_name lang="de">Projektleiter*in</verbose_name>
+		<verbose_name_plural lang="de">Projektleiter*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-name/deputy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>deputy</key>
+		<path>thirdparty/general/project-partners-name/deputy</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/deputy/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>20</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Which persons are deputy responsible for the project coordination (deputy principal investigator)?</text>
+		<verbose_name lang="en">Deputy principal investigator</verbose_name>
+		<verbose_name_plural lang="en">Deputy principal investigators</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Welche Personen sind stellvertretend verantwortlich für die Projektkoordination (Stellvertretende*r Projektleiter*innen)?</text>
+		<verbose_name lang="de">Stellvertretende*r Projektleiter*in</verbose_name>
+		<verbose_name_plural lang="de">Stellvertretende*r Projektleiter*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-title</key>
+		<path>thirdparty/general/project-title</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Project</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project</verbose_name>
+		<verbose_name_plural lang="en">Projects</verbose_name_plural>
+		<title lang="de">Projekt</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projekt</verbose_name>
+		<verbose_name_plural lang="de">Projekte</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-title/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>thirdparty/general/project-title/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">What is the title of the project?</text>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet der Titel des Projektes?</text>
+		<verbose_name lang="de">Titel</verbose_name>
+		<verbose_name_plural lang="de">Titel</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-title/acronym">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>acronym</key>
+		<path>thirdparty/general/project-title/acronym</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title/acronym"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<help lang="en">e.g. MaMoDaR is the acronym for &lt;i&gt;Ma&lt;/i&gt;nagement of &lt;i&gt;Mo&lt;/i&gt;lecular &lt;i&gt;Da&lt;/i&gt;ta In the &lt;i&gt;R&lt;/i&gt;esearch Data Life Cycle</help>
+		<text lang="en">What is the acronym of the project?</text>
+		<verbose_name lang="en">Acronym</verbose_name>
+		<verbose_name_plural lang="en">Acronyms</verbose_name_plural>
+		<help lang="de">z.B. MaMoDaR ist das Akronym für &lt;i&gt;Ma&lt;/i&gt;nagement of &lt;i&gt;Mo&lt;/i&gt;lecular &lt;i&gt;Da&lt;/i&gt;ta Im &lt;i&gt;R&lt;/i&gt;esearch Data Life Cycle</help>
+		<text lang="de">Wie lautet das Akronym des Projektes?</text>
+		<verbose_name lang="de">Akronym</verbose_name>
+		<verbose_name_plural lang="de">Akronyme</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-schedule-schedule">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-schedule-schedule</key>
+		<path>thirdparty/general/project-schedule-schedule</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<title lang="en">Project schedule</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project schedule</verbose_name>
+		<verbose_name_plural lang="en">Project schedules</verbose_name_plural>
+		<title lang="de">Projektablauf</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektablauf</verbose_name>
+		<verbose_name_plural lang="de">Projektabläufe</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-schedule-schedule/project_start">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_start</key>
+		<path>thirdparty/general/project-schedule-schedule/project_start</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_start"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">If the project has not yet started, please enter the anticipated starting date.</help>
+		<text lang="en">When does the project start?</text>
+		<verbose_name lang="en">Project start</verbose_name>
+		<verbose_name_plural lang="en">Project starts</verbose_name_plural>
+		<help lang="de">Falls das Projekt noch nicht gestartet ist, geben Sie bitte das voraussichtliche Datum an.</help>
+		<text lang="de">Wann beginnt die Projektlaufzeit?</text>
+		<verbose_name lang="de">Projektbeginn</verbose_name>
+		<verbose_name_plural lang="de">Projektbeginne</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-schedule-schedule/project_end">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_end</key>
+		<path>thirdparty/general/project-schedule-schedule/project_end</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_end"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">If the end of the project has not yet been determined, please indicate the expected date. If the project does not have an end, please leave the entry open.</help>
+		<text lang="en">When does the project end?</text>
+		<verbose_name lang="en">Project end</verbose_name>
+		<verbose_name_plural lang="en">Project end</verbose_name_plural>
+		<help lang="de">Falls das Projektende noch nicht feststeht, geben Sie bitte das voraussichtlich Datum an. Sollte das Projekt kein Ende haben, so lassen Sie die Angabe offen.</help>
+		<text lang="de">Wann endet die Projektlaufzeit?</text>
+		<verbose_name lang="de">Projektende</verbose_name>
+		<verbose_name_plural lang="de">Projektenden</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-partner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-partners-partner</key>
+		<path>thirdparty/general/project-partners-partner</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general"/>
+		<is_collection>False</is_collection>
+		<order>21</order>
+		<title lang="en">Project partners</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project partner</verbose_name>
+		<verbose_name_plural lang="en">Project partners</verbose_name_plural>
+		<title lang="de">Projektpartner</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektpartner</verbose_name>
+		<verbose_name_plural lang="de">Projektpartner</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-partner/partner_name_internal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_internal</key>
+		<path>thirdparty/general/project-partners-partner/partner_name_internal</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-partner"/>
+		<is_collection>True</is_collection>
+		<order>40</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (internal)?</text>
+		<verbose_name lang="en">Cooperation partner (internal)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (internal)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (intern)?</text>
+		<verbose_name lang="de">Kooperationspartner (intern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (intern)</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-partner/partner_name_external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_external</key>
+		<path>thirdparty/general/project-partners-partner/partner_name_external</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/project-partners-partner"/>
+		<is_collection>True</is_collection>
+		<order>40</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (external)?</text>
+		<verbose_name lang="en">Cooperation partner (external)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (external)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (extern)?</text>
+		<verbose_name lang="de">Kooperationspartner (extern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (extern)</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>funding</key>
+		<path>thirdparty/general/funding</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general"/>
+		<is_collection>False</is_collection>
+		<order>40</order>
+		<title lang="en">Funding</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Funder</verbose_name>
+		<verbose_name_plural lang="en">Funders</verbose_name_plural>
+		<title lang="de">Förderung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Förderer</verbose_name>
+		<verbose_name_plural lang="de">Förderer</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>thirdparty/general/funding/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Who is funding the project?</text>
+		<verbose_name lang="en">Funder</verbose_name>
+		<verbose_name_plural lang="en">Funders</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wer fördert das Projekt?</text>
+		<verbose_name lang="de">Förderer</verbose_name>
+		<verbose_name_plural lang="de">Förderer</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/funder_name"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding/overhead">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>overhead</key>
+		<path>thirdparty/general/funding/overhead</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/overhead"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">In addition to the direct project funding, various funding sources provide a flat rate for indirect costs, the so-called overhead funding. Indirect project expenses can be used for infrastructure project funding (e.g. expenses for maintenance, software or energy consumption) or the employment of people who are not billed as project staff (e.g. administration). Under no circumstances may the flat-rate project allowance be used for expenditure that is claimed under direct expenditure for the project.</help>
+		<text lang="en">Is there an overhead funding?</text>
+		<verbose_name lang="en">Overhead funding</verbose_name>
+		<verbose_name_plural lang="en">Overhead fundings</verbose_name_plural>
+		<help lang="de">Verschiedene Fördermittelgeber stellen zusätzlich zu den direkten Projektmitteln eine Pauschale für indirekte Kosten zur Verfügung, den sogenannten pauschalen Overhead (auch Projektpauschale oder Programmpauschale genannt). Indirekte Projektausgaben können durch die Projektförderung in Anspruch genommene Infrastruktur (z. B. Ausgaben für Wartungen, Software-oder Energieverbrauch) oder durch die Mitarbeit von Personen, die nicht als Projektpersonal abgerechnet werden (z. B. Verwaltung) entstehen. In keinem Fall darf die Projektpauschale für Ausgaben verwendet werden, die vorhabenbezogen bei den direkten Ausgaben geltend gemacht werden.</help>
+		<text lang="de">Gibt es einen pauschalen Overhead?</text>
+		<verbose_name lang="de">Pauschaler Overhead</verbose_name>
+		<verbose_name_plural lang="de">Pauschale Overheads</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding/project_id">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_id</key>
+		<path>thirdparty/general/funding/project_id</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/id"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">What is the Project ID/Funding ID?</text>
+		<verbose_name lang="en">Project ID/Funding ID</verbose_name>
+		<verbose_name_plural lang="en">Project IDs/Funding IDs</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet die Projekt-ID/Förder-ID?</text>
+		<verbose_name lang="de">Projekt-ID/Förder-ID</verbose_name>
+		<verbose_name_plural lang="de">Projekt-IDs/Förder-IDs</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding/link_tender">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>link_tender</key>
+		<path>thirdparty/general/funding/link_tender</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/link_tender"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">What is the link to the tender?</text>
+		<verbose_name lang="en">Link to the tender</verbose_name>
+		<verbose_name_plural lang="en">Links to tenders</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet der Link zur Ausschreibung?</text>
+		<verbose_name lang="de">Link zur Ausschreibung</verbose_name>
+		<verbose_name_plural lang="de">Links zu Ausschreibungen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding/planned_submission">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>planned_submission</key>
+		<path>thirdparty/general/funding/planned_submission</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/planned_submission"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding"/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<help lang="en">(Planned submission date of the third-party funded project application to the funding agency. )</help>
+		<text lang="en">When is the submission of the third-party funded project proposal planned?</text>
+		<verbose_name lang="en">Planned submission date</verbose_name>
+		<verbose_name_plural lang="en">Planned submission dates</verbose_name_plural>
+		<help lang="de">(Geplanter Einreichungstermin des Drittmittelprojektantrages beim Fördermittelgeber.)</help>
+		<text lang="de">Wann ist die Einreichung des Drittmittelprojektantrags geplant?</text>
+		<verbose_name lang="de">Geplante Einreichung</verbose_name>
+		<verbose_name_plural lang="de">Geplante Einreichungen</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding/final_submission">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>final_submission</key>
+		<path>thirdparty/general/funding/final_submission</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/final_submission"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/general/funding"/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<help lang="en">(Final submission date of the third-party funded project application to the funding agency. )</help>
+		<text lang="en">When is the final deadline for submission to the third-party funding provider?</text>
+		<verbose_name lang="en">Final submission date</verbose_name>
+		<verbose_name_plural lang="en">Final submission dates</verbose_name_plural>
+		<help lang="de">(Letztmöglicher Einreichungstermin des Drittmittelprojektantrages beim Fördermittelgeber.)</help>
+		<text lang="de">Wann ist der endgültige Abgabetermin beim Drittmittelgeber?</text>
+		<verbose_name lang="de">Endgültiger Abgabetermin</verbose_name>
+		<verbose_name_plural lang="de">Endgültige Abgabetermine</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-usage</key>
+		<path>thirdparty/data-usage</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/thirdparty"/>
+		<order>3</order>
+		<title lang="en">Data usage</title>
+		<title lang="de">Datennutzung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/scenarios-usage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>scenarios-usage</key>
+		<path>thirdparty/data-usage/scenarios-usage</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Usage scenarios</title>
+		<help lang="en">The following questions will help to estimate, which ressources are necessary to enable the envisioned data usage scenarios during the project. These can be technical / IT resources as well as expertise brought in by e.g. data or IT experts.</help>
+		<verbose_name lang="en">Usage scenario</verbose_name>
+		<verbose_name_plural lang="en">Usage scenarios</verbose_name_plural>
+		<title lang="de">Nutzungsszenarien</title>
+		<help lang="de">Die folgenden Fragen dienen dazu einzuschätzen, welche Ressourcen für die geplante Nutzung der Daten während der Projektlaufzeit nötig sind. Dabei kann es sich um technische bzw. IT-Ressourcen handeln, aber auch um Expertise, die z.B. Datenmanagement- oder IT-Expert*innen eingebracht wird.</help>
+		<verbose_name lang="de">Nutzungsszenario</verbose_name>
+		<verbose_name_plural lang="de">Nutzungsszenarien</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/scenarios-usage/infrastructure">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>infrastructure</key>
+		<path>thirdparty/data-usage/scenarios-usage/infrastructure</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/infrastructure"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/scenarios-usage"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">To what extent will infrastructure resources be required (e.g. CPU hours, bandwidth, storage space... etc.).</text>
+		<verbose_name lang="en">Required infrastructure resources</verbose_name>
+		<verbose_name_plural lang="en">Required infrastructure resources</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">In welchem Umfang werden Infrastrukturressourcen benötigt (CPU-Stunden, Bandbreite, Speicherplatz etc.)?</text>
+		<verbose_name lang="de">Benötigte Infrastrukturressourcen</verbose_name>
+		<verbose_name_plural lang="de">Benötigte Infrastrukturressourcen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/infrastructure_resources"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/scenarios-usage/support">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>support</key>
+		<path>thirdparty/data-usage/scenarios-usage/support</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/support"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/scenarios-usage"/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">Are there actual or potential usage scenarios that could benefit from support by a data management or IT expert, or that even require such support?</text>
+		<verbose_name lang="en">Need for support</verbose_name>
+		<verbose_name_plural lang="en">Need for support</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Gibt es beabsichtigte (ggf. auch potentielle) Nutzungsszenarien, für die die Unterstützung durch Datenmanagement- oder IT-Expert*innen sinnvoll oder notwendig ist?</text>
+		<verbose_name lang="de">Unterstützungsbedarf</verbose_name>
+		<verbose_name_plural lang="de">Unterstützungsbedarfe</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/data-storage-and-security-storage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-storage-and-security-storage</key>
+		<path>thirdparty/data-usage/data-storage-and-security-storage</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>11</order>
+		<title lang="en">Data organisation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data organisation</verbose_name>
+		<verbose_name_plural lang="en">Data organisations</verbose_name_plural>
+		<title lang="de">Datenorganisation</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datenorganisation</verbose_name>
+		<verbose_name_plural lang="de">Datenorganisationen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/data-storage-and-security-storage/dms">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dms</key>
+		<path>thirdparty/data-usage/data-storage-and-security-storage/dms</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage/dms"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/data-usage/data-storage-and-security-storage"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">&lt;a href="https://dms-vbs.rki.local/fsc" target="_blank"&gt;https://dms-vbs.rki.local/fsc&lt;/a&gt;</help>
+		<text lang="en">What is the associated document management system and transaction processing system (DMS/VBS) case?</text>
+		<verbose_name lang="en">Document management system and transaction processing system (DMS/VBS)</verbose_name>
+		<verbose_name_plural lang="en">Document management system and transaction processing system (DMS/VBS)</verbose_name_plural>
+		<help lang="de">&lt;a href="https://dms-vbs.rki.local/fsc" target="_blank"&gt;https://dms-vbs.rki.local/fsc&lt;/a&gt;</help>
+		<text lang="de">Wie lautet der zugehörige Dokumentenmanagement- und Vorgangsbearbeitungssystem (DMS/VBS)-Vorgang?</text>
+		<verbose_name lang="de">Dokumentenmanagement- und Vorgangsbearbeitungssystem (DMS/VBS)</verbose_name>
+		<verbose_name_plural lang="de">Dokumentenmanagement- und Vorgangsbearbeitungssystem (DMS/VBS)</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>url</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>legal-and-ethics</key>
+		<path>thirdparty/legal-and-ethics</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/thirdparty"/>
+		<order>5</order>
+		<title lang="en">Legal and ethics</title>
+		<title lang="de">Rechtliche und ethische Fragen</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-personal_data_yesno</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-personal_data_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>21</order>
+		<title lang="en">Personal data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Personal data</verbose_name>
+		<verbose_name_plural lang="en">Personal data</verbose_name_plural>
+		<title lang="de">Personenbezogene Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Personenbezogene Daten</verbose_name>
+		<verbose_name_plural lang="de">Personenbezogene Daten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data_yesno/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/personal_data/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data_yesno"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">The handling and processing of personal data is regulated by law. The uniform application throughout the EU is based on the &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679"
+			target=_blank"&gt;EU General Data Protection Regulation (GDPR)&lt;/a&gt;. It allows for regulatory leeway at national level. In Germany, this is regulated by the&lt;a href="http://www.gesetze-im-internet.de/englisch_bdsg/index.html"
+			target=_blank"&gt; Federal Data Protection Act (BDSG)&lt;/a&gt; , and for universities, the individual data protection laws of the individual federal states apply, e.g. &lt;a
+			href="http://gesetze.berlin.de/jportal/?quelle=jlink&amp;query=DSG+BE&amp;psml=bsbeprod.psml&amp;max=true" target=_blank"&gt; the data protection law of Berlin (BlnDSG)&lt;/a&gt;. The european GDPR defines personal data as all information relating
+			to an identified or identifiable natural person (Art. 4(1) GPDR). A person is &lt;b&gt;identified&lt;/b&gt; if it is clearly identifiable to whom the data belongs. A person becomes &lt;b&gt;identifiable&lt;/b&gt; if it can be identified by means of
+			additional information.</help>
+		<text lang="en">Do the records created and used in the project contain personal data?</text>
+		<verbose_name lang="en">Personal data</verbose_name>
+		<verbose_name_plural lang="en">Personal data</verbose_name_plural>
+		<help lang="de">Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679"
+			target=_blank"&gt;EU-Datenschutz-Grundverordnung (DSGVO)&lt;/a&gt;. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/"
+			target=_blank"&gt;Bundesdatenschutzgesetz (BDSG)&lt;/a&gt;. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z.B. das &lt;a
+			href="http://gesetze.berlin.de/jportal/?quelle=jlink&amp;query=DSG+BE&amp;psml=bsbeprod.psml&amp;max=true" target=_blank"&gt;Datenschutzgesetz Berlin (BlnDSG)&lt;/a&gt;. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen,
+			die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). &lt;b&gt;Identifiziert &lt;/b&gt;ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören.
+			&lt;b&gt;Identifizierbar&lt;/b&gt; wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann.</help>
+		<text lang="de">Enthalten die im Projekt erstellten und genutzten Datensätze personenbezogene Daten?</text>
+		<verbose_name lang="de">Personenbezogene Daten</verbose_name>
+		<verbose_name_plural lang="de">Personenbezogene Daten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-personal_data</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-personal_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>24</order>
+		<title lang="en">Sensitive data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Sensitive data</verbose_name>
+		<verbose_name_plural lang="en">Sensitive data</verbose_name_plural>
+		<title lang="de">Sensible Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Sensible Daten</verbose_name>
+		<verbose_name_plural lang="de">Sensible Daten</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/personal_data"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>bdsg_3_9</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">According to the GDPR, this includes “personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person’s sex life or sexual orientation“</help>
+		<text lang="en">Do those datasets contain personal data of special categories?</text>
+		<verbose_name lang="en">Personal data of special category</verbose_name>
+		<verbose_name_plural lang="en">Personal data of special categories</verbose_name_plural>
+		<help lang="de">Hierunter fallen laut DSGVO personenbezogene „Daten, aus denen die rassische und ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche überzeugungen oder die Gewerkschaftszugehörigkeit hervorgehen, sowie die Verarbeitung von genetischen Daten, biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person, Gesundheitsdaten oder Daten zum Sexualleben oder der sexuellen Orientierung einer natürlichen Person"</help>
+		<text lang="de">Enthalten diese Datensätze personenbezogene Daten besonderer Kategorien?</text>
+		<verbose_name lang="de">Personenbezogene Daten besondere Kategorie</verbose_name>
+		<verbose_name_plural lang="de">Personenbezogene Daten besonderer Kategorien</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data/anonymization">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>anonymization</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-personal_data/anonymization</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Will the data be anonymised or pseudonymised?</text>
+		<verbose_name lang="en">Anonymization / Pseudonymization</verbose_name>
+		<verbose_name_plural lang="en">Anonymization / Pseudonymization</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Werden die Daten anonymisiert oder pseudonymisiert?</text>
+		<verbose_name lang="de">Anonymisierung / Pseudonymisierung</verbose_name>
+		<verbose_name_plural lang="de">Anonymisierungen / Pseudonymisierungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_anonymisation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data/informed_consent">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>informed_consent</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-personal_data/informed_consent</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent/extent"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-personal_data"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">The collection, processing, archiving and publication of personal data is only admissible, if there is a corresponding 'informed consent' of the person concerned. Only in very few exceptional cases, this is not needed. Where required, please get in touch with the data protection officer of your institution for further information on the necessary conditions for consent.</help>
+		<text lang="en">To what extent is the "informed consent" obtained from the persons concerned?</text>
+		<verbose_name lang="en">Informed consent</verbose_name>
+		<verbose_name_plural lang="en">Informed consents</verbose_name_plural>
+		<help lang="de">Grundsätzlich gilt, dass eine Erhebung, Verarbeitung, Archivierung und Veröffentlichung personenbezogener Daten nur zulässig ist, wenn eine entsprechende „informierte Einwilligung“ der Betroffenen vorliegt. Nur in ganz wenigen Ausnahmefällen wird diese nicht benötigt. Bitte informieren Sie sich ggf. bei der/dem Datenschutzbeauftragten Ihrer Institution über die notwendigen Bedingungen für die Einwilligung.</help>
+		<text lang="de">In welchem Umfang wird die "informierte Einwilligung" der Betroffenen eingeholt?</text>
+		<verbose_name lang="de">Informierte Einwilligung</verbose_name>
+		<verbose_name_plural lang="de">Informierte Einwilligungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/informed_consent_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-other">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-other</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-other</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/other"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>26</order>
+		<title lang="en">Other sensitive data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Other sensitive data</verbose_name>
+		<verbose_name_plural lang="en">Other sensitive data</verbose_name_plural>
+		<title lang="de">Weitere sensible Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Weitere sensible Daten</verbose_name>
+		<verbose_name_plural lang="de">Weitere sensible Daten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-other/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-other/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-other"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">Examples are data that contain trade or business secrets or geoinformation on endangered species.</help>
+		<text lang="en">Do those datasets contain sensitive data other than personal data?</text>
+		<verbose_name lang="en">Non-personal sensitive data</verbose_name>
+		<verbose_name_plural lang="en">Non-personal sensitive data</verbose_name_plural>
+		<help lang="de">Beispiele hierfür sind etwa Daten, die Betriebs- oder Geschäftsgeheimnisse oder Ortsangaben zu bedrohten Tier- oder Pflanzenarten enthalten.</help>
+		<text lang="de">Enthalten diese Datensätze nicht-personenbezogene sensible Daten?</text>
+		<verbose_name lang="de">Nicht-personenbezogene sensible Daten</verbose_name>
+		<verbose_name_plural lang="de">Nicht-personenbezogene sensible Daten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-other/thirdparty_evaluation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>thirdparty_evaluation</key>
+		<path>thirdparty/legal-and-ethics/sensitive-data-other/thirdparty_evaluation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/thirdparty/legal-and-ethics/sensitive-data-other"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">see &lt;a href = "https://portal.rki.local/cocoon/portal/portallink=doctype=Aufgabe&amp;id=15" target=_blank"&gt;"House disposition: Dual Use"&lt;/a&gt;</help>
+		<text lang="en">Has a dual-use valuation already been carried out in accordance with the "dual-use" house disposition?</text>
+		<verbose_name lang="en">Dual-use valuation</verbose_name>
+		<verbose_name_plural lang="en">Dual-use valuations</verbose_name_plural>
+		<help lang="de">siehe &lt;a href = "https://portal.rki.local/cocoon/portal/portallink=doctype=Aufgabe&amp;id=15" target=_blank"&gt;"Hausverfügung: Dual Use"&lt;/a&gt;</help>
+		<text lang="de">Ist eine Dual-Use-Bewertung entsprechend der Hausverfügung "Dual-Use" bereits erfolgt?</text>
+		<verbose_name lang="de">Dual-Use-Bewertung</verbose_name>
+		<verbose_name_plural lang="de">Dual-Use-Bewertungen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.rki.de/terms/questions/project_costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_costs</key>
+		<dc:comment/>
+		<order>8</order>
+		<title lang="en">Project costs</title>
+		<title lang="de">Projektkostenzusammenstellung</title>
+	</catalog>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-usage</key>
+		<path>project_costs/data-usage</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/project_costs"/>
+		<order>3</order>
+		<title lang="en">Data usage</title>
+		<title lang="de">Datennutzung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>costs-dataset</key>
+		<path>project_costs/data-usage/costs-dataset</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>70</order>
+		<title lang="en">Costs</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Cost</verbose_name>
+		<verbose_name_plural lang="en">Costs</verbose_name_plural>
+		<title lang="de">Kosten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Kosten</verbose_name>
+		<verbose_name_plural lang="de">Kosten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset/creation_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_personnel</key>
+		<path>project_costs/data-usage/costs-dataset/creation_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/creation/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">Please estimate the effort in person months ( 1 PM = monthly working time of a full-time employee).</help>
+		<text lang="en">What are the personnel costs for data management associated with the creation or acquisition of data in the project?</text>
+		<verbose_name lang="en">Personnel cost</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten ( 1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</help>
+		<text lang="de">Welcher Personalaufwand für das Datenmanagement entsteht im Rahmen der Erhebung, Erstellung oder Akquise der Daten im Projekt?</text>
+		<verbose_name lang="de">Personalaufwand</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset/creation_non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_non_personnel</key>
+		<path>project_costs/data-usage/costs-dataset/creation_non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/creation/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Please estimate the effort in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs for data management associated with the creation or acquisiton of data in the project?</text>
+		<verbose_name lang="en">Non-personnel-cost</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten für das Datenmanagement entstehen im Rahmen der Erhebung, Erstellung oder Akquise der Daten im Projekt?</text>
+		<verbose_name lang="de">Sachkosten</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset/usage_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage_personnel</key>
+		<path>project_costs/data-usage/costs-dataset/usage_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/usage/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">Please estimate the effort in person months ( 1 PM = monthly working time of a full-time employee).</help>
+		<text lang="en">What are the personnel costs for data management associated with the the usage of data in the project?</text>
+		<verbose_name lang="en">Personnel cost data management</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs data management</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten. (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten)</help>
+		<text lang="de">Welcher Personalaufwand für das Datenmanagement entsteht im Zusammenhang mit der Nutzung der Daten im Projekt?</text>
+		<verbose_name lang="de">Personalaufwand Datenmanagement</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände Datenmanagement</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset/usage_non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage_non_personnel</key>
+		<path>project_costs/data-usage/costs-dataset/usage_non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/usage/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs for data management associated with the usage of data in the project?</text>
+		<verbose_name lang="en">Non-personnel-cost data management</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs data management</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten für das Datenmanagement entstehen im Zusammenhang mit der Nutzung der Daten im Projekt?</text>
+		<verbose_name lang="de">Sachkosten Datenmanagement</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten Datenmanagement</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset/storage_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>storage_personnel</key>
+		<path>project_costs/data-usage/costs-dataset/storage_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/storage/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset"/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<help lang="en">Please estimate the effort in person months ( 1 PM = monthly working time of a full-time employee).</help>
+		<text lang="en">What are the personnel costs associated with data storage and data security in the project?</text>
+		<verbose_name lang="en">Personnel cost data storage</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs data storage</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten. (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten)</help>
+		<text lang="de">Welcher Personalaufwand entsteht im Zusammenhang mit der Speicherung der Daten und Maßnahmen zur Datensicherheit während des Projektes?</text>
+		<verbose_name lang="de">Personalaufwand Datenspeicherung</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände Datenspeicherung</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset/storage_non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>storage_non_personnel</key>
+		<path>project_costs/data-usage/costs-dataset/storage_non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/storage/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/data-usage/costs-dataset"/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel costs associated with the storage of the data sets during the project?</text>
+		<verbose_name lang="en">Non-personnel cost data storage</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel costs data storage</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten entstehen im Zusammenhang mit der Speicherung der Datensätze während des Projektes?</text>
+		<verbose_name lang="de">Sachkosten Datenspeicherung</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten Datenspeicherung</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>metadata-and-referencing</key>
+		<path>project_costs/metadata-and-referencing</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/project_costs"/>
+		<order>4</order>
+		<title lang="en">Metadata and referencing</title>
+		<title lang="de">Metadaten und Referenzierung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/metadata-costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>metadata-costs</key>
+		<path>project_costs/metadata-and-referencing/metadata-costs</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing"/>
+		<is_collection>False</is_collection>
+		<order>12</order>
+		<title lang="en">Metadata costs</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Metadata cost</verbose_name>
+		<verbose_name_plural lang="en">Metadata costs</verbose_name_plural>
+		<title lang="de">Metadatenkosten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Metadatenkosten</verbose_name>
+		<verbose_name_plural lang="de">Metadatenkosten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/metadata-costs/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project_costs/metadata-and-referencing/metadata-costs/personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/metadata/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/metadata-costs"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">Please estimate the effort in person months ( 1 PM = monthly working time of a full-time employee)</help>
+		<text lang="en">What are the personnel costs associated with the the creation of metadata and context information in the project?</text>
+		<verbose_name lang="en">Personnel cost metadata</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs metadata</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</help>
+		<text lang="de">Welcher Personalaufwand entsteht im Zusammenhang mit der Erstellung von Metadaten und Kontextinformation im Projekt?</text>
+		<verbose_name lang="de">Personalaufwand Metadaten</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände Metadaten</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/metadata-costs/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project_costs/metadata-and-referencing/metadata-costs/non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/metadata/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/metadata-costs"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs associated with the creation of metadata and context information in the project?</text>
+		<verbose_name lang="en">Non-personnel-cost metadata</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs metadata</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten entstehen im Zusammenhang mit der Erstellung von Metadaten und Kontextinformation im Projekt?</text>
+		<verbose_name lang="de">Sachkosten Metadaten</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten Metadaten</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>structure-granularity-and-referencing-costs</key>
+		<path>project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing"/>
+		<is_collection>False</is_collection>
+		<order>23</order>
+		<title lang="en">PIDs costs</title>
+		<help lang="en"/>
+		<verbose_name lang="en">PID cost</verbose_name>
+		<verbose_name_plural lang="en">PIDs costs</verbose_name_plural>
+		<title lang="de">PIDs Kosten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">PID Kosten</verbose_name>
+		<verbose_name_plural lang="de">PIDs Kosten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs/personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/pid/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">Please estimate the effort in person months ( 1 PM = monthly working time of a full-time employee).</help>
+		<text lang="en">What are the personnel costs associated with of persistent identifiers in the project?</text>
+		<verbose_name lang="en">Personnel cost persistent identifiers</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs persistent identifiers</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</help>
+		<text lang="de">Welcher Personalaufwand entsteht im Zusammenhang mit der Vergabe von persistenten Identifikatoren im Projekt?</text>
+		<verbose_name lang="de">Personalaufwand persistente Identifikatoren</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände persistente Identifikatoren</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs/non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/pid/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/metadata-and-referencing/structure-granularity-and-referencing-costs"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs associated with persistent identifiers in the project?</text>
+		<verbose_name lang="en">Non-personnel-cost persistent identifiers</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs persistent identifiers</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten entstehen im Zusammenhang mit persistenten Identifikatoren im Projekt?</text>
+		<verbose_name lang="de">Sachkosten persistente Identifikatoren</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten persistente Identifikatoren</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>legal-and-ethics</key>
+		<path>project_costs/legal-and-ethics</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/project_costs"/>
+		<order>5</order>
+		<title lang="en">Legal and ethics</title>
+		<title lang="de">Rechtliche und ethische Fragen</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-costs</key>
+		<path>project_costs/legal-and-ethics/sensitive-data-costs</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>27</order>
+		<title lang="en">Sensitive data costs</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Sensitive data cost</verbose_name>
+		<verbose_name_plural lang="en">Sensitive data costs</verbose_name_plural>
+		<title lang="de">Sensible Daten Kosten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Sensible Daten Kosten</verbose_name>
+		<verbose_name_plural lang="de">Sensible Daten Kosten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs/anonymization_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>anonymization_personnel</key>
+		<path>project_costs/legal-and-ethics/sensitive-data-costs/anonymization_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/anonymization/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">Please estimate the effort in person months (1 PM = monthly working time of a full-time employee).</help>
+		<text lang="en">What are the personnel costs associated with the anonymization of sensitive data in the project?</text>
+		<verbose_name lang="en">Personnel cost anonymization</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs anonymization</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</help>
+		<text lang="de">Welcher Personalaufwand entsteht für die Anonymisierung von sensiblen Daten im Projekt?</text>
+		<verbose_name lang="de">Personalaufwand Anonymisierung</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände Anonymisierung</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs/anonymization_non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>anonymization_non_personnel</key>
+		<path>project_costs/legal-and-ethics/sensitive-data-costs/anonymization_non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/anonymization/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs associated with the anonymization of sensitive data in the project?</text>
+		<verbose_name lang="en">Non-personnel-cost anonymization</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs anonymization</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten entstehen im Zusammenhang mit der Anonymisierung von sensiblen Daten im Projekt?</text>
+		<verbose_name lang="de">Sachkosten Anonymisierung</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten Anonymisierung</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs/security_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>security_personnel</key>
+		<path>project_costs/legal-and-ethics/sensitive-data-costs/security_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/security/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">Please estimate the effort in person months.</help>
+		<text lang="en">What are the personnel costs associated with other (non-technical) security measures for sensitive data in the project?</text>
+		<verbose_name lang="en">Personnel cost security measures</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs security measures</verbose_name_plural>
+		<help lang="de">Bitte schätzen Sie den Aufwand in Personenmonaten.</help>
+		<text lang="de">Welcher Personalaufwand entsteht im Zusammenhang mit weiteren (nicht-technischen) Sicherheitsmaßnahmen für sensible Daten im Projekt?</text>
+		<verbose_name lang="de">Personalaufwand Sicherheitsmaßnahmen</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände Sicherheitsmaßnahmen</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs/security_non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>security_non_personnel</key>
+		<path>project_costs/legal-and-ethics/sensitive-data-costs/security_non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/security/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/sensitive-data-costs"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs for other (non-technical) security measures for sensitive data for the project?</text>
+		<verbose_name lang="en">Non-personnel-cost security measures</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs security measures</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Wie hoch sind die weiteren Sachkosten für weiter (nicht-technische) Sicherheitsmaßnahmen für sensible Daten im Projekt?</text>
+		<verbose_name lang="de">Sachkosten Sicherheitsmaßnahmen</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten Sicherheitsmaßnahmen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/intellectual-property-rights-costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intellectual-property-rights-costs</key>
+		<path>project_costs/legal-and-ethics/intellectual-property-rights-costs</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>34</order>
+		<title lang="en">Intellectual property rights costs</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Intellectual property rights cost</verbose_name>
+		<verbose_name_plural lang="en">Intellectual property rights costs</verbose_name_plural>
+		<title lang="de">Urheber- oder verwandte Schutzrechte Kosten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Urheber- oder verwandte Schutzrechte Kosten</verbose_name>
+		<verbose_name_plural lang="de">Urheber- oder verwandte Schutzrechte Kosten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/intellectual-property-rights-costs/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project_costs/legal-and-ethics/intellectual-property-rights-costs/personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/ipr/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/intellectual-property-rights-costs"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">Please estimate the effort in person months.</help>
+		<text lang="en">What are the personnel costs associated with intellectual property rights in the project?</text>
+		<verbose_name lang="en">Personnel cost intellectual property rights</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs intellectual property rights</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten.</help>
+		<text lang="de">Welcher Personalaufwand entsteht im Zusammenhang mit Urheber- oder verwandten Schutzrechten im Projekt?</text>
+		<verbose_name lang="de">Personalaufwand Urheber- oder verwandte Schutzrechte</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände Urheber- oder verwandte Schutzrechte</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/intellectual-property-rights-costs/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project_costs/legal-and-ethics/intellectual-property-rights-costs/non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/ipr/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/legal-and-ethics/intellectual-property-rights-costs"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs regarding intellectual property rights in the project?</text>
+		<verbose_name lang="en">Non-personnel-cost intellectual property rights</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs intellectual property rights</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten entstehen im Zusammenhang mit Urheber- und verwandten Schutzrechten im Projekt?</text>
+		<verbose_name lang="de">Sachkosten Urheber- und verwandte Schutzrechte</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten Urheber- und verwandte Schutzrechte</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>storage-and-long-term-preservation</key>
+		<path>project_costs/storage-and-long-term-preservation</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/project_costs"/>
+		<order>10</order>
+		<title lang="en">Storage and long-term preservation</title>
+		<title lang="de">Speicherung und Langzeitarchivierung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation/long-term-preservation-costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>long-term-preservation-costs</key>
+		<path>project_costs/storage-and-long-term-preservation/long-term-preservation-costs</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation"/>
+		<is_collection>False</is_collection>
+		<order>13</order>
+		<title lang="en">Long-term preservation costs</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Long-term preservation cost</verbose_name>
+		<verbose_name_plural lang="en">Long-term preservation costs</verbose_name_plural>
+		<title lang="de">Langzeitarchivierungskosten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Langzeitarchivierungskosten</verbose_name>
+		<verbose_name_plural lang="de">Langzeitarchivierungskosten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation/long-term-preservation-costs/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project_costs/storage-and-long-term-preservation/long-term-preservation-costs/personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation/personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation/long-term-preservation-costs"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">Please estimate the effort in person months (1 PM = monthly working time of a full-time employee).</help>
+		<text lang="en">What are the personnel costs associated with long-term preservation for the project?</text>
+		<verbose_name lang="en">Personnel cost long-term preservation</verbose_name>
+		<verbose_name_plural lang="en">Personnel costs long-term preservation</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie den Aufwand in Personenmonaten (1 PM = Monatsarbeitszeit eines Vollzeitbeschäftigten).</help>
+		<text lang="de">Welcher Personalaufwand entsteht im Zusammenhang mit Langzeitarchivierung für dieses Projekt?</text>
+		<verbose_name lang="de">Personalaufwand Langzeitarchivierung</verbose_name>
+		<verbose_name_plural lang="de">Personalaufwände Langzeitarchivierung</verbose_name_plural>
+		<widget_type>range</widget_type>
+		<value_type>float</value_type>
+		<maximum>12.0</maximum>
+		<minimum>0.0</minimum>
+		<step>0.1</step>
+		<unit>PM</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation/long-term-preservation-costs/cover_how">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>cover_how</key>
+		<path>project_costs/storage-and-long-term-preservation/long-term-preservation-costs/cover_how</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation/cover_how"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation/long-term-preservation-costs"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">How will the datamanagement costs of the project be covered?</text>
+		<verbose_name lang="en">Cost coverage data management</verbose_name>
+		<verbose_name_plural lang="en">Costs coverage data management</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie werden die Kosten für das Datenmanagement im Projekt aufgebracht?</text>
+		<verbose_name lang="de">Kostendeckung Datenmanagement</verbose_name>
+		<verbose_name_plural lang="de">Kostendeckungen Datenmanagement</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation/long-term-preservation-costs/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project_costs/storage-and-long-term-preservation/long-term-preservation-costs/non_personnel</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation/non_personnel"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_costs/storage-and-long-term-preservation/long-term-preservation-costs"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Please estimate the costs in **Euro**.</help>
+		<text lang="en">What is the amount of non-personnel-costs regarding long-term preservation for the project?</text>
+		<verbose_name lang="en">Non-personnel-cost long-term preservation</verbose_name>
+		<verbose_name_plural lang="en">Non-personnel-costs long-term preservation</verbose_name_plural>
+		<help lang="de">Bitte schätzen sie die Kosten in **Euro**.</help>
+		<text lang="de">Welche Sachkosten entstehen im Zusammenhang mit Langzeitarchivierung für dieses Projekt?</text>
+		<verbose_name lang="de">Sachkosten Langzeitarchivierung</verbose_name>
+		<verbose_name_plural lang="de">Sachkosten Langzeitarchivierung</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>Euro</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

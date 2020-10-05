@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<view dc:uri="https://rdmo.rki.de/terms/views/costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>costs</key>
+		<dc:comment/>
+		<title lang="en">Cost overview</title>
+		<help lang="en">Overview of the personnel and non_personnel costs</help>
+		<title lang="de">Kostenübersicht</title>
+		<help lang="de">Übersicht der Personal- und Sachkosten</help>
+		<template>{% load view_tags %}
+{% load mathfilters %}
+
+{% get_set 'project/dataset' as datasets %}
+{% get_value 'project/costs/creation/personnel' as creationp %}
+{% get_value 'project/costs/creation/non_personnel' as creationnp %}
+{% get_value 'project/costs/usage/personnel' as usagep %}
+{% get_value 'project/costs/usage/non_personnel' as usagenp %}
+{% get_value 'project/costs/storage/personnel' as storagep %}
+{% get_value 'project/costs/storage/non_personnel' as storagenp %}
+{% get_value 'project/costs/metadata/personnel' as metadatap %}
+{% get_value 'project/costs/metadata/non_personnel' as metadatanp %}
+{% get_value 'project/costs/pid/personnel' as pidp %}
+{% get_value 'project/costs/pid/non_personnel' as pidnp %}
+{% get_value 'project/costs/sensitive_data/anonymization/personnel' as anonymizationp %}
+{% get_value 'project/costs/sensitive_data/anonymization/non_personnel' as anonymizationnp %}
+{% get_value 'project/costs/sensitive_data/security/personnel' as securityp %}
+{% get_value 'project/costs/sensitive_data/security/non_personnel' as securitynp %}
+{% get_value 'project/costs/ipr/personnel' as iprp %}
+{% get_value 'project/costs/ipr/non_personnel' as iprnp %}
+{% get_value 'project/costs/preservation/personnel' as preservationp %}
+{% get_value 'project/costs/preservation/non_personnel' as preservationnp %}
+
+&lt;h1&gt;Kostenübersicht&lt;/h1&gt;
+
+&lt;h2&gt;1. Datengröße&lt;/h2&gt;
+
+
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;th&gt;
+			&lt;b&gt;Datensatz&lt;/b&gt;
+		&lt;/th&gt;
+		&lt;th&gt;
+			&lt;b&gt;Datengröße&lt;/b&gt;
+		&lt;/th&gt;
+		&lt;th&gt;
+			&lt;b&gt;Zuwachsrate / Jahr&lt;/b&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+
+	&lt;tr&gt;
+			&lt;td&gt;{% render_value 'project/dataset/id' %}&lt;/td&gt; 
+			&lt;td&gt;{% render_value 'project/dataset/size/volume' %}&lt;/td&gt;
+			&lt;td&gt;{% render_value 'project/dataset/rate' %}&lt;/td&gt;
+		&lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+&lt;p&gt;
+	&lt;b&gt;
+		Laufzeit des Projekts
+	&lt;/b&gt;:
+	{% render_value 'project/schedule/project_start' %}
+	bis
+	{% render_value 'project/schedule/project_end' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+	In welchem Umfang werden
+	&lt;b&gt;Infrastrukturressourcen&lt;/b&gt;
+	benötigt?:
+	{% render_value 'project/dataset/usage/infrastructure' %}
+&lt;/p&gt;
+&lt;h2&gt;
+	2. Personal- und Sachkosten
+&lt;/h2&gt;
+
+
+&lt;table border=3&gt;
+	&lt;tr&gt;
+		&lt;th&gt;
+			&lt;b&gt;Kategorie&lt;/b&gt;
+		&lt;/th&gt;
+		&lt;th&gt;
+			&lt;b&gt;Personalkosten&lt;/b&gt;
+		&lt;/th&gt;
+		&lt;th&gt;
+			&lt;b&gt;Sachkosten&lt;/b&gt;
+		&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Datenerhebung
+		&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/creation/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/creation/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Datennutzung
+		&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/usage/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/usage/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Datenspeicherung
+		&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/storage/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/storage/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Metadaten&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/metadata/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/metadata/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Persistente Identifikatoren&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/pid/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/pid/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Anonymisierung sensibler Daten&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/sensitive_data/anonymization/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/sensitive_data/anonymization/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Sicherheitsmaßnahmen für sensible Daten&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/sensitive_data/security/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/sensitive_data/security/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Urheber- und Schutzrechte&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/ipr/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/ipr/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			Langzeitarchivierung&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/preservation/personnel' %}&lt;/td&gt;
+		&lt;td&gt;
+			{% render_value 'project/costs/preservation/non_personnel' %}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;b&gt;Summe&lt;/b&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			{{ creationp.as_number | addition:usagep.as_number | addition:storagep.as_number | addition:metadatap.as_number | addition:pidp.as_number | addition:anonymizationp | addition:securityp | addition:iprp | addition:preservationp }}
+			PM
+		&lt;/td&gt;
+		&lt;td&gt;
+			{{ creationnp.as_number | addition:usagenp.as_number | addition:storagenp.as_number | addition:metadatanp.as_number | addition:pidnp.as_number | addition:anonymizationnp | addition:securitynp | addition:iprnp | addition:preservationnp }}
+			Euro
+        &lt;/td&gt;
+	&lt;/tr&gt;   
+
+  
+&lt;/table&gt;
+
+
+
+
+&lt;p&gt;
+	Wie werden die Kosten für das Datenmanagement im Projekt aufgebracht?
+	{% render_value 'project/costs/preservation/cover_how' %}
+&lt;/p&gt;</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/Drittmittelanzeige">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>Drittmittelanzeige</key>
+		<dc:comment/>
+		<title lang="en">Third-party funded project proposal</title>
+		<help lang="en">Template for research coordination</help>
+		<title lang="de">Drittmittelantrag</title>
+		<help lang="de">Vorlage für die Forschungskoordination</help>
+		<template>{% load view_tags %}
+
+{% get_set 'project/partner' as partners %}
+{% get_set 'project/dataset' as datasets %}
+
+&lt;h1&gt;Drittmittelanzeige&lt;/h1&gt;
+&lt;h1&gt;Vorlage für die Forschungskoordination&lt;/h1&gt;
+ {% render_value 'project/title' %}
+&lt;h2&gt;1. Allgemeine Angaben&lt;/h2&gt;
+
+&lt;p&gt;
+    &lt;b&gt;Organisationseinheit:&lt;/b&gt;    {% render_value 'project/coordination/unit' %} 
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;b&gt;Projektleitung:&amp;nbsp;&lt;/b&gt;	{% render_value_inline_list 'project/coordination/name' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Stellvertretung:&amp;nbsp;&lt;/b&gt; {% render_value_inline_list 'project/coordination/deputy/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;b&gt;DMS/VBS:&lt;/b&gt; {% render_value 'project/dataset/storage/dms' %}
+&lt;/p&gt;
+
+&lt;h2&gt;2. Angaben zum Fördermittelgeber&lt;/h2&gt;
+
+&lt;p&gt;
+    &lt;b&gt;Fördermittelgeber:&lt;/b&gt;    {% render_value 'project/funder/name' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Projekt-ID/Förder-ID:&lt;/b&gt;    {% render_value 'project/funder/id' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Ausschreibung (Link):&lt;/b&gt;    {% render_value 'project/funder/link_tender' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Geplante Einreichung:&lt;/b&gt;    {% render_value 'project/funder/planned_submission' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;b&gt;Pauschaler Overhead:&lt;/b&gt;    {% render_value 'project/funder/overhead' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;b&gt;Fixe Deadline:&lt;/b&gt;    {% render_value 'project/funder/final_submission' %} 
+&lt;p&gt;
+&lt;h2&gt;3. Angaben zum Projekt&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Projektbeginn:&lt;/b&gt;    {% render_value 'project/schedule/project_start' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Projektende:&lt;/b&gt;    {% render_value 'project/schedule/project_end' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Projektakronym:&lt;/b&gt;    {% render_value 'project/title/acronym' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Projekt-Titel:&lt;/b&gt;    {% render_value 'project/title' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Abstract:&lt;/b&gt;    {% render_value 'project/abstract' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Arbeitspakete des RKI:&lt;/b&gt;    {% render_value 'project/' %}
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h2&gt;4. Datenschutz und Ressourcen&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Dual Use-Bewertung:&lt;/b&gt;    {% render_value 'project/dataset/sensitive_data/other/dualuse_evaluation' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;&lt;i&gt;Datenschutz-Relevanz:&lt;/i&gt;&lt;/b&gt;
+&lt;p&gt;
+ 	&lt;b&gt;Personenbezogene Daten:&lt;/b&gt; {% render_value 'project/legal_aspects/sensitive_data/personal_data/yesno' %}
+&lt;/p&gt;
+&lt;p&gt;
+ 	&lt;b&gt;Nicht personenbezogene sensible Daten:&lt;/b&gt; {% render_value 'project/dataset/sensitive_data/other/yesno' %}
+&lt;/p&gt;
+&lt;p&gt;
+ 	&lt;b&gt;Anonymisierte/Pseudonymisierte Daten:&lt;/b&gt; {% render_value 'project/dataset/sensitive_data/personal_data/anonymization' %}
+&lt;/p&gt;
+&lt;p&gt;
+ 	&lt;b&gt;Informierte Einwilligung:&lt;/b&gt; {% render_value 'project/dataset/sensitive_data/personal_data/consent/extent' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;&lt;i&gt;Spezieller IT-Bedarf:&lt;/i&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Umfang von benötigten Infrastrukturressourcen (CPU-Stunden, Bandbreite, Speicherplatz etc.):&lt;/b&gt; {% render_value 'project/dataset/usage/infrastructure' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Benötigte Unterstützung durch Datenmanagement- oder IT-ExpertInnen:&lt;/b&gt; {% render_value 'project/dataset/usage/support' %}
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h2&gt;5. Kooperations- und Konsortialpartner&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+ 	&lt;b&gt;Intern:&lt;/b&gt; {% render_value_inline_list 'project/partner/internal/contact/name' %}
+&lt;/p&gt;
+&lt;p&gt;
+ 	&lt;b&gt;Extern:&lt;/b&gt; {% render_value_inline_list 'project/partner/external/contact/name' %}
+&lt;/p&gt;
+
+&lt;h2&gt;6. Vorgesehenes Personal&lt;/h2&gt;
+&lt;p&gt;
+	&lt;b&gt;Personaltyp:&lt;/b&gt;
+	&lt;b&gt;Tarif/Stufe/Umfang:&lt;/b&gt;
+	&lt;b&gt;von:&lt;/b&gt;
+	&lt;b&gt;bis:&lt;/b&gt;
+	&lt;b&gt;Kosten:&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;7. Sonstige beantragte Fördermittel&lt;/h2&gt;
+&lt;p&gt;
+	&lt;b&gt;Dienstreisen:&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;Publikationen:&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;IT-Hard-/Software:&lt;/b&gt;
+&lt;/p&gt;    
+&lt;p&gt;
+	&lt;b&gt;Datensätze/-nutzung:&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;Datenschutzkonzept(e):&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;Ethik-Votum/-Vota:&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;Geräte:&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;Sonstige Kosten:&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;Overhead(-Pauschale):&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;b&gt;GESAMTSUMME:&lt;/b&gt;
+&lt;/p&gt;</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/Dual-Use">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>Dual-Use</key>
+		<dc:comment/>
+		<title lang="en">Dual-Use</title>
+		<help lang="en"/>
+		<title lang="de">Dual-Use</title>
+		<help lang="de">Bewertung des Dual-Use-Potenzials von Forschungsvorhaben entsprechend der Dual-Use Hausverfügung vom 25.03.2013
+im Robert Koch-Institut</help>
+		<template>{% load view_tags %}
+
+{% get_set 'project/partner' as partners %}
+{% get_set 'project/dataset' as datasets %}
+
+
+&lt;h1&gt;Bewertung des Dual-Use-Potenzials von Forschungsvorhaben entsprechend der Dual-Use Hausverfügung vom 25.03.2013
+im Robert Koch-Institut&lt;/h1&gt;
+
+&lt;p&gt;
+	&lt;b&gt;Datum:&lt;/b&gt;
+&lt;/p&gt;    
+
+&lt;p&gt;
+	&lt;b&gt;Fachgebiet / RKI-OE:&lt;/b&gt; {% render_value 'project/coordination/unit' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+	&lt;b&gt;Forschungsvorhaben:&lt;/b&gt;  {% render_value 'project/title' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+	&lt;b&gt;Projektphase:&lt;/b&gt; {% render_value 'project/phase' %}	
+&lt;/p&gt;
+
+&lt;p&gt;
+	&lt;b&gt;Projektleiter:&lt;/b&gt; {% render_value_inline_list 'project/coordination/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+	&lt;b&gt;Projektpartner (intern &amp; extern):&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+ 	&lt;i&gt;Intern:&lt;/i&gt; {% render_value 'project/partner/internal/contact/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+ 	&lt;i&gt;Extern:&lt;/i&gt; {% render_value 'project/partner/external/contact/name' %}
+&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;ol&gt; 
+&lt;li&gt;Analyse möglicher Dual-Use-Kriterien&lt;/li&gt;
+&lt;br&gt;
+
+&lt;style&gt;
+			table, th, td {border: 1px solid;}
+			#coll    {border-collapse: collapse;}
+			#sepa    {border-collapse: separate; margin-top: 2em;}
+			caption  {text-align: left;}
+&lt;/style&gt; 
+
+
+&lt;table id="coll"&gt;
+	&lt;tr&gt;
+		&lt;th&gt;Kriterium&lt;/th&gt;	
+		&lt;th&gt;erfüllt&lt;/th&gt; 	
+    	&lt;th&gt;nicht erfüllt&lt;/th&gt;
+    &lt;/tr&gt;
+    
+	&lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass eine Transmissibilität von Mikroorganismen erreicht, eine vorhandene Transmissibilität erhöht oder die Infektiosität erhöht wird?&lt;/td&gt;
+        &lt;td&gt;
+			{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/transmissibility' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+		&lt;/td&gt;
+        &lt;td&gt;
+{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/transmissibility' as val %}
+{% if val.is_false %}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+{% endif %}
+{% if val.is_none %}
+&amp;nbsp;
+{% endif %}&lt;/td&gt;
+	&lt;/tr&gt;
+    
+	&lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Virulenz von Mikroorganismen oder Toxinen erhöht wird?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/virulence' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/virulence' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Tenazität von Mikroorganismen oder Toxinen erhöht wird?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/tenacity' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/tenacity' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Aufnahme von Toxinen erleichtert wird?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/toxin_uptake' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/toxin_uptake' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass Resistenz von Mikroorganismen gegen therapeutische oder prophylaktische antimikrobielle oder antivirale Substanzen verstärkt oder induziert wird?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/resistance' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/resistance' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Verbreitungsfähigkeit, Ausbringungsfähigkeit oder „Waffenfähigkeit“ von Mikroorganismen und Toxinen erhöht wird (z.B. Aerosolisierung oder Entwicklung von Verfahren zur Aerosolisierung)?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/toxin_dispersal' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/toxin_dispersal' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Immunität gegen Mikroorganismen herabgesetzt wird?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/immunity' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/immunity' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass der Wirtstropismus eines Mikroorganismus oder Toxins verändert wird?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/host_tropism' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/host_tropism' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Suszeptibilität von Wirtsorganismen erhöht wird?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/susceptibility' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/susceptibility' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass gänzlich neue Pathogene generiert oder bereits zurückgedrängte (eradizierte/eliminierte/kontrollierte/natürlich verschwundene) Pathogene wieder erschaffen werden?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/pathogen' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/pathogen' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Absorptionseigenschaften eines biologischen Agens oder die Toxikokinetik in wirkungssteigernder Art verändert werden?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/absorption_properties' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/absorption_properties' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass die Effektivität von „Medical Countermeasures“ (Impfungen, therapeutischen und prophylaktischen Mitteln) oder Desinfektions-/Dekontaminationsmitteln und Verfahren herabgesetzt wird oder Wege zur Herabsetzung der Effektivität von Medical Countermeasures (Impfungen, therapeutischen und prophylaktischen Mitteln) aufgezeigt werden?&lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/reduced_effectiveness' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/reduced_effectiveness' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Ist zu erwarten, dass Wege aufgezeigt werden, die den Einsatz diagnostischer Methoden erschweren oder verhindern? &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/use_diagnostic_methods' as val %}
+			{% if val.is_true %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+			{% endif %}
+        &lt;/td&gt;
+        &lt;td&gt;
+        	{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/use_diagnostic_methods' as val %}
+			{% if val.is_false %}
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+			{% endif %}
+			{% if val.is_none %}
+			&amp;nbsp;
+			{% endif %}&lt;/td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;    
+    
+    &lt;tr&gt;
+    	
+    		&lt;td&gt;
+            &lt;ul&gt;Ist zu erwarten, dass durch die Veröffentlichung von (Literatur-) Recherchen oder theoretischen Arbeiten, die „in silico“ durchgeführt werden, 
+				&lt;li&gt;Dritten die Entwicklung oder Optimierung von Erregern oder Technologien ermöglicht wird, die direkt zum Schaden von Menschen, Tieren oder Pflanzen eingesetzt werden können&lt;/li&gt;
+				&lt;li&gt;oder dass Vulnerabilitäten aufgezeigt werden, für die keine Gegenmaßnahmen verfügbar sind?&lt;/li&gt; &lt;/td&gt;
+       	 	&lt;/ul&gt;
+       		 &lt;td&gt;
+        		{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/damage_vulnerability' as val %}
+				{% if val.is_true %}
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+				{% endif %}
+        	&lt;/td&gt;
+        	&lt;td&gt;
+        		{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/damage_vulnerability' as val %}
+				{% if val.is_false %}
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+				{% endif %}
+				{% if val.is_none %}
+				&amp;nbsp;
+				{% endif %}&lt;/td&gt;
+        	&lt;/td&gt;
+    	 
+    &lt;/tr&gt; 
+    
+    &lt;tr&gt;
+    	&lt;td&gt;Es werden Forschungsarbeiten und –ergebnisse, die ähnliche Auswirkungen und Konsequenzen wie die hier aufgelisteten vermuten lassen, durchgeführt. &lt;/td&gt;
+       		 &lt;td&gt;
+        		{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/consequences_other' as val %}
+				{% if val.is_true %}
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;#x2713;
+				{% endif %}
+        	&lt;/td&gt;
+        	&lt;td&gt;
+        		{% get_value 'project/dataset/sensitive_data/other/dualuse_evaluation/consequences_other' as val %}
+				{% if val.is_false %}
+				&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;X
+				{% endif %}
+				{% if val.is_none %}
+				&amp;nbsp;
+				{% endif %}&lt;/td&gt;
+        	&lt;/td&gt;
+    &lt;/tr&gt; 
+&lt;/table&gt;
+&lt;/ul&gt;   
+
+&lt;br&gt;
+
+&lt;li&gt;Bewertung, wenn Dual-Use-Kriterien erfüllt sind, ggfs. Diskussionspartner nennen und Protokolle/Vermerke zur Diskussion anfügen&lt;/li&gt; 
+
+&lt;li&gt;Maßnahmen zur Risikominimierung (erforderlichenfalls)&lt;/li&gt;
+
+&lt;li&gt;Unterschrift Projektleitung&lt;/li&gt;
+
+&lt;li&gt;Zustimmung Fachgebietsleitung (wenn Projekt- und Fachgebietsleitung identisch sind, hier Zustimmung des nächsten Vorgesetzten)&lt;/li&gt; 
+
+&lt;li&gt;Zustimmung Abteilungsleitung (nur wenn Dual-Use-Kriterien erfüllt sind)&lt;/li&gt;
+
+&lt;li&gt;Zustimmung Institutsleitung (nur wenn Dual-Use-Kriterien erfüllt sind)&lt;/li&gt;
+
+&lt;li&gt;Ergebnis der Sachverständigengutachten und des Votums Fo (nur falls von der Institutsleitung angefordert)&lt;/li&gt;
+ 
+&lt;br&gt; 
+&lt;h2&gt;Hinweise zum Erstellen einer Risiko-Nutzen-Analyse&lt;/h2&gt;
+
+&lt;p&gt;
+Folgende Leitfragen sollten für eine Risiko-Nutzen-Analyse betrachtet werden:
+&lt;/p&gt;
+
+&lt;p&gt;
+Schaden:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wer oder was könnte möglicherweise geschädigt werden (z.B. Menschen, Tiere, Pflanzen, Umwelt als Schutzgut)?&lt;/li&gt;
+&lt;li&gt;Wie groß wäre bei einer (un)absichtlichen Ausbringung das Ausmaß des Schadens (z.B. Erkrankungsfälle, Todesfälle)?&lt;/li&gt; 
+&lt;li&gt;Wie verhält sich das Gefährdungspotenzial (Infektiosität, Letalität, Stabilität in der Umwelt, Übertragbarkeit,…) im Vergleich zu bekannten Wildtypen?&lt;/li&gt; 
+&lt;li&gt;Ist das Wissen oder Material, das im Rahmen des Projekts entsteht, direkt zum Schaden eines Schutzgutes (Mensch, Tier, Pflanze, Umwelt) missbräuchlich einsetzbar oder wird z.B. weitere Forschung, deutliche weitere Modifizierung, beträchtliche Expertise benötigt?&lt;/li&gt; 
+&lt;li&gt;Welche geeigneten Gegenmaßnahmen sind zurzeit (in ausreichendem Maße) verfügbar (z.B. Schutzimpfung, Prophylaxe, Postexpostionsprophylaxe, Antibiotika, Virustatika, Viruzide)?&lt;/li&gt; 
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Nutzen:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Was ist der mögliche Nutzen des Projektes?&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Wie groß könnte dieser sein?&lt;/li&gt;
+&lt;li&gt;Wie groß könnte der Schaden sein, der entsteht, wenn das Projekt nicht durchgeführt wird?&lt;/li&gt;
+
+&lt;/ol&gt;</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/horizon2020">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>horizon2020</key>
+		<dc:comment>Source: http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf</dc:comment>
+		<title lang="en">Horizon 2020 FAIR Data Management Plan template</title>
+		<help lang="en">Template for Horizon 2020, from "Guidelines on
+FAIR Data Management in Horizon 2020", online: http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf</help>
+		<title lang="de">Horizon 2020 FAIR Data Management Plan template</title>
+		<help lang="de">Vorlage für Horizon 2020, aus "Guidelines on
+FAIR Data Management in Horizon 2020", Online: http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf</help>
+		<template>{% load view_tags %}
+
+&lt;h1&gt;Horizon 2020&lt;/h1&gt;
+
+&lt;h2&gt;1. Data Summary&lt;/h2&gt;
+
+{% get_set 'project/dataset' as datasets %}
+{% get_set 'project/partner' as partners %}
+
+&lt;p&gt;
+		&lt;b&gt;What is the purpose of the data collection/generation and its relation to the objectives
+		of the project?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/dataset/usage/description' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;What types and formats of data will the project generate/collect?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/dataset/format' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Will you re-use any existing data and how?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/dataset/origin' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;What is the origin of the data?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/dataset/creator/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;What is the expected size of the data?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/size/volume' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;To whom might it be useful ('data utility')?&lt;/b&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/reuse_scenario' %}
+&lt;/p&gt;
+
+&lt;h2&gt;2. FAIR data&lt;/h2&gt;
+
+&lt;h3&gt;2.1 Making data findable, including provisions for metadata&lt;/h3&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Are the data produced and/or used in the project discoverable with metadata, identifiable
+		and locatable by means of a standard identification mechanism (e.g. persistent and unique
+		identifiers such as Digital Object Identifiers)?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+		{% render_value 'project/dataset/pids/system' %}
+
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;What naming conventions do you follow?&lt;/b&gt;
+&lt;/p&gt;
+
+
+		{% render_value 'project/dataset/storage/naming_policy' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Will search keywords be provided that optimize possibilities for re-use?&lt;/b&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+		{% render_value_inline_list 'project/research_question/keywords' %}
+&lt;/ul&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Do you provide clear version numbers?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/dataset/versioning_strategy' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;What metadata will be created? In case metadata standards do not exist in your discipline,
+		please outline what type of metadata will be created and how.&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+		&lt;li&gt;
+				automatic:
+				{% render_value 'project/dataset/metadata/creation_automatic' %}
+		&lt;/li&gt;
+			 &lt;li&gt;
+				semi-automatic:
+				{% render_value 'project/dataset/metadata/creation_semi_automatic' %}
+		&lt;/li&gt;
+		&lt;li&gt;
+				manual:
+				{% render_value 'project/dataset/metadata/creation_manual' %}
+		&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;2.2. Making data openly accessible&lt;/h3&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Which data produced and/or used in the project will be made openly available as the default?
+		If certain data sets cannot be shared (or need to be shared under restrictions), explain why,
+		clearly separating legal and contractual reasons from voluntary restrictions.&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/dataset/sharing/yesno' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;How will the data be made accessible (e.g. by deposition in a repository)?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/preservation/repository' %}
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;What methods or software tools are needed to access the data?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+		{% render_value 'project/dataset/usage/technology' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Is documentation about the software needed to access the data included?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/software_documentation' %}
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;Is it possible to include the relevant software (e.g. in open source code)?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+		{% render_value 'project/dataset/sharing/yesno' %}
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;Where will the data and associated metadata, documentation and code be deposited?
+		Preference should be given to certified repositories which support open access
+		where possible.&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		
+		{% render_value 'project/dataset/preservation/repository' %}
+
+		{% get_value 'project/dataset/preservation/certification' as certification %}
+		{% if certification.is_true %}
+		(certified)
+		{% else %}
+		(not certified)
+		{% endif %}
+&lt;/p&gt;
+
+		
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;Have you explored appropriate arrangements with the identified repository?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/preservation/repository_arrangements' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Is there a need for a data access committee?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/legal_aspects/official_approval/data_access_committee' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Are there well described conditions for access (i.e. a machine-readable license)?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+		{% render_value 'project/dataset/data_security/access_permissions' %}
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;How will the identity of the person accessing the data be ascertained?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/data_security/security_measures' %}
+&lt;/p&gt;
+
+
+&lt;h3&gt;2.3. Making data interoperable&lt;/h3&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Are the data produced in the project interoperable, that is allowing data exchange and
+		re-use between researchers, institutions, organisations, countries, etc. (i.e. adhering to
+		standards for formats, as much as possible compliant with available (open) software
+		applications, and in particular facilitating re-combinations with different datasets
+		from different origins)?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+		{% render_value_inline_list 'project/dataset/interoperability' %}
+&lt;/ul&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;What data and metadata vocabularies, standards or methodologies will you follow to make
+		your data interoperable?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+		{% render_value_inline_list 'project/dataset/metadata/standards' %}
+&lt;/ul&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Will you be using standard vocabularies for all data types present in your data set,
+		to allow inter-disciplinary interoperability?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;In case it is unavoidable that you use uncommon or generate project specific
+		ontologies or vocabularies, will you provide mappings to more commonly used ontologies?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/metadata/mappings' %}
+&lt;/p&gt;
+
+&lt;h3&gt;2.4. Increase data re-use (through clarifying licences)&lt;/h3&gt;
+
+&lt;p&gt;
+		&lt;b&gt;How will the data be licensed to permit the widest re-use possible?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+		{% render_value_inline_list 'project/dataset/sharing/conditions' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;When will the data be made available for re-use? If an embargo is sought to give time
+		to publish or seek patents, specify why and how long this will apply, bearing in mind
+		that research data should be made available as soon as possible.&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/data_publication_date' %}
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;Are the data produced and/or used in the project useable by third parties, in particular
+		after the end of the project? If the re-use of some data is restricted, explain why.&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/reuse_scenario' %}
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;How long is it intended that the data remains re-usable?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/preservation/duration' %}
+&lt;/p&gt;
+
+
+&lt;h2&gt;3. Allocation of resources&lt;/h2&gt;
+
+&lt;p&gt;
+		&lt;b&gt;What are the costs for making data FAIR in your project?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		Personnel:
+		{% render_value 'project/costs/metadata/personnel' %}
+&lt;/p&gt;
+&lt;p&gt;
+		Other:
+		{% render_value 'project/costs/metadata/non_personnel' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;How will these be covered? Note that costs related to open access to research data are
+		eligible as part of the Horizon 2020 grant (if compliant with the Grant Agreement
+		conditions).&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/costs/preservation/cover_how' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Who will be responsible for data management in your project?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/coordination/contact/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Are the resources for long term preservation discussed (costs and potential value,
+		who decides and how what data will be kept and for how long)?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		&lt;i&gt;Preservation decisions&lt;/i&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+		{% render_value_inline_list 'project/preservation/responsible_person/name' %}
+&lt;/ul&gt;
+&lt;p&gt;
+		&lt;i&gt;Costs&lt;/i&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		Personnel:
+		{% render_value 'project/costs/preservation/personnel' %}
+&lt;/p&gt;
+&lt;p&gt;
+		Other:
+		{% render_value 'project/costs/preservation/non_personnel' %}
+&lt;/p&gt;
+
+&lt;h2&gt;4. Data security&lt;/h2&gt;
+
+&lt;p&gt;
+		&lt;b&gt;What provisions are in place for data security (including data recovery as well
+		as secure storage and transfer of sensitive data)?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/dataset/data_security/security_measures' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Is the data safely stored in certified repositories for long term preservation
+		and curation?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+{% get_value 'project/dataset/preservation/certification' as certification %}
+		{% if certification.is_true %}
+		(certified)
+		{% else %}
+		(not certified)
+		{% endif %}
+		
+&lt;/p&gt;
+
+&lt;h2&gt;5. Ethical aspects&lt;/h2&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Are there any ethical or legal issues that can have an impact on data sharing? These can
+		also be discussed in the context of the ethics review. If relevant, include references to
+		ethics deliverables and ethics chapter in the Description of the Action (DoA).&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+		{% render_value 'project/dataset/sensitive_data/other/yesno' %}
+		{% render_value 'project/dataset/sensitive_data/other/description' %}
+&lt;/p&gt;
+
+
+&lt;p&gt;
+		&lt;b&gt;Is informed consent for data sharing and long term preservation included in questionnaires
+		dealing with personal data?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+		&lt;li&gt;
+		Personal data:
+		{% render_value 'project/legal_aspects/sensitive_data/personal_data/yesno' %}
+		&lt;/li&gt;
+		&lt;li&gt;
+		Informed consent:
+		{% render_value 'project/dataset/sensitive_data/personal_data/consent/extent' %}
+		&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;6. Other issues&lt;/h2&gt;
+
+&lt;p&gt;
+		&lt;b&gt;Do you make use of other national/funder/sectorial/departmental procedures for data
+		management? If yes, which ones?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+		{% get_value 'project/additional_rdm_policy/yesno' as additional_rdm_policy %}
+		{{ additional_rdm_policy.value }}
+&lt;/p&gt;
+&lt;p&gt;
+		{% render_value 'project/additional_rdm_policy/requirements' %}
+&lt;/p&gt;</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/IT">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>IT</key>
+		<dc:comment/>
+		<title lang="en">IT</title>
+		<help lang="en">Overview for IT as a basis for the allocation of storage space and IT resources.</help>
+		<title lang="de">IT</title>
+		<help lang="de">Übersicht für die IT als Grundlage für die Vergabe von Speicherplatz und IT-Ressourcen.</help>
+		<template>{% load view_tags %}
+
+{% get_set 'project/partner' as partners %}
+{% get_set 'project/dataset' as datasets %}
+
+&lt;h1&gt;Projektübersicht für ZV4&lt;/h1&gt;
+
+&lt;h2&gt;1. Allgemeine Angaben zum Forschungsvorhaben&lt;/h2&gt;
+
+&lt;p&gt;
+    &lt;b&gt;1.1 Titel des Projektvorhabens&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    {% render_value 'project/title' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;b&gt;1.2 Wer ist die Kontaktperson für das Projekt?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value 'project/coordination/contact/name' %}
+&lt;p&gt;
+    &lt;b&gt;1.3 Welche Personen oder Institutionen sind verantwortlich für die Projektkoordination?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    {% render_value_inline_list 'project/coordination/name' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h2&gt;2. Technische Einordnung&lt;/h2&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.1  Was ist die tatsächliche oder erwartete Größe der Datensätze?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	{% render_value 'project/dataset/size/volume' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.2  Wie hoch ist die erwartete Erzeugungsrate der Daten pro Jahr?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	{% render_value 'project/dataset/rate' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.3   Welche Instrumente, Software, Technologien oder Verfahren werden zur Erzeugung oder Erfassung der Daten genutzt?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	{% render_value 'project/dataset/creation_methods' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.4   Welche Instrumente, Software, Verfahren oder Technologien sind notwendig, um die Daten zu nutzen?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	{% render_value 'project/dataset/usage/technology' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.5    In welchem Umfang werden Infrastrukturressourcen benötigt (CPU-Stunden, Bandbreite, Speicherplatz etc.)?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	{% render_value 'project/dataset/usage/infrastructure' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.6    Gibt es beabsichtigte (ggf. auch potentielle) Nutzungsszenarien, für die die Unterstützung durch Datenmanagement- oder IT-ExpertInnen sinnvoll oder notwendig ist?&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	{% render_value 'project/dataset/usage/support' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.7    Wo werden die Datensätze während des Projektes gespeichert?
+&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+	{% render_value 'project/dataset/storage/type' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;b&gt;2.8    Wer darf auf die Datensätze zugreifen?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value 'project/dataset/data_security/access_permissions' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.9   Sind die Datensätze reproduzierbar, d. h. ließen sie sich, wenn sie verloren gingen, erneut erstellen oder erheben?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value 'project/dataset/reproducibility' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.10    Wie und wie oft werden Backups der Daten erstellt?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value 'project/dataset/data_security/backups' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.11    Wer ist verantwortlich für die Erstellung der Backups?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value_inline_list 'project/dataset/data_security/backup_responsible/name' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.12   Aus welchen Gründen müssen die Daten langfristig aufbewahrt werden?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value_inline_list 'project/dataset/preservation/purpose' %}
+&lt;/p&gt;&lt;p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.13   Wie lange müssen die Daten aufbewahrt werden?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value 'project/dataset/preservation/duration' %}
+&lt;/p&gt;&lt;p&gt;
+    &lt;b&gt;2.14    Wie lang sollen die Daten nach Projektende (nach)nutzbar sein?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value 'project/dataset/preservation/reuse_duration' %}
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;2.15 Bis wann werden die (unanonymisierten bzw. unpseudonymisierten) Originaldaten spätestens sicher vernichtet?&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	{% render_value 'project/dataset/sensitive_data/personal_data/deletion' %}
+&lt;/p&gt;</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/project_costs_2">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_costs_2</key>
+		<dc:comment/>
+		<title lang="en">Projektkosten 2</title>
+		<help lang="en">Kostenübersicht 2</help>
+		<title lang="de">Projektkosten 2</title>
+		<help lang="de">Kostenübersicht 2</help>
+		<template>{% load view_tags %}
+{% load mathfilters %}
+
+{% get_set 'project/dataset' as datasets %}
+{% get_value 'project/costs/creation/personnel' as creationp %}
+{% get_value 'project/costs/creation/non_personnel' as creationnp %}
+{% get_value 'project/costs/usage/personnel' as usagep %}
+{% get_value 'project/costs/usage/non_personnel' as usagenp %}
+{% get_value 'project/costs/storage/personnel' as storagep %}
+{% get_value 'project/costs/storage/non_personnel' as storagenp %}
+{% get_value 'project/costs/metadata/personnel' as metadatap %}
+{% get_value 'project/costs/metadata/non_personnel' as metadatanp %}
+{% get_value 'project/costs/pid/personnel' as pidp %}
+{% get_value 'project/costs/pid/non_personnel' as pidnp %}
+{% get_value 'project/costs/sensitive_data/anonymization/personnel' as anonymizationp %}
+{% get_value 'project/costs/sensitive_data/anonymization/non_personnel' as anonymizationnp %}
+{% get_value 'project/costs/sensitive_data/security/personnel' as securityp %}
+{% get_value 'project/costs/sensitive_data/security/non_personnel' as securitynp %}
+{% get_value 'project/costs/ipr/personnel' as iprp %}
+{% get_value 'project/costs/ipr/non_personnel' as iprnp %}
+{% get_value 'project/costs/preservation/personnel' as preservationp %}
+{% get_value 'project/costs/preservation/non_personnel' as preservationnp %}
+
+
+			{{ creationp.as_number | addition:usagep.as_number | addition:storagep.as_number | addition:metadatap.as_number | addition:pidp.as_number | addition:anonymizationp.as_number | addition:metadatap.as_number | addition:securityp.as_number | addition:iprp.as_number | addition:preservationp.as_number }}
+			PM
+		
+		&lt;br&gt;&lt;br&gt;
+			{{ creationnp.as_number | addition:usagenp.as_number | addition:storagenp.as_number | addition:metadatanp.as_number | addition:pidnp.as_number | addition:anonymizationnp.as_number | addition:metadatanp.as_number | addition:securitynp.as_number | addition:iprnp.as_number | addition:preservationnp.as_number }}
+			Euro</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/VeroeffentlichungsanzeigeDatenpublikation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>VeroeffentlichungsanzeigeDatenpublikation</key>
+		<dc:comment/>
+		<title lang="en">Publication announcement Data publication</title>
+		<help lang="en">Publication announcement Data publication template</help>
+		<title lang="de">Veröffentlichungsanzeige Datenpublikation</title>
+		<help lang="de">Vorlage Veröffentlichungsanzeige Datenpublikation</help>
+		<template>{% load view_tags %}
+
+&lt;p&gt;
+&lt;b&gt;RKI-Org.-Einheit (OE):&lt;/b&gt;   {% render_value 'project/coordination/unit' %}   
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Aktenzeichen:&lt;/b&gt; {% render_value 'project/coordination/file_reference' %}	
+&lt;/p&gt;     	
+&lt;p&gt;
+&lt;b&gt;Autor/in bzw. Ansprechpartner/in bei Autorengemeinschaft:&lt;/b&gt; {% render_value 'project/coordination/contact/name' %}		
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Apparat:&lt;/b&gt; {% render_value 'project/coordination/contact/phone' %}	
+&lt;/p&gt;
+
+&lt;h1&gt;1. Veröffentlichungsanzeige vor Datenpublikation&lt;/h1&gt;
+
+
+&lt;h2&gt; a) Es wird angezeigt, dass die Veröffentlichung der folgenden Daten beabsichtigt ist:&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;b&gt;Beschreibung des zu veröffentlichenden Datenbestands:&lt;/b&gt; {% render_value 'project/dataset/description' %}	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Herkunft der Daten (Titel der Studie):&lt;/b&gt; {% render_value 'project/title' %}
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Anzahl der Datensätze:&lt;/b&gt; {% render_value 'project/dataset/size/number_files' %}
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Liste der Variablen und deren Ausprägung (ggf. als Anlage beifügen):&lt;/b&gt; {% render_value 'project/dataset/variable_documentation' %}
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Repositorium:&lt;/b&gt; {% render_value 'project/dataset/preservation/repository' %}
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Geplante Lizenz:&lt;/b&gt; {% render_value 'project/dataset/sharing/conditions' %}
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Es wird eine Gebühr fällig&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;
+ {% render_value 'project/costs/fee' %} , AZ:  {% render_value 'project/costs/fee/file_reference' %} 
+&lt;p&gt;
+&lt;p&gt;
+Betrag: {% render_value 'project/costs/fee/amount' %}
+&lt;/p&gt;
+&lt;h2&gt; b) Informationen zu den Daten:&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;1.	Wurde der zu veröffentlichende Datenbestand durch Beschäftigte des RKI im Rahmen ihrer dienstlichen Tätigkeit erhoben:&lt;/b&gt; {% render_value 'project/dataset/origin/context_creation_type' %} 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;2.	Wurde der zu veröffentlichende Datenbestand im Rahmen eines Drittmittelprojektes&lt;sup&gt;2&lt;/sup&gt;:&lt;/b&gt; {% render_value 'project/dataset/origin/context_creation_type/thirdparty_yesno' %}&lt;br&gt;
+&lt;b&gt;oder Kooperationsprojektes erhoben:&lt;/b&gt; {% render_value 'project/dataset/origin/context_creation_type/partner_yesno' %}
+&lt;/p&gt;
+&lt;p&gt;
+Ergeben sich Ihrer Auffassung nach aus diesem Vertrag Beschränkungen im Hinblick auf die geplante Veröffentlichung, falls ja, welche:&lt;/b&gt; {% render_value 'project/dataset/sharing/partner_restrictions_explanation' %}  
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;3.	Wurde der zu veröffentlichende Datenbestand unter Nutzung von biologischem Material generiert, das dem RKI von Dritten  zur Verfügung gestellt wurde:&lt;/b&gt; {% render_value 'project/legal_aspects/material_transfer_agreement/creation_yesno' %}    
+&lt;/p&gt;
+&lt;p&gt;
+Ergeben sich Ihrer Auffassung nach aus diesem MTA Beschränkungen im Hinblick auf die geplante Veröffentlichung, falls ja, welche:&lt;/b&gt; {% render_value 'project/dataset/sharing/material_transfer_agreement_explanation' %}     
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;4.	Wurden zur Erstellung des zu veröffentlichende Datenbestands Daten Dritter&lt;sup&gt;3&lt;/sup&gt; genutzt?&lt;/b&gt; {% render_value 'project/dataset/creator/thirdparty_yesno' %} 	      
+&lt;/p&gt;	
+&lt;p&gt;
+&lt;b&gt;5.	Der zu veröffentlichende Datenbestand enthält ausschließlich Variablen, die einen Beitrag zu den wissenschaftlichen Ergebnissen geleistet haben:&lt;/b&gt; {% render_value 'project/dataset/scientific_result/yesno' %} 	      
+&lt;/p&gt; 
+&lt;p&gt;
+&lt;b&gt;6.	Beinhaltet der zu veröffentlichende Datenbestand personenbezogene Daten?&lt;/b&gt; {% render_value 'project/dataset/sensitive_data/personal_data/anonymization/explanation' %} 	      
+&lt;/p&gt;	
+&lt;p&gt;
+&lt;b&gt;6.1. Die Prüfung auf Anonymität der Datenerhebung fand im Rahmen der Vorprüfung statt. Dem geprüften Datenbestand wurden keine Variablen hinzugefügt.&lt;/b&gt; {% render_value 'project/dataset/sensitive_data/personal_data/anonymization/examination' %} 	      
+&lt;/p&gt; 		
+&lt;p&gt;
+&lt;b&gt;7.	Liegt ein Ethikvotum vor?&lt;/b&gt; {% render_value 'project/legal_aspects/official_approval/ethics_committee' %} 	      
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;8.	Ist der zu veröffentlichende Datenbestand Bestandteil einer Diensterfindung i.S.d. § 4 des Gesetzes über Arbeitnehmererfindungen&lt;sup&gt;4&lt;/sup&gt; oder könnte Bestandteil einer Diensterfindung werden?&lt;/b&gt; {% render_value 'project/legal_aspects/invention' %} 	      
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;9.	Sind am RKI weitere Arbeiten auf Grundlage des zu veröffentlichenden Datenbestands geplant?&lt;/b&gt; {% render_value 'project/dataset/reuse_basis' %} 	      
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;10.	Die Evaluation des zu veröffentlichenden Datenbestands auf mögliche Dual-Use-Risiken ist erfolgt.&lt;/b&gt; {% render_value 'project/dataset/sensitive_data/other/dualuse_intended_publication_valuation' %} 	      
+&lt;/p&gt;
+&lt;br&gt;
+&lt;h1&gt;2.&lt;/h1&gt;   
+&lt;h2&gt;a) sofern das Formular nicht durch den RKI-Datenverantwortlichen ausgefüllt wurde:
+     Über RKI-Datenverantwortlichen&lt;/h2&gt;
+&lt;h2&gt;b) Über die/den Vorgesetzte/n (ggf. Stellungnahme),&lt;/h2&gt;
+&lt;h2&gt;c) Leitung der Arbeitseinheit/en (Fachgebietsebene),&lt;/h2&gt;
+&lt;h2&gt;d) Leitung des Organisationsbereichs (Abteilungsebene)&lt;/h2&gt;
+
+&lt;h1&gt;3. 	Über DSB&lt;/h1&gt;
+
+&lt;h1&gt;4.	Über MF 4 zur Prüfung&lt;/h1&gt;
+&lt;p&gt;
+&amp;#9744;&amp;nbsp;	gegen die Veröffentlichung der Daten bestehen nach den oben gemachten Angaben keine Bedenken
+&lt;/p&gt;
+&lt;p&gt;Der Lizenzwahl wird zugestimmt		&amp;#9744;&amp;nbsp;ja	&amp;#9744;&amp;nbsp;nein&lt;/p&gt;
+	
+&lt;p&gt;Folgende Lizenzen werden empfohlen:&lt;/p&gt; 	      
+&lt;p&gt;
+&amp;#9744;&amp;nbsp; von einer Veröffentlichung der Daten sollte abgesehen werden
+&lt;/p&gt;
+&lt;p&gt;
+Begründung:      
+&lt;/p&gt;
+	
+&lt;h1&gt;5.	An Präs/VPräs zur Zustimmung&lt;/h1&gt;
+
+
+&lt;h1&gt;6.	An den RKI-Datenverantwortlichen zur Kenntnis und zur weiteren Veranlassung&lt;/h1&gt;
+
+&lt;h2&gt;a) sofort nach Veröffentlichung der Daten&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Link zum veröffentlichten Datenbestand an &lt;b&gt;MF 4&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;
+&lt;sup&gt;1&lt;/sup&gt; Bei Zahlung aus Drittmitteln holen Sie bitte vor Beauftragung eine Mittelbestätigung bei ZV 2.2 ein.
+&lt;/p&gt;
+&lt;sup&gt;2&lt;/sup&gt; Zur Definition siehe Pkt. 1 der Hausverfügung &lt;a href ="https://portal.rki.local/cocoon/portal/portallink?doctype=Attachment&amp;id=7194"&gt;„Einwerbung und Verwendung von Drittmitteln“.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;sup&gt;3&lt;/sup&gt; „Dritte“ sind alle Stellen und Personen außerhalb des RKI.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;sup&gt;4&lt;/sup&gt; https://www.gesetze-im-internet.de/arbnerfg/
+&lt;/p&gt;</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/VeroeffentlichungsanzeigePublikation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>VeroeffentlichungsanzeigePublikation</key>
+		<dc:comment/>
+		<title lang="en">Publication announcement Manuscript submission</title>
+		<help lang="en">Publication announcement Manuscript submission template</help>
+		<title lang="de">Veröffentlichungsanzeige Manuskripteinreichung</title>
+		<help lang="de">Vorlage Veröffentlichungsanzeige Manuskripteinreichung</help>
+		<template>{% load view_tags %}
+
+&lt;p&gt;
+&lt;b&gt;RKI-Org.-Einheit (OE):&lt;/b&gt;   {% render_value 'project/coordination/unit' %}   
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Aktenzeichen:&lt;/b&gt; {% render_value 'project/coordination/file_reference' %}	
+&lt;/p&gt;     	
+&lt;p&gt;
+&lt;b&gt;Autor/in bzw. Ansprechpartner/in bei Autorengemeinschaft:&lt;/b&gt; {% render_value 'project/coordination/contact/name' %}		
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Apparat:&lt;/b&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Fax:&lt;/b&gt;
+&lt;/p&gt;
+     
+
+&lt;p&gt;
+&lt;h1&gt;1. Veröffentlichungsanzeige vor Manuskripteinreichung&lt;/h1&gt;
+&lt;/p&gt;
+
+&lt;h2&gt; a) Es wird angezeigt, dass die Veröffentlichung der anliegenden Arbeit beabsichtigt ist:&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Titel:&lt;/b&gt;{% render_value 'project/title' %}
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;RKI-Autoren/Autorinnen&lt;/b&gt; (Name, Vorname, Organisationseinheit, ORCiD)&lt;b&gt;:&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;ol start="1" type=A margin=0&gt;&lt;li&gt;{% render_value 'project/dataset/sharing/author/name' %}&lt;/li&gt;&lt;/ol&gt;
+&lt;ol start="2" type=A margin=0&gt;{% render_value_list 'project/dataset/sharing/coauthor/name' %}&lt;/ol&gt;     
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Externe Autoren/Autorinnen&lt;/b&gt; (Name Vorname, Kontaktdaten)&lt;b&gt;:&lt;/b&gt; &lt;ol start="1" type=A&gt;{% render_value_list 'project/intended_publication/author_external/name' %} &lt;/ol&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Zeitschrift/Verlag:&lt;/b&gt;  {% render_value 'project/intended_publication/journal' %}  / {% render_value 'project/intended_publication/publisher' %}      
+&lt;/p&gt;
+
+&lt;h2&gt;b) Die Evaluation der im Manuskript dargestellten Forschungsergebnisse auf mögliche Dual-Use-Risiken ist erfolgt.&lt;/h2&gt;
+&lt;p&gt;
+{% render_value 'project/dataset/sensitive_data/other/dualuse_intended_publication_valuation' %}
+&lt;/p&gt;
+&lt;h2&gt;c) Das o.g. Werk entstand&lt;/h2&gt; 	
+&lt;p&gt;
+{% render_value 'project/origin_manuscript/context_creation_type' %}
+&lt;/p&gt;
+A: 0
+B: 0
+C: 0
+D: 0
+A: 0
+B: 0
+C: 0
+D: 0
+
+
+&lt;h2&gt;d) Sofern das Werk im Rahmen der dienstlichen Tätigkeit entstanden ist (s.a. Hinweis unten):&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Der Entwurf des Verlagsvertrags&lt;/b&gt;&lt;/p&gt;
+{% render_value 'project/origin_manuscript/draft_publishing_contract_type' %}
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Es wird Veröffentlichungsentgelt (Page Charges) fällig&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;
+&amp;#9745;&amp;nbsp; {% render_value 'project/costs/page_charge/type' %} , AZ:  {% render_value 'project/costs/page_charge/file_reference' %} 
+&lt;p&gt;
+Betrag pro Seite: {% render_value 'project/costs/page_charge/amount_page' %}, Gesamtbetrag: {% render_value 'project/costs/page_charge/amount_total' %}
+&lt;/p&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;b&gt;Ich versichere, dass das Werk nicht gegen Rechte Dritter verstößt und dass ich bzw. die o.g. Mitautoren/-autorinnen und ich allein berechtigt sind, über die urheberrechtlichen Nutzungsrechte an dem Werk zu verfügen.&lt;/b&gt;
+&lt;/p&gt;
+Unterschriften:	Datum:        
+
+A:	
+B:	
+C:	
+D:	
+ 	
+
+&lt;h1&gt;2.&lt;h1&gt;   
+&lt;h2&gt;a) Über den/die Vorgesetzte/n (ggf. Stellungnahme),&lt;/h2&gt;
+&lt;h2&gt;b) Leitung der Arbeitseinheit/en (Fachgebietsebene),&lt;/h2&gt;
+&lt;h2&gt;c) Leitung des Organisationsbereichs (Abteilungsebene)&lt;/h2&gt;
+
+&lt;h1&gt;3.	Über Bibliothek Nordufer zur Prüfung des Entwurfs des Verlagsvertrags&lt;/h1&gt;
+
+&lt;p&gt;&amp;#9744;&amp;nbsp;die Nutzungsrechte des RKI werden durch den Entwurf gewahrt; d. h. eine Veröffentlichung auf dem Publikationsserver des RKI ist zulässig&lt;/p&gt;
+
+&lt;p&gt;&amp;#9744;&amp;nbsp;eine Veröffentlichung auf dem Publikationsserver des RKI ist nach dem vorliegenden Vertragsentwurf nicht zulässig&lt;/p&gt;
+
+&lt;p&gt;&amp;#9744;&amp;nbsp;der Vertragsentwurf liegt nicht vor&lt;/p&gt;
+
+
+&lt;h1&gt;4.	An Präs/VPräs&lt;/h1&gt;
+&lt;p&gt;&amp;#9744;&amp;nbsp;Zustimmung&lt;/p&gt;
+&lt;p&gt;&amp;#9744;&amp;nbsp;Wiedervorlage nach Durchsicht, Ergänzung, Überarbeitung bei&lt;/p&gt; 	
+
+
+&lt;h1&gt;5.	Presse zur Kenntnis&lt;/h1&gt;
+
+
+&lt;h1&gt;6.	An den Autor/die Autorin bzw. Ansprechpartner/in der Autorengemeinschaft zur Kenntnis und zur weiteren Veranlassung&lt;/h1&gt;
+
+&lt;h2&gt;a) sofort nach Erscheinen des Beitrags&lt;/h2&gt;
+&lt;ul&gt;
+&lt;p&gt;&lt;li&gt;Mitteilung der bibliographischen Angaben, möglichst mit Abstract an&lt;/li&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;p&gt;&lt;li&gt;&lt;b&gt;ZBS-Sekr&lt;/b&gt; (ErikliU@rki.de)&lt;/li&gt;&lt;/p&gt;
+&lt;p&gt;&lt;li&gt;&lt;b&gt;Presse&lt;/b&gt;&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;li&gt;Kopie des unterzeichneten Verlagsvertrags an Bibliothek Nordufer&lt;/li&gt;&lt;/p&gt;
+&lt;p&gt;&lt;li&gt;pdf-Datei der Veröffentlichung an edoc@rki.de&lt;/li&gt;&lt;/p&gt; 
+
+&lt;p&gt;Anmerkung: 
+Die beiden letztgenannten Punkte entfallen bei Werken, die außerhalb dienstlicher Tätigkeit (siehe 1c)
+entstanden sind. 
+&lt;/p&gt;
+
+&lt;h2&gt;b) bei Vornotierung von Drittmitteln&lt;/h2&gt;
+dieses Formular mit der von Ihnen sachlich richtig gezeichneten Rechnung an ZV2.2, ZV2.2.1, ZV2.2.2 zur Fertigung der Auszahlungsanordnung 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h2&gt;c) bei Nichtannahme (wenn aus Drittmitteln finanziert)&lt;/h2&gt;
+Mitteilung an &lt;b&gt;ZV2.2, ZV2.2.1, ZV2.2.2&lt;/b&gt; zur Aufhebung der Vornotierung
+&lt;/p&gt;
+&lt;h1&gt;7.	Dieses Formular mit Vertragskopie an Bibliothek z.d.A.&lt;/h1&gt;
+
+&lt;p&gt;Hinweis:&lt;/p&gt;
+	&lt;p&gt;Das RKI hat im Mai 2007 die „Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen“ unterzeichnet und ermutigt die Beschäftigten des RKI, bei Open Access Verlagen bzw. in Open Access Journalen, deren Nutzungsvereinbarungen eine Zweitveröffentlichung in einem institutionellen Repository gestatten, zu veröffentlichen. Das RKI behält sich das einfache Recht vor, die Werke, die in Erfüllung arbeitsvertraglich geschuldeter Verpflichtungen/ Pflichten aus dem Dienstverhältnis geschaffen wurden, auf dem Publikationsserver des RKI zu vervielfältigen und zu speichern sowie über das Internet zu den auf dem Publikationsserver angegebenen Nutzungsbedingungen öffentlich zugänglich zu machen, sofern dem nicht die Regelung des Verlagsvertrages entgegensteht.
+	Mit Unterzeichnung der Veröffentlichungsanzeige übertragen Sie dem Robert Koch-Institut das Recht die oben genannte Veröffentlichung im Rahmen nationaler Sammelaufträge, insbesondere zum Zwecke der Langzeitarchivierung an Dritte zu melden und weiterzugeben sowie das Recht zum Erstellen von Kopien und zur Konvertierung in andere elektronische oder physische Formate zum Zwecke der Archivierung unter Wahrung der inhaltlichen Integrität.&lt;/p&gt;
+	Sollten gegen Ihre Veröffentlichung vermeintliche oder tatsächliche Verletzung der Rechte Dritter geltend gemacht werden, wenden Sie sich bitte unverzüglich an das Rechtsreferat.</template>
+	</view>
+	<view dc:uri="https://rdmo.rki.de/terms/views/ZV6">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>ZV6</key>
+		<dc:comment/>
+		<title lang="en">Project proposal inhouse</title>
+		<help lang="en">Project description for inhouse projects of the Robert Koch Institute</help>
+		<title lang="de">Projektantrag inhouse</title>
+		<help lang="de">Projektsteckbrief für inhouse Projekte des Robert Koch-Instituts</help>
+		<template>{% load view_tags %}
+
+
+&lt;h1&gt;Anlage 2: (vorläufiger) Projektsteckbrief für Projekte des Robert Koch-Instituts&lt;/h1&gt;
+
+
+&lt;h2&gt;Metadaten&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Projektname, Akronym:&lt;/b&gt;
+{% render_value 'project/title' %}, {% render_value 'project/title/acronym' %}	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Projektart (Beschaffungs-, Forschungs-, Organisations-, IT-, Drittmittelprojekt etc.):&lt;/b&gt; 
+{% render_value 'project/type' %}
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Projektleitung:&lt;/b&gt; 
+{% render_value_inline_list 'project/coordination/name' %}	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Projektteam:&lt;/b&gt;
+{% render_value_inline_list 'project/coordination/team' %}
+&lt;/p&gt;
+&lt;p&gt;	
+&lt;b&gt;Projektziel:&lt;/b&gt;	
+{% render_value 'project/outcome' %}	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Laufzeit:&lt;/b&gt; 
+{% render_value 'project/schedule/project_start' %}-{% render_value 'project/schedule/project_end' %}	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Budget:&lt;/b&gt;	
+{% render_value 'project/budget' %}	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Schnittstellen (mit anderen OEs oder Behörden):&lt;/b&gt; 
+{% render_value 'project/coordination/participation_unit' %}	/ {% render_value 'project/coordination/interfaces' %}	
+&lt;p&gt;
+&lt;b&gt;Kooperationspartner/Auftraggeber:&lt;/b&gt; 
+Intern: {% render_value 'project/partner/internal/contact/name' %} Extern: {% render_value 'project/partner/external/contact/name' %} / {% render_value 'project/coordination/client/name' %}	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Ggf. Lenkungsausschuss:&lt;/b&gt; 
+{% render_value 'project/coordination/steering_committee' %}
+&lt;/p&gt;
+&lt;p&gt;	
+&lt;b&gt;Ggf. Projektsponsor (interner Auftraggeber):&lt;/b&gt; 
+{% render_value 'project/coordination/project_sponsor' %}	
+&lt;/p&gt;
+
+&lt;h2&gt;Weiterführende Darstellung&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Kurze Projektbeschreibung&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Risiko-Nutzen-Analyse&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Erforderliche Kompetenzen des Projektteams und personelle Ressourcenplanung&lt;/b&gt;	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Nebenziele&lt;/b&gt; 	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Terminplanung&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;	
+&lt;b&gt;Meilensteine&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Nr.&lt;/b&gt;	
+&lt;b&gt;Meilenstein&lt;/b&gt;
+&lt;b&gt;Termin&lt;/b&gt;
+&lt;/p&gt;		
+&lt;p&gt;		
+&lt;b&gt;Kurze Übersicht Finanzierung (Kosten- und Finanzplan: Personal, Material, Geräte, Dienstreisen, Meetings,  etc.)&lt;/b&gt;	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Rahmenbedingungen&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Restriktionen&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Verantwortlichkeiten&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Kommunikation intern und extern&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Berichtsformen und -häufigkeiten, Absprachen zu Publikationen (Autorenschaft)&lt;/b&gt;	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Projekt-Monitoring&lt;/b&gt;	
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Definition Abschluss des Projekts&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Sonstige Informationen (bei Bedarf)&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Berücksichtigung vergaberechtliche Bedingungen (z. B. Ausschreibungen)&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Einholung Ethikvotum&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Fehlermanagement&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Analyse- und Auswertungsplan&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Sonstige Stakeholder&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Lessons learned aus bisherigen Projekten&lt;/b&gt;
+&lt;/p&gt;</template>
+	</view>
+</rdmo>

@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_publication_notice</key>
+		<dc:comment/>
+		<order>3</order>
+		<title lang="en">Data Publication notification</title>
+		<title lang="de">Veröffentlichungsanzeige Datenpublikation</title>
+	</catalog>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>general</key>
+		<path>data_publication_notice/general</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice"/>
+		<order>0</order>
+		<title lang="en">General</title>
+		<title lang="de">Allgemein</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_details</key>
+		<path>data_publication_notice/general/contact_details</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general"/>
+		<is_collection>False</is_collection>
+		<order>-1</order>
+		<title lang="en">Contact details</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Contact details</verbose_name>
+		<verbose_name_plural lang="en">Contact details</verbose_name_plural>
+		<title lang="de">Kontaktangaben</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Kontaktangaben</verbose_name>
+		<verbose_name_plural lang="de">Kontaktangaben</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details/contact_person">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_person</key>
+		<path>data_publication_notice/general/contact_details/contact_person</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Who is the contact person for the project?</text>
+		<verbose_name lang="en">Contact person</verbose_name>
+		<verbose_name_plural lang="en">Contact persons</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Wer ist die Kontaktperson für das Projekt?</text>
+		<verbose_name lang="de">Kontaktperson</verbose_name>
+		<verbose_name_plural lang="de">Kontaktpersonen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details/phone">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>phone</key>
+		<path>data_publication_notice/general/contact_details/phone</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/phone"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">It is sufficient to specify the extension -XXXX.</help>
+		<text lang="en">Phone</text>
+		<verbose_name lang="en">Phone</verbose_name>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Es genügt die Angabe der Durchwahl -XXXX.</help>
+		<text lang="de">Apparat</text>
+		<verbose_name lang="de">Apparat</verbose_name>
+		<verbose_name_plural lang="de"/>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details/file_reference">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>file_reference</key>
+		<path>data_publication_notice/general/contact_details/file_reference</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/file_reference"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">What's the file reference number?</text>
+		<verbose_name lang="en">File reference number</verbose_name>
+		<verbose_name_plural lang="en">File reference numbers</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet das Aktenzeichen?</text>
+		<verbose_name lang="de">Aktenzeichen</verbose_name>
+		<verbose_name_plural lang="de">Aktenzeichen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>data_publication_notice/general/contact_details/unit</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/unit"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/general/contact_details"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Which organizational unit is responsible?</text>
+		<verbose_name lang="en">Organizational unit</verbose_name>
+		<verbose_name_plural lang="en">Organizational units</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welche Organisationseinheit ist verantwortlich?</text>
+		<verbose_name lang="de">Organisationseinheit</verbose_name>
+		<verbose_name_plural lang="de">Organisationseinheiten</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_publication_notice</key>
+		<path>data_publication_notice/data_publication_notice</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice"/>
+		<order>0</order>
+		<title lang="en">Data publication notification</title>
+		<title lang="de">Veröffentlichungsanzeige Datenpublikation</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intended_data_publication</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">It is indicated that the publication of the following data is intended:</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Intended data publication</verbose_name>
+		<verbose_name_plural lang="en">Intended data publications</verbose_name_plural>
+		<title lang="de">Es wird angezeigt, dass die Veröffentlichung der folgenden Daten beabsichtigt ist:</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Geplante Daten-Veröffentlichung</verbose_name>
+		<verbose_name_plural lang="de">Geplante Daten-Veröffentlichungen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/description">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>description</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/description"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Description of the data set to be published</text>
+		<verbose_name lang="en">Data set description</verbose_name>
+		<verbose_name_plural lang="en">Data set descriptions</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Beschreibung des zu veröffentlichenden Datenbestands</text>
+		<verbose_name lang="de">Datensatzbeschreibung</verbose_name>
+		<verbose_name_plural lang="de">Datensatzbeschreibungen</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/fee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>fee</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/fee</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">A fee is due</text>
+		<verbose_name lang="en">Fee</verbose_name>
+		<verbose_name_plural lang="en">Fees</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Eine Gebühr wird fällig</text>
+		<verbose_name lang="de">Gebühr</verbose_name>
+		<verbose_name_plural lang="de">Gebühren</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/charges_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/fee_amount">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>fee_amount</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/fee_amount</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee/amount"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Amount</text>
+		<verbose_name lang="en">Amount</verbose_name>
+		<verbose_name_plural lang="en">Amounts</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Betrag</text>
+		<verbose_name lang="de">Betrag</verbose_name>
+		<verbose_name_plural lang="de">Beträge</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>€</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/fee_file_reference">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>fee_file_reference</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/fee_file_reference</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee/file_reference"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">File reference Fees</text>
+		<verbose_name lang="en">File reference Fee</verbose_name>
+		<verbose_name_plural lang="en">File references Fees</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Aktenzeichen Gebühren</text>
+		<verbose_name lang="de">Aktenzeichen Gebühr</verbose_name>
+		<verbose_name_plural lang="de">Aktenzeichen Gebühren</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/number_files">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>number_files</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/number_files</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/size/number_files"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Number of datasets</text>
+		<verbose_name lang="en">Number of datasets</verbose_name>
+		<verbose_name_plural lang="en">Number of datasets</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Anzahl der Datensätze</text>
+		<verbose_name lang="de">Anzahl der Datensätze</verbose_name>
+		<verbose_name_plural lang="de">Anzahl der Datensätze</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>integer</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/repository">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>repository</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/repository</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/repository"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Repository</text>
+		<verbose_name lang="en">Repository</verbose_name>
+		<verbose_name_plural lang="en">Repositories</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Repositorium</text>
+		<verbose_name lang="de">Repositorium</verbose_name>
+		<verbose_name_plural lang="de">Repositorien</verbose_name_plural>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/preservation_repository_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Origin of data (title of the study)</text>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Herkunft der Daten (Titel der Studie)</text>
+		<verbose_name lang="de">Titel</verbose_name>
+		<verbose_name_plural lang="de">Titel</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/conditions">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>conditions</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/conditions</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/conditions"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">The options refer to the licenses of the &lt;a href="https://creativecommons.org/share-your-work/licensing-types-examples/" target=_blank"&gt;Creative Commons family&lt;/a&gt;.</help>
+		<text lang="en">Under which terms of use or license is the data expected to be published or shared?</text>
+		<verbose_name lang="en">Planned License / Terms of use</verbose_name>
+		<verbose_name_plural lang="en">Planned Licenses / Terms of use</verbose_name_plural>
+		<help lang="de">Die Auswahlmöglichkeiten orientieren sich an Lizenzen der &lt;a href="http://de.creativecommons.org/was-ist-cc/" target=_blank"&gt;Creative-Commons-Familie&lt;/a&gt;.</help>
+		<text lang="de">Unter welchen Nutzungsbedingungen oder welcher Lizenz sollen die Daten voraussichtlich veröffentlicht bzw. geteilt werden?</text>
+		<verbose_name lang="de">Geplante Lizenz / Nutzungsbedingung</verbose_name>
+		<verbose_name_plural lang="de">Geplante Lizenzen / Nutzungsbedingungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_license_types"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication/variable">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>variable</key>
+		<path>data_publication_notice/data_publication_notice/intended_data_publication/variable</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/variable_documentation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/intended_data_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">i.e.:&lt;br&gt;
+variable: gender&lt;br&gt;
+characteristics: male, female, gender diverse</help>
+		<text lang="en">List of variables and their characteristics (attach if necessary)</text>
+		<verbose_name lang="en">Variables and their characteristics</verbose_name>
+		<verbose_name_plural lang="en">Variables and their characteristics</verbose_name_plural>
+		<help lang="de">z. B.: &lt;br&gt;
+Variable: Geschlecht&lt;br&gt;
+Ausprägungen: männlich, weiblich, divers</help>
+		<text lang="de">Liste der Variablen und deren Ausprägung (ggf. als Anlage beifügen)</text>
+		<verbose_name lang="de">Variablen und deren Ausprägung</verbose_name>
+		<verbose_name_plural lang="de">Variablen und deren Ausprägungen</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>information_data</key>
+		<path>data_publication_notice/data_publication_notice/information_data</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en">Information on the data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Information on the data</verbose_name>
+		<verbose_name_plural lang="en">Information on the data</verbose_name_plural>
+		<title lang="de">Informationen zu den Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Information zu den Daten</verbose_name>
+		<verbose_name_plural lang="de">Informationen zu den Daten</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/variables_scientific_result">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>variables_scientific_result</key>
+		<path>data_publication_notice/data_publication_notice/information_data/variables_scientific_result</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/scientific_result/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">Please make sure that the publication only contains variables/data that have been explicitly used for your research results. Your database may contain otherwise unused variables that contain personal data. As a result, your data stock may have to be classified as personal data.</help>
+		<text lang="en">The data set to be published contains only variables that have contributed to the scientific results.</text>
+		<verbose_name lang="en">Variable scientific result</verbose_name>
+		<verbose_name_plural lang="en">Variables scientific result</verbose_name_plural>
+		<help lang="de">Bitte stellen Sie sicher, dass die Veröffentlichung ausschließlich Variablen/Daten enthält, die explizit für Ihre Forschungsergebnisse verwendet wurden. In Ihrem Datenbestand könnten andernfalls nicht verwendete Variablen vorkommen, die personenbezogene Daten enthalten. Dadurch kann es passieren, dass Ihr Datenbestand als personenbezogen eingestuft werden muss.</help>
+		<text lang="de">Der zu veröffentlichende Datenbestand enthält ausschließlich Variablen, die einen Beitrag zu den wissenschaftlichen Ergebnissen geleistet haben.</text>
+		<verbose_name lang="de">Variable wissenschaftlicher Beitrag</verbose_name>
+		<verbose_name_plural lang="de">Variablen wissenschaftlicher Beiträge</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/context_creation_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>context_creation_type</key>
+		<path>data_publication_notice/data_publication_notice/information_data/context_creation_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Was the data stock to be published collected by employees of the RKI in the course of their official duties?</text>
+		<verbose_name lang="en">Context of the data creation</verbose_name>
+		<verbose_name_plural lang="en">Contexts of the data creation</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wurde der zu veröffentlichende Datenbestand durch Beschäftigte des RKI im Rahmen ihrer dienstlichen Tätigkeit erhoben?</text>
+		<verbose_name lang="de">Kontext der Datenerstellung</verbose_name>
+		<verbose_name_plural lang="de">Kontexte der Datenerstellung</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/origin_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/context_creation_type_partner-yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>context_creation_type_partner-yesno</key>
+		<path>data_publication_notice/data_publication_notice/information_data/context_creation_type_partner-yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type/partner_yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Was the data stock to be published collected in the context of a cooperation project?</text>
+		<verbose_name lang="en">Context of the data creation 2</verbose_name>
+		<verbose_name_plural lang="en">Contexts of the data creation 2</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wurde der zu veröffentlichende Datenbestand im Rahmen eines Kooperationsprojektes erhoben?</text>
+		<verbose_name lang="de">Kontext der Datenerstellung 2</verbose_name>
+		<verbose_name_plural lang="de">Kontexte der Datenerstellung 2</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/context_type_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/creation_thirdparty">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_thirdparty</key>
+		<path>data_publication_notice/data_publication_notice/information_data/creation_thirdparty</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator/thirdparty_yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">"Third parties" are all bodies and persons outside the RKI.</help>
+		<text lang="en">Has third-party data been used to create the datasets to be published?</text>
+		<verbose_name lang="en">Dataset Thirdparty</verbose_name>
+		<verbose_name_plural lang="en">Datasets Thirdparty</verbose_name_plural>
+		<help lang="de">„Dritte“ sind alle Stellen und Personen außerhalb des RKI.</help>
+		<text lang="de">Wurden zur Erstellung des zu veröffentlichende Datenbestands Daten Dritter genutzt?</text>
+		<verbose_name lang="de">Datenbestand Dritter</verbose_name>
+		<verbose_name_plural lang="de">Datenbestände Dritter</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/reuse_thirdparty_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="http://example.com/terms/questions/data_publication_notice/data_publication_notice/information_data/biological_material_thirdparty_yesno">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>biological_material_thirdparty_yesno</key>
+		<path>data_publication_notice/data_publication_notice/information_data/biological_material_thirdparty_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement/creation_yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Was the data stock to be published generated using biological material made available to the RKI by third parties?</text>
+		<verbose_name lang="en">Third party biological material</verbose_name>
+		<verbose_name_plural lang="en">Third party biological materials</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wurde der zu veröffentlichende Datenbestand unter Nutzung von biologischem Material generiert, das dem RKI von Dritten  zur Verfügung gestellt wurde?</text>
+		<verbose_name lang="de">Biologisches Material Dritter</verbose_name>
+		<verbose_name_plural lang="de">Biologische Materialien Dritter</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/creation_type_mta"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/ethics_committee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>ethics_committee</key>
+		<path>data_publication_notice/data_publication_notice/information_data/ethics_committee</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/ethics_committee"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Has there been a vote of ethics?</text>
+		<verbose_name lang="en">Vote of ethics</verbose_name>
+		<verbose_name_plural lang="en">Votes of ethics</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Liegt ein Ethikvotum vor?</text>
+		<verbose_name lang="de">Ethikvotum</verbose_name>
+		<verbose_name_plural lang="de">Ethikvota</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/ethics_permit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/examination">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>examination</key>
+		<path>data_publication_notice/data_publication_notice/information_data/examination</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization/examination"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">The check for anonymity of the data collection took place during the preliminary examination.  No variables were added to the audited dataset</text>
+		<verbose_name lang="en">Anonymization examination</verbose_name>
+		<verbose_name_plural lang="en">Anonymization examinations</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Die Prüfung auf Anonymität der Datenerhebung fand im Rahmen der Vorprüfung statt. Dem geprüften Datenbestand wurden keine Variablen hinzugefügt.</text>
+		<verbose_name lang="de">Anonymisierung Vorprüfung</verbose_name>
+		<verbose_name_plural lang="de">Anonymisierungen Vorprüfungen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/invention">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>invention</key>
+		<path>data_publication_notice/data_publication_notice/information_data/invention</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/invention"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is the data set to be published part of an employee invention within the meaning of Section 4 of the Law on Employees' Inventions or could it become part of an employee invention?</text>
+		<verbose_name lang="en">Employee invention</verbose_name>
+		<verbose_name_plural lang="en">Employee inventions</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist der zu veröffentlichende Datenbestand Bestandteil einer Diensterfindung i.S.d. § 4 des Gesetzes über Arbeitnehmererfindungen oder könnte Bestandteil einer Diensterfindung werden?</text>
+		<verbose_name lang="de">Diensterfindung</verbose_name>
+		<verbose_name_plural lang="de">Diensterfindungen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/mta-publication_restriction">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>mta-publication_restriction</key>
+		<path>data_publication_notice/data_publication_notice/information_data/mta-publication_restriction</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/material_transfer_agreement_explanation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">In your opinion, are there any restrictions arising from this material transfer agreements with regard to the planned publication, and if so, which ones:</text>
+		<verbose_name lang="en">Material Transfer agreement restriction on publication</verbose_name>
+		<verbose_name_plural lang="en">Material Transfer agreement restrictions on publication</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ergeben sich Ihrer Auffassung nach aus diesem MTA Beschränkungen im Hinblick auf die geplante Veröffentlichung, falls ja, welche:</text>
+		<verbose_name lang="de">Material Transfer Agreement Veröffentlichungsbeschränkung</verbose_name>
+		<verbose_name_plural lang="de">Material Transfer Agreements Veröffentlichungsbeschränkungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/partner-publication_restriction">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner-publication_restriction</key>
+		<path>data_publication_notice/data_publication_notice/information_data/partner-publication_restriction</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/partner_restrictions_explanation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">In your opinion, are there any restrictions arising from this contract with regard to the planned publication, and if so, which ones:</text>
+		<verbose_name lang="en">Partner restriction on publication</verbose_name>
+		<verbose_name_plural lang="en">Partner restrictions on publication</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ergeben sich Ihrer Auffassung nach aus diesem Vertrag Beschränkungen im Hinblick auf die geplante Veröffentlichung, falls ja, welche:</text>
+		<verbose_name lang="de">Partner Veröffentlichungsbeschränkung</verbose_name>
+		<verbose_name_plural lang="de">Partner Veröffentlichungsbeschränkungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/reuse_basis">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reuse_basis</key>
+		<path>data_publication_notice/data_publication_notice/information_data/reuse_basis</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/reuse_basis"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is further work planned at the RKI based on the dataset to be published?</text>
+		<verbose_name lang="en">Reuse basis</verbose_name>
+		<verbose_name_plural lang="en">Reuses basis</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Sind am RKI weitere Arbeiten auf Grundlage des zu veröffentlichenden Datenbestands geplant?</text>
+		<verbose_name lang="de">Nachnutzung Basis</verbose_name>
+		<verbose_name_plural lang="de">Nachnutzungen Basen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/anonymization_explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>anonymization_explanation</key>
+		<path>data_publication_notice/data_publication_notice/information_data/anonymization_explanation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization/explanation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">The handling and processing of personal data is regulated by law. The uniform application throughout the EU is based on the &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679"
+			target=_blank"&gt;EU General Data Protection Regulation (GDPR)&lt;/a&gt;. It allows for regulatory leeway at national level. In Germany, this is regulated by the&lt;a href="http://www.gesetze-im-internet.de/englisch_bdsg/index.html"
+			target=_blank"&gt; Federal Data Protection Act (BDSG)&lt;/a&gt; , and for universities, the individual data protection laws of the individual federal states apply. The european GDPR defines personal data as all information relating
+			to an identified or identifiable natural person (Art. 4(1) GPDR). A person is &lt;b&gt;identified&lt;/b&gt; if it is clearly identifiable to whom the data belongs. A person becomes &lt;b&gt;identifiable&lt;/b&gt; if it can be identified by means of
+			additional information.</help>
+		<text lang="en">Does the dataset to be published contain personal data? If yes, how was it made anonymous</text>
+		<verbose_name lang="en">Personal data anonymization</verbose_name>
+		<verbose_name_plural lang="en">Personal data anonymizations</verbose_name_plural>
+		<help lang="de">Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679"
+			target=_blank"&gt;EU-Datenschutz-Grundverordnung (DSGVO)&lt;/a&gt;. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/"
+			target=_blank"&gt;Bundesdatenschutzgesetz (BDSG)&lt;/a&gt;. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen,
+			die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). &lt;b&gt;Identifiziert &lt;/b&gt;ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören.
+			&lt;b&gt;Identifizierbar&lt;/b&gt; wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann.</help>
+		<text lang="de">Beinhaltet der zu veröffentlichende Datenbestand personenbezogene Daten? Falls ja, wie wurde anonymisiert</text>
+		<verbose_name lang="de">Personenbezogene Daten Anonymisierung</verbose_name>
+		<verbose_name_plural lang="de">Personenbezogene Daten Anonymisierungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/context_creation_type_thirdparty-yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>context_creation_type_thirdparty-yesno</key>
+		<path>data_publication_notice/data_publication_notice/information_data/context_creation_type_thirdparty-yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type/thirdparty_yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">For the definition see point 1 of the House Rules &lt;a href ="https://portal.rki.local/cocoon/portal/portallink?doctype=Attachment&amp;id=7194" target=_blank"&gt;"Acquisition and use of third-party funds".&lt;/a&gt;</help>
+		<text lang="en">Was the data stock to be published collected in the context of a third-party funded project?</text>
+		<verbose_name lang="en">Context of the data creation 2</verbose_name>
+		<verbose_name_plural lang="en">Contexts of the data creation 2</verbose_name_plural>
+		<help lang="de">Zur Definition siehe Pkt. 1 der Hausverfügung &lt;a href ="https://portal.rki.local/cocoon/portal/portallink?doctype=Attachment&amp;id=7194" target=_blank"&gt;„Einwerbung und Verwendung von Drittmitteln“.&lt;/a&gt;</help>
+		<text lang="de">Wurde der zu veröffentlichende Datenbestand im Rahmen eines Drittmittelprojektes erhoben?</text>
+		<verbose_name lang="de">Kontext der Datenerstellung</verbose_name>
+		<verbose_name_plural lang="de">Kontexte der Datenerstellung</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/context_type_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data/data_publication_notice_evaluation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_publication_notice_evaluation</key>
+		<path>data_publication_notice/data_publication_notice/information_data/data_publication_notice_evaluation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_intended_publication_valuation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/data_publication_notice/data_publication_notice/information_data"/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<help lang="en">If yes, please attach a copy of the evaluation form.</help>
+		<text lang="en">The dataset to be published has been evaluated for possible dual-use risks.</text>
+		<verbose_name lang="en">Dual-use evaluation dataset</verbose_name>
+		<verbose_name_plural lang="en">Dual-use evaluations dataset</verbose_name_plural>
+		<help lang="de">Falls ja, fügen Sie bitte eine Kopie des Bewertungsbogens als Anlage bei.</help>
+		<text lang="de">Die Evaluation des zu veröffentlichenden Datenbestands auf mögliche Dual-Use-Risiken ist erfolgt.</text>
+		<verbose_name lang="de">Dual-Use Bewertung Datenbestand</verbose_name>
+		<verbose_name_plural lang="de">Dual-Use Bewertungen Datenbestand</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dualuse_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+</rdmo>

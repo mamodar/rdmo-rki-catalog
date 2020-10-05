@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.rki.de/terms/questions/project_proposal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_proposal</key>
+		<dc:comment/>
+		<order>0</order>
+		<title lang="en">Project proposal</title>
+		<title lang="de">Projektantrag</title>
+	</catalog>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>general</key>
+		<path>project_proposal/general</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/project_proposal"/>
+		<order>0</order>
+		<title lang="en">General</title>
+		<title lang="de">Allgemein</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-title</key>
+		<path>project_proposal/general/project-title</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Project</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project</verbose_name>
+		<verbose_name_plural lang="en">Projects</verbose_name_plural>
+		<title lang="de">Projekt</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projekt</verbose_name>
+		<verbose_name_plural lang="de">Projekte</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-title/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project_proposal/general/project-title/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">What is the title of the project?</text>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet der Titel des Projektes?</text>
+		<verbose_name lang="de">Titel</verbose_name>
+		<verbose_name_plural lang="de">Titel</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-title/acronym">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>acronym</key>
+		<path>project_proposal/general/project-title/acronym</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title/acronym"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<help lang="en">e.g. MaMoDaR is the acronym for Management of Molecular Data In the Research Data Life Cycle</help>
+		<text lang="en">What is the acronym of the project?</text>
+		<verbose_name lang="en">Acronym</verbose_name>
+		<verbose_name_plural lang="en">Acronyms</verbose_name_plural>
+		<help lang="de">z.B. MaMoDaR ist das Akronym für Management Molekularer Daten Im Research Data Life Cycle</help>
+		<text lang="de">Wie lautet das Akronym des Projektes?</text>
+		<verbose_name lang="de">Akronym</verbose_name>
+		<verbose_name_plural lang="de">Akronyme</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-title/project_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_type</key>
+		<path>project_proposal/general/project-title/project_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/type"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>20</order>
+		<help lang="en"/>
+		<text lang="en">What type of project is it?</text>
+		<verbose_name lang="en">Project type</verbose_name>
+		<verbose_name_plural lang="en">Project types</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Um welche Projektart handelt es sich?</text>
+		<verbose_name lang="de">Projektart</verbose_name>
+		<verbose_name_plural lang="de">Projektarten</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/project-type_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-partners-name</key>
+		<path>project_proposal/general/project-partners-name</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Project coordination</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project coordination</verbose_name>
+		<verbose_name_plural lang="en">Project coordinations</verbose_name_plural>
+		<title lang="de">Projektkoordination</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektkoordination</verbose_name>
+		<verbose_name_plural lang="de">Projektkoordinationen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project_proposal/general/project-partners-name/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>10</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Which persons are responsible for the project coordination (principal investigators)?</text>
+		<verbose_name lang="en">Principal investigator</verbose_name>
+		<verbose_name_plural lang="en">Principal investigators</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Welche Personen sind verantwortlich für die Projektkoordination (Projektleiter*innen)?</text>
+		<verbose_name lang="de">Projektleiter*in</verbose_name>
+		<verbose_name_plural lang="de">Projektleiter*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/team">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>team</key>
+		<path>project_proposal/general/project-partners-name/team</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/team"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>20</order>
+		<help lang="en"/>
+		<text lang="en">Who are the team members?</text>
+		<verbose_name lang="en">Team member</verbose_name>
+		<verbose_name_plural lang="en">Team members</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wer sind die Teammitglieder?</text>
+		<verbose_name lang="de">Teammitglied</verbose_name>
+		<verbose_name_plural lang="de">Teammitglieder</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/participation_unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>participation_unit</key>
+		<path>project_proposal/general/project-partners-name/participation_unit</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/participation_unit"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>30</order>
+		<help lang="en"/>
+		<text lang="en">Is it possible to involve other units, and if so, which ones?</text>
+		<verbose_name lang="en">Participation of other unit</verbose_name>
+		<verbose_name_plural lang="en">Participation of other units</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Besteht die Möglichkeit der Beteiligung anderer Fachgebiete, wenn ja welcher?</text>
+		<verbose_name lang="de">Beteiligung anderer Fachgebiete</verbose_name>
+		<verbose_name_plural lang="de">Beteiligungen anderer Fachgebiete</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/interfaces">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>interfaces</key>
+		<path>project_proposal/general/project-partners-name/interfaces</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/interfaces"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>40</order>
+		<help lang="en"/>
+		<text lang="en">Are there interfaces with other authorities? If so, what are they?</text>
+		<verbose_name lang="en">Interface</verbose_name>
+		<verbose_name_plural lang="en">Interfaces</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Gibt es Schnittstellen mit anderen Behörden? Falls ja, welche sind dies?</text>
+		<verbose_name lang="de">Schnittstelle</verbose_name>
+		<verbose_name_plural lang="de">Schnittstellen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/client_name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>client_name</key>
+		<path>project_proposal/general/project-partners-name/client_name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/client/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>50</order>
+		<help lang="en"/>
+		<text lang="en">Who is the client?</text>
+		<verbose_name lang="en">Client</verbose_name>
+		<verbose_name_plural lang="en">Clients</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wer ist der Auftraggeber?</text>
+		<verbose_name lang="de">Auftraggeber</verbose_name>
+		<verbose_name_plural lang="de">Auftraggeber</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/partner_name_internal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_internal</key>
+		<path>project_proposal/general/project-partners-name/partner_name_internal</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>60</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (internal)?</text>
+		<verbose_name lang="en">Cooperation partner (internal)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (internal)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (intern)?</text>
+		<verbose_name lang="de">Kooperationspartner (intern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (intern)</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/partner_name_external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_external</key>
+		<path>project_proposal/general/project-partners-name/partner_name_external</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>65</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (external)?</text>
+		<verbose_name lang="en">Cooperation partner (external)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (external)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (extern)?</text>
+		<verbose_name lang="de">Kooperationspartner (extern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (extern)</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/steering_committee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>steering_committee</key>
+		<path>project_proposal/general/project-partners-name/steering_committee</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/steering_committee"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>70</order>
+		<help lang="en"/>
+		<text lang="en">Steering Committee, if applicable</text>
+		<verbose_name lang="en">Steering Committee</verbose_name>
+		<verbose_name_plural lang="en">Steering Committees</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">ggf. Lenkungsausschuss</text>
+		<verbose_name lang="de">Lenkungsausschuss</verbose_name>
+		<verbose_name_plural lang="de">Lenkungsausschüsse</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name/project_sponsor">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_sponsor</key>
+		<path>project_proposal/general/project-partners-name/project_sponsor</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/project_sponsor"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>80</order>
+		<help lang="en"/>
+		<text lang="en">if applicable, project sponsor (internal client)</text>
+		<verbose_name lang="en">Project sponsor</verbose_name>
+		<verbose_name_plural lang="en">Project sponsors</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">ggf. Projektsponsor (interner Auftraggeber)</text>
+		<verbose_name lang="de">Projektsponsor</verbose_name>
+		<verbose_name_plural lang="de">Projektsponsoren</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-schedule-schedule">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-schedule-schedule</key>
+		<path>project_proposal/general/project-schedule-schedule</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<title lang="en">Project schedule</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project schedule</verbose_name>
+		<verbose_name_plural lang="en">Project schedules</verbose_name_plural>
+		<title lang="de">Projektablauf</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektablauf</verbose_name>
+		<verbose_name_plural lang="de">Projektabläufe</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-schedule-schedule/project_start">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_start</key>
+		<path>project_proposal/general/project-schedule-schedule/project_start</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_start"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">If the project has not yet started, please enter the anticipated starting date.</help>
+		<text lang="en">When does the project start?</text>
+		<verbose_name lang="en">Project start</verbose_name>
+		<verbose_name_plural lang="en">Project starts</verbose_name_plural>
+		<help lang="de">Falls das Projekt noch nicht gestartet ist, geben Sie bitte das voraussichtliche Datum an.</help>
+		<text lang="de">Wann beginnt die Projektlaufzeit?</text>
+		<verbose_name lang="de">Projektbeginn</verbose_name>
+		<verbose_name_plural lang="de">Projektbeginne</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-schedule-schedule/project_end">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_end</key>
+		<path>project_proposal/general/project-schedule-schedule/project_end</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_end"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">If the end of the project has not yet been determined, please indicate the expected date. If the project does not have an end, please leave the entry open.</help>
+		<text lang="en">When does the project end?</text>
+		<verbose_name lang="en">Project end</verbose_name>
+		<verbose_name_plural lang="en">Project ends</verbose_name_plural>
+		<help lang="de">Falls das Projektende noch nicht feststeht, geben Sie bitte das voraussichtlich Datum an. Sollte das Projekt kein Ende haben, so lassen Sie die Angabe offen.</help>
+		<text lang="de">Wann endet die Projektlaufzeit?</text>
+		<verbose_name lang="de">Projektende</verbose_name>
+		<verbose_name_plural lang="de">Projektenden</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/budget">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>budget</key>
+		<path>project_proposal/general/budget</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general"/>
+		<is_collection>False</is_collection>
+		<order>20</order>
+		<title lang="en">Budget</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Budget</verbose_name>
+		<verbose_name_plural lang="en">Budgets</verbose_name_plural>
+		<title lang="de">Budget</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Budget</verbose_name>
+		<verbose_name_plural lang="de">Budgets</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/budget/budget">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>budget</key>
+		<path>project_proposal/general/budget/budget</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/budget"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/budget"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">What budget is available?</text>
+		<verbose_name lang="en">Budget</verbose_name>
+		<verbose_name_plural lang="en">Budgets</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welches Budget steht zur Verfügung?</text>
+		<verbose_name lang="de">Budget</verbose_name>
+		<verbose_name_plural lang="de">Budgets</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>integer</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>€</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-partner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-partners-partner</key>
+		<path>project_proposal/general/project-partners-partner</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general"/>
+		<is_collection>True</is_collection>
+		<order>21</order>
+		<title lang="en">Project partners</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project partner</verbose_name>
+		<verbose_name_plural lang="en">Project partners</verbose_name_plural>
+		<title lang="de">Projektpartner</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektpartner</verbose_name>
+		<verbose_name_plural lang="de">Projektpartner</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-partner/outcome">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>outcome</key>
+		<path>project_proposal/general/project-partners-partner/outcome</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/outcome"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-partner"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Which results are to be achieved by the RKI within the project?</text>
+		<verbose_name lang="en">Outcome</verbose_name>
+		<verbose_name_plural lang="en">Outcomes</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welche Ergebnisse sollen durch das RKI im Rahmen des Projektes erzielt werden?</text>
+		<verbose_name lang="de">Ergebnis</verbose_name>
+		<verbose_name_plural lang="de">Ergebnisse</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-partner/milestone">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>milestone</key>
+		<path>project_proposal/general/project-partners-partner/milestone</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/milestone"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/project_proposal/general/project-partners-partner"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Please name all tasks that the RKI has to fulfil within the framework of the project and, if applicable, indicate by which date the individual tasks have to be completed (milestones).</text>
+		<verbose_name lang="en">Milestone</verbose_name>
+		<verbose_name_plural lang="en">Milestones</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Bitte benennen Sie alle Aufgaben, die das RKI im Rahmen des Projektes zu erfüllen hat und geben Sie ggf. an, bis zu welchem Zeitpunkt die einzelnen Aufgaben zu erfüllen sind (Meilensteine).</text>
+		<verbose_name lang="de">Meilenstein</verbose_name>
+		<verbose_name_plural lang="de">Meilensteine</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

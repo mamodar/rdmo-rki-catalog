@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.rki.de/terms/questions/dualuse">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse</key>
+		<dc:comment/>
+		<order>6</order>
+		<title lang="en">Dual-Use</title>
+		<title lang="de">Dual-Use</title>
+	</catalog>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse_valuation</key>
+		<path>dualuse/dualuse_valuation</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/dualuse"/>
+		<order>0</order>
+		<title lang="en">Dual use valuation form</title>
+		<title lang="de">Dual-Use Bewertung Formular</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>general</key>
+		<path>dualuse/dualuse_valuation/general</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">General</title>
+		<help lang="en"/>
+		<verbose_name lang="en">General</verbose_name>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Allgemein</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Allgemein</verbose_name>
+		<verbose_name_plural lang="de"/>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>dualuse/dualuse_valuation/general/unit</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/unit"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Which organizational unit is responsible?</text>
+		<verbose_name lang="en">Organizational unit</verbose_name>
+		<verbose_name_plural lang="en">Organizational units</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welche Organisationseinheit ist verantwortlich?</text>
+		<verbose_name lang="de">Organisationseinheit</verbose_name>
+		<verbose_name_plural lang="de">Organisationseinheiten</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>dualuse/dualuse_valuation/general/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<help lang="en"/>
+		<text lang="en">What is the title of the project?</text>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet der Titel des Projektes?</text>
+		<verbose_name lang="de">Titel</verbose_name>
+		<verbose_name_plural lang="de">Titel</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>dualuse/dualuse_valuation/general/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general"/>
+		<is_collection>True</is_collection>
+		<order>30</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Which persons are responsible for the project coordination (principal investigators)?</text>
+		<verbose_name lang="en">Principal investigator</verbose_name>
+		<verbose_name_plural lang="en">Principal investigators</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Welche Personen sind verantwortlich für die Projektkoordination (Projektleiter*innen)?</text>
+		<verbose_name lang="de">Projektleiter*in</verbose_name>
+		<verbose_name_plural lang="de">Projektleiter*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general/phase">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>phase</key>
+		<path>dualuse/dualuse_valuation/general/phase</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/phase"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general"/>
+		<is_collection>False</is_collection>
+		<order>35</order>
+		<help lang="en"/>
+		<text lang="en">Project phase</text>
+		<verbose_name lang="en">Project phase</verbose_name>
+		<verbose_name_plural lang="en">Project phases</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Projektphase</text>
+		<verbose_name lang="de">Projektphase</verbose_name>
+		<verbose_name_plural lang="de">Projektphasen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general/partner_name_external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_external</key>
+		<path>dualuse/dualuse_valuation/general/partner_name_external</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general"/>
+		<is_collection>False</is_collection>
+		<order>40</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (external)?</text>
+		<verbose_name lang="en">Cooperation partner (external)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (external)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (extern)?</text>
+		<verbose_name lang="de">Kooperationspartner (extern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (extern)</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general/partner_name_internal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_internal</key>
+		<path>dualuse/dualuse_valuation/general/partner_name_internal</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/general"/>
+		<is_collection>True</is_collection>
+		<order>40</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (internal)?</text>
+		<verbose_name lang="en">Cooperation partner (internal)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (internal)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (intern)?</text>
+		<verbose_name lang="de">Kooperationspartner (intern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (intern)</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dual-use-intended-publication-valuation</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">Dual use valuation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Dual use valuation</verbose_name>
+		<verbose_name_plural lang="en">Dual use valuations</verbose_name_plural>
+		<title lang="de">Dual-Use Bewertung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Dual-Use Bewertung</verbose_name>
+		<verbose_name_plural lang="de">Dual-Use Bewertungen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/consequences_other">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>consequences_other</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/consequences_other</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/consequences_other"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Research work and results that suggest similar effects and consequences to those listed here will be carried out.</text>
+		<verbose_name lang="en">Other consequence</verbose_name>
+		<verbose_name_plural lang="en">Other consequences</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Es werden Forschungsarbeiten und –ergebnisse, die ähnliche Auswirkungen und Konsequenzen wie die hier aufgelisteten vermuten lassen, durchgeführt.</text>
+		<verbose_name lang="de">Andere Konsequenz</verbose_name>
+		<verbose_name_plural lang="de">Andere Konsequenzen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/host_tropism">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>host_tropism</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/host_tropism</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/host_tropism"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is the host tropism of a microorganism or toxin expected to be altered?</text>
+		<verbose_name lang="en">Host tropism</verbose_name>
+		<verbose_name_plural lang="en">Host tropisms</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass der Wirtstropismus eines Mikroorganismus oder Toxins verändert wird?</text>
+		<verbose_name lang="de">Wirtstropismus</verbose_name>
+		<verbose_name_plural lang="de">Wirtstropismen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/immunity">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>immunity</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/immunity</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/immunity"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the immunity against microorganisms is reduced?</text>
+		<verbose_name lang="en">Immunity</verbose_name>
+		<verbose_name_plural lang="en">Immunities</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Immunität gegen Mikroorganismen herabgesetzt wird?</text>
+		<verbose_name lang="de">Immunität</verbose_name>
+		<verbose_name_plural lang="de">Immunitäten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/pathogen">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>pathogen</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/pathogen</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/pathogen"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that completely new pathogens will be generated or already suppressed (eradicated/eliminated/controlled/naturally disappeared) pathogens will be re-created?</text>
+		<verbose_name lang="en">Pathogen</verbose_name>
+		<verbose_name_plural lang="en">Pathogene</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass gänzlich neue Pathogene generiert oder bereits zurückgedrängte (eradizierte/eliminierte/kontrollierte/natürlich verschwundene) Pathogene wieder erschaffen werden?</text>
+		<verbose_name lang="de">Pathogen</verbose_name>
+		<verbose_name_plural lang="de">Pathogene</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/resistance">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>resistance</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/resistance</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/resistance"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that resistance of microorganisms to therapeutic or prophylactic antimicrobial or antiviral substances is enhanced or induced?</text>
+		<verbose_name lang="en">Resistance</verbose_name>
+		<verbose_name_plural lang="en">Resistances</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass Resistenz von Mikroorganismen gegen therapeutische oder prophylaktische antimikrobielle oder antivirale Substanzen verstärkt oder induziert wird?</text>
+		<verbose_name lang="de">Resistenz</verbose_name>
+		<verbose_name_plural lang="de">Resistenzen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/susceptibility">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>susceptibility</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/susceptibility</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/susceptibility"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the susceptibility of host organisms is increased?</text>
+		<verbose_name lang="en">Susceptibility</verbose_name>
+		<verbose_name_plural lang="en">Susceptibilities</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Suszeptibilität von Wirtsorganismen erhöht wird?</text>
+		<verbose_name lang="de">Suszeptibilität</verbose_name>
+		<verbose_name_plural lang="de">Suszeptibilitäten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/tenacity">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>tenacity</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/tenacity</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/tenacity"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the tenacity of microorganisms or toxins is increased?</text>
+		<verbose_name lang="en">Tenacity</verbose_name>
+		<verbose_name_plural lang="en">Tenacities</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Tenazität von Mikroorganismen oder Toxinen erhöht wird?</text>
+		<verbose_name lang="de">Tenazität</verbose_name>
+		<verbose_name_plural lang="de">Tenazitäten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/toxin_uptake">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>toxin_uptake</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/toxin_uptake</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/toxin_uptake"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the absorption of toxins will be facilitated?</text>
+		<verbose_name lang="en">Toxin uptake</verbose_name>
+		<verbose_name_plural lang="en">Toxin uptake</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Aufnahme von Toxinen erleichtert wird?</text>
+		<verbose_name lang="de">Aufnahme von Toxinen</verbose_name>
+		<verbose_name_plural lang="de">Aufnahme von Toxinen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/transmissibility">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>transmissibility</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/transmissibility</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/transmissibility"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that a transmissibility of microorganisms is reached, an existing transmissibility is increased or the infectivity is increased?</text>
+		<verbose_name lang="en">Transmissibility</verbose_name>
+		<verbose_name_plural lang="en">Transmissibilities</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass eine Transmissibilität von Mikroorganismen erreicht, eine vorhandene Transmissibilität erhöht oder die Infektiosität erhöht wird?</text>
+		<verbose_name lang="de">Transmissibilität</verbose_name>
+		<verbose_name_plural lang="de">Transmissibilitäten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/use_diagnostic_methods">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>use_diagnostic_methods</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/use_diagnostic_methods</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/use_diagnostic_methods"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that ways will be identified which will make the use of diagnostic methods difficult or impossible?</text>
+		<verbose_name lang="en">Use of diagnostic methods</verbose_name>
+		<verbose_name_plural lang="en">Uses of diagnostic methods</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass Wege aufgezeigt werden, die den Einsatz diagnostischer Methoden erschweren oder verhindern?</text>
+		<verbose_name lang="de">Einsatz diagnostischer Methoden</verbose_name>
+		<verbose_name_plural lang="de">Einsätze diagnostischer Methoden</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/virulence">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>virulence</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/virulence</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/virulence"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the virulence of microorganisms or toxins is increased?</text>
+		<verbose_name lang="en">Virulence</verbose_name>
+		<verbose_name_plural lang="en">Virulences</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Virulenz von Mikroorganismen oder Toxinen erhöht wird?</text>
+		<verbose_name lang="de">Transmissibilität</verbose_name>
+		<verbose_name_plural lang="de">Transmissibilitäten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/toxin_dispersal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>toxin_dispersal</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/toxin_dispersal</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/toxin_dispersal"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the dispersal capability, application capability or "weapon capability" of microorganisms and toxins will be increased (e.g. aerosolisation or development of aerosolisation processes)?</text>
+		<verbose_name lang="en">Dispersal capability</verbose_name>
+		<verbose_name_plural lang="en">Dispersal capabilities</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Verbreitungsfähigkeit, Ausbringungsfähigkeit oder „Waffenfähigkeit“ von Mikroorganismen und Toxinen erhöht wird (z.B. Aerosolisierung oder Entwicklung von Verfahren zur Aerosolisierung)?</text>
+		<verbose_name lang="de">Verbreitungsfähigkeit</verbose_name>
+		<verbose_name_plural lang="de">Verbreitungsfähigkeiten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/reduced_effectiveness">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reduced_effectiveness</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/reduced_effectiveness</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/reduced_effectiveness"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the effectiveness of medical countermeasures (vaccinations, therapeutic and prophylactic agents) or disinfectants/decontamination agents and procedures will be reduced or are ways to reduce the effectiveness of medical countermeasures (vaccinations, therapeutic and prophylactic agents) indicated?</text>
+		<verbose_name lang="en">Reduced effectiveness</verbose_name>
+		<verbose_name_plural lang="en">Reduced effectiveness</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Effektivität von „Medical Countermeasures“ (Impfungen, therapeutischen und prophylaktischen Mitteln) oder Desinfektions-/Dekontaminationsmitteln und Verfahren herabgesetzt wird oder Wege zur Herabsetzung der Effektivität von Medical Countermeasures (Impfungen, therapeutischen und prophylaktischen Mitteln) aufgezeigt werden?</text>
+		<verbose_name lang="de">Reduzierte Effektivität</verbose_name>
+		<verbose_name_plural lang="de">Reduzierte Effektivität</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/absorption_properties">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>absorption_properties</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/absorption_properties</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/absorption_properties"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the absorption properties of a biological agent or the toxicokinetics are changed in an efficacy enhancing way?</text>
+		<verbose_name lang="en">Absorption property</verbose_name>
+		<verbose_name_plural lang="en">Absorption properties</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass die Absorptionseigenschaften eines biologischen Agens oder die Toxikokinetik in wirkungssteigernder Art verändert werden?</text>
+		<verbose_name lang="de">Absorptionseigenschaft</verbose_name>
+		<verbose_name_plural lang="de">Absorptionseigenschaften</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation/damage_vulnerability">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>damage_vulnerability</key>
+		<path>dualuse/dualuse_valuation/dual-use-intended-publication-valuation/damage_vulnerability</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/damage_vulnerability"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/dualuse/dualuse_valuation/dual-use-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it to be expected that the publication of (literature) research or theoretical work carried out "in silico", third parties will enable the development or optimization of pathogens or technologies that can be used directly to harm humans, animals or plants or that vulnerabilities are identified for which no countermeasures are available</text>
+		<verbose_name lang="en">Damage/Vulnerability</verbose_name>
+		<verbose_name_plural lang="en">Damages/Vulnerabilities</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Ist zu erwarten, dass durch die Veröffentlichung von (Literatur-) Recherchen oder theoretischen Arbeiten, die „in silico“ durchgeführt werden, Dritten die Entwicklung oder Optimierung von Erregern oder Technologien ermöglicht wird, die direkt zum Schaden von Menschen, Tieren oder Pflanzen eingesetzt werden können oder dass Vulnerabilitäten aufgezeigt werden, für die keine Gegenmaßnahmen verfügbar sind?</text>
+		<verbose_name lang="de">Schaden/Vulnerabilität</verbose_name>
+		<verbose_name_plural lang="de">Schäden/Vulnerabilitäten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.rki.de/terms/questions/publication_notice">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>publication_notice</key>
+		<dc:comment/>
+		<order>5</order>
+		<title lang="en">Publication notification</title>
+		<title lang="de">Veröffentlichungsanzeige Manuskript</title>
+	</catalog>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>general</key>
+		<path>publication_notice/general</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/publication_notice"/>
+		<order>-1</order>
+		<title lang="en">General</title>
+		<title lang="de">Allgemein</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/contact_details">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_details</key>
+		<path>publication_notice/general/contact_details</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general"/>
+		<is_collection>False</is_collection>
+		<order>-1</order>
+		<title lang="en">Contact details</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Contact details</verbose_name>
+		<verbose_name_plural lang="en">Contact details</verbose_name_plural>
+		<title lang="de">Kontaktangaben</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Kontaktangaben</verbose_name>
+		<verbose_name_plural lang="de">Kontaktangaben</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/contact_details/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>publication_notice/general/contact_details/unit</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/unit"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/contact_details"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Which organizational unit is responsible?</text>
+		<verbose_name lang="en">Organizational unit</verbose_name>
+		<verbose_name_plural lang="en">Organizational units</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welche Organisationseinheit ist verantwortlich?</text>
+		<verbose_name lang="de">Organisationseinheit</verbose_name>
+		<verbose_name_plural lang="de">Organisationseinheiten</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/contact_details/contact_person">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_person</key>
+		<path>publication_notice/general/contact_details/contact_person</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/contact_details"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Who is the contact person for the project?</text>
+		<verbose_name lang="en">Contact person</verbose_name>
+		<verbose_name_plural lang="en">Contact persons</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Wer ist die Kontaktperson für das Projekt?</text>
+		<verbose_name lang="de">Kontaktperson</verbose_name>
+		<verbose_name_plural lang="de">Kontaktpersonen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/contact_details/file_reference">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>file_reference</key>
+		<path>publication_notice/general/contact_details/file_reference</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/file_reference"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/contact_details"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">What's the file reference number?</text>
+		<verbose_name lang="en">File reference number</verbose_name>
+		<verbose_name_plural lang="en">File reference numbers</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet das Aktenzeichen?</text>
+		<verbose_name lang="de">Aktenzeichen</verbose_name>
+		<verbose_name_plural lang="de">Aktenzeichen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/project-title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-title</key>
+		<path>publication_notice/general/project-title</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Project</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project</verbose_name>
+		<verbose_name_plural lang="en">Projects</verbose_name_plural>
+		<title lang="de">Projekt</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projekt</verbose_name>
+		<verbose_name_plural lang="de">Projekte</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/project-title/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>publication_notice/general/project-title/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">What is the title of the project?</text>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet der Titel des Projektes?</text>
+		<verbose_name lang="de">Titel</verbose_name>
+		<verbose_name_plural lang="de">Titel</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>publication_notice</key>
+		<path>publication_notice/publication_notice</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/publication_notice"/>
+		<order>-1</order>
+		<title lang="en">Publication notice before manuscript submission</title>
+		<title lang="de">Veröffentlichungsanzeige vor Manuskripteinreichung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intended_publication</key>
+		<path>publication_notice/publication_notice/intended_publication</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">It is indicated that the publication of the attached work is intended:</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Intended publication</verbose_name>
+		<verbose_name_plural lang="en">Intended publications</verbose_name_plural>
+		<title lang="de">Es wird angezeigt, dass die Veröffentlichung der anliegenden Arbeit beabsichtigt ist:</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Geplante Veröffentlichung</verbose_name>
+		<verbose_name_plural lang="de">Geplante Veröffentlichungen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication/author">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>author</key>
+		<path>publication_notice/publication_notice/intended_publication/author</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/author/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">Family name, Given names</help>
+		<text lang="en">RKI Author</text>
+		<verbose_name lang="en">RKI Author</verbose_name>
+		<verbose_name_plural lang="en">RKI Authors</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">RKI Autor*in</text>
+		<verbose_name lang="de">RKI Autor*in</verbose_name>
+		<verbose_name_plural lang="de">RKI Autor*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication/coauthor">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>coauthor</key>
+		<path>publication_notice/publication_notice/intended_publication/coauthor</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/coauthor/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication"/>
+		<is_collection>True</is_collection>
+		<order>1</order>
+		<help lang="en">Family name, Given names</help>
+		<text lang="en">RKI co-author</text>
+		<verbose_name lang="en">RKI co-author</verbose_name>
+		<verbose_name_plural lang="en">RKI co-authors</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">RKI Co-Autor*innen</text>
+		<verbose_name lang="de">RKI Co-Autor*in</verbose_name>
+		<verbose_name_plural lang="de">RKI Co-Autor*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication/author_external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>author_external</key>
+		<path>publication_notice/publication_notice/intended_publication/author_external</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/author_external/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<help lang="en">Family name, Given names</help>
+		<text lang="en">External author</text>
+		<verbose_name lang="en">External author</verbose_name>
+		<verbose_name_plural lang="en">External authors</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Externe Autor*innen</text>
+		<verbose_name lang="de">Externe Autor*in</verbose_name>
+		<verbose_name_plural lang="de">Externe Autor*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication/journal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>journal</key>
+		<path>publication_notice/publication_notice/intended_publication/journal</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/journal"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">Journal</text>
+		<verbose_name lang="en">Journal</verbose_name>
+		<verbose_name_plural lang="en">Journals</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Zeitschrift</text>
+		<verbose_name lang="de">Zeitschrift</verbose_name>
+		<verbose_name_plural lang="de">Zeitschriften</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication/publisher">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>publisher</key>
+		<path>publication_notice/publication_notice/intended_publication/publisher</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/publisher"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/publication_notice/intended_publication"/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<help lang="en"/>
+		<text lang="en">Publisher</text>
+		<verbose_name lang="en">Publisher</verbose_name>
+		<verbose_name_plural lang="en">Publishers</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Verlag</text>
+		<verbose_name lang="de">Verlag</verbose_name>
+		<verbose_name_plural lang="de">Verlage</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/dual_use_intended_publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dual_use_intended_publication</key>
+		<path>publication_notice/dual_use_intended_publication</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/publication_notice"/>
+		<order>0</order>
+		<title lang="en">Dual use valuation</title>
+		<title lang="de">Dual-Use Bewertung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/dual_use_intended_publication/dualuse-intended-publication-valuation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse-intended-publication-valuation</key>
+		<path>publication_notice/dual_use_intended_publication/dualuse-intended-publication-valuation</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/dual_use_intended_publication"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Evaluation of the dual-use risks of the planned publication</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Evaluation of the dual-use risks of the planned publication</verbose_name>
+		<verbose_name_plural lang="en">Evaluations of the dual-use risks of the planned publication</verbose_name_plural>
+		<title lang="de">Evaluation der Dual-Use Risiken der geplanten Veröffentlichung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Evaluation der Dual-Use Risiken der geplanten Veröffentlichung</verbose_name>
+		<verbose_name_plural lang="de">Evaluationen der Dual-Use Risiken der geplanten Veröffentlichung</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/dual_use_intended_publication/dualuse-intended-publication-valuation/publication_notice_evaluation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>publication_notice_evaluation</key>
+		<path>publication_notice/dual_use_intended_publication/dualuse-intended-publication-valuation/publication_notice_evaluation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_intended_publication_valuation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/dual_use_intended_publication/dualuse-intended-publication-valuation"/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<help lang="en">If yes, please attach a copy of the evaluation form.</help>
+		<text lang="en">The research results presented in the manuscript have been evaluated for possible dual-use risks.</text>
+		<verbose_name lang="en">Dual-use evaluation manuscript</verbose_name>
+		<verbose_name_plural lang="en">Dual-use evaluations manuscript</verbose_name_plural>
+		<help lang="de">Falls ja, fügen Sie bitte eine Kopie des Bewertungsbogens als Anlage bei.</help>
+		<text lang="de">Die Evaluation der im Manuskript dargestellten Forschungsergebnisse auf mögliche Dual-Use-Risiken ist erfolgt.</text>
+		<verbose_name lang="de">Dual-Use Bewertung Manuskript</verbose_name>
+		<verbose_name_plural lang="de">Dual-Use Bewertungen Manuskript</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dualuse_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>origin_manuscript</key>
+		<path>publication_notice/origin_manuscript</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/publication_notice"/>
+		<order>0</order>
+		<title lang="en">Origin of the manuscript</title>
+		<title lang="de">Entstehung des Manuskripts</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_context</key>
+		<path>publication_notice/origin_manuscript/creation_context</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Context of creation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Context of creation</verbose_name>
+		<verbose_name_plural lang="en">Contexts of creation</verbose_name_plural>
+		<title lang="de">Kontext der Schöpfung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Kontext der Schöpfung</verbose_name>
+		<verbose_name_plural lang="de">Kontexte der Schöpfungen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>publication_notice/origin_manuscript/creation_context/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context"/>
+		<is_collection>False</is_collection>
+		<order>-1</order>
+		<help lang="en"/>
+		<text lang="en">Title</text>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Titel</text>
+		<verbose_name lang="de">Titel</verbose_name>
+		<verbose_name_plural lang="de">Titel</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context/context_creation_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>context_creation_type</key>
+		<path>publication_notice/origin_manuscript/creation_context/context_creation_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/origin_manuscript/context_creation_type"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">The above-mentioned work was created</text>
+		<verbose_name lang="en">Above-mentioned work</verbose_name>
+		<verbose_name_plural lang="en">Above-mentioned works</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Das o.g. Werk entstand</text>
+		<verbose_name lang="de">o.g. Werk</verbose_name>
+		<verbose_name_plural lang="de">o.g. Werke</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/origin_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context/author">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>author</key>
+		<path>publication_notice/origin_manuscript/creation_context/author</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/author/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Family name, Given names</help>
+		<text lang="en">RKI Author</text>
+		<verbose_name lang="en">RKI Author</verbose_name>
+		<verbose_name_plural lang="en">RKI Authors</verbose_name_plural>
+		<help lang="de">Name, Vorname</help>
+		<text lang="de">RKI Autor*in</text>
+		<verbose_name lang="de">RKI Autor*in</verbose_name>
+		<verbose_name_plural lang="de">RKI Autor*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context/coauthor">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>coauthor</key>
+		<path>publication_notice/origin_manuscript/creation_context/coauthor</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/coauthor/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">RKI co-author</text>
+		<verbose_name lang="en">RKI co-author</verbose_name>
+		<verbose_name_plural lang="en">RKI co-authors</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">RKI Co-Autor*innen</text>
+		<verbose_name lang="de">RKI Co-Autor*in</verbose_name>
+		<verbose_name_plural lang="de">RKI Co-Autor*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context/author_external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>author_external</key>
+		<path>publication_notice/origin_manuscript/creation_context/author_external</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/author_external/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/creation_context"/>
+		<is_collection>True</is_collection>
+		<order>4</order>
+		<help lang="en">Nachname, Vorname</help>
+		<text lang="en">External author</text>
+		<verbose_name lang="en">External author</verbose_name>
+		<verbose_name_plural lang="en">External authors</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Externe Autor*innen</text>
+		<verbose_name lang="de">Externe Autor*in</verbose_name>
+		<verbose_name_plural lang="de">Externe Autor*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/draft_publishing_contract">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>draft_publishing_contract</key>
+		<path>publication_notice/origin_manuscript/draft_publishing_contract</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Draft publishing contract</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Draft publishing contract</verbose_name>
+		<verbose_name_plural lang="en">Drafts publishing contracts</verbose_name_plural>
+		<title lang="de">Entwurf des Verlagsvertrags</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Entwurf des Verlagsvertrags</verbose_name>
+		<verbose_name_plural lang="de">Entwürfe der Verlagsverträge</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/draft_publishing_contract/draft-publishing-contract-type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>draft-publishing-contract-type</key>
+		<path>publication_notice/origin_manuscript/draft_publishing_contract/draft-publishing-contract-type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/origin_manuscript/draft_publishing_contract_type"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/draft_publishing_contract"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">The draft publishing contract</text>
+		<verbose_name lang="en">Draft publishing contract</verbose_name>
+		<verbose_name_plural lang="en">Drafts publishing contract</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Der Entwurf des Verlagsvertrags</text>
+		<verbose_name lang="de">Entwurf des Verlagsvertrags</verbose_name>
+		<verbose_name_plural lang="de">Entwürfe der Verlagsverträge</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/draft_publishing_contract_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>page_charge</key>
+		<path>publication_notice/origin_manuscript/page_charge</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Page charges</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Page charge</verbose_name>
+		<verbose_name_plural lang="en">Page charges</verbose_name_plural>
+		<title lang="de">Veröffentlichungsentgelt</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Veröffentlichungsentgelt</verbose_name>
+		<verbose_name_plural lang="de">Veröffentlichungsentgelte</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge/page_charge_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>page_charge_type</key>
+		<path>publication_notice/origin_manuscript/page_charge/page_charge_type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/type"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge"/>
+		<is_collection>False</is_collection>
+		<order>-1</order>
+		<help lang="en"/>
+		<text lang="en">A publication fee (page charges) is due</text>
+		<verbose_name lang="en">Publication fee</verbose_name>
+		<verbose_name_plural lang="en">Publication fees</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Es wird Veröffentlichungsentgelt (Page Charges) fällig</text>
+		<verbose_name lang="de">Veröffentlichungsentgelt</verbose_name>
+		<verbose_name_plural lang="de">Veröffentlichungsentgelte</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/charges_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge/page_charge_file_reference">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>page_charge_file_reference</key>
+		<path>publication_notice/origin_manuscript/page_charge/page_charge_file_reference</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/file_reference"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">File reference Page Charges</text>
+		<verbose_name lang="en">File reference</verbose_name>
+		<verbose_name_plural lang="en">File references</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Aktenzeichen Veröffentlichungsentgelt</text>
+		<verbose_name lang="de">Aktenzeichen Veröffentlichungsentgelt</verbose_name>
+		<verbose_name_plural lang="de">Aktenzeichen Veröffentlichungsentgelte</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge/page_charge_amount_page">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>page_charge_amount_page</key>
+		<path>publication_notice/origin_manuscript/page_charge/page_charge_amount_page</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/amount_page"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Amount per page</text>
+		<verbose_name lang="en">Amount per page</verbose_name>
+		<verbose_name_plural lang="en">Amounts per page</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Betrag pro Seite</text>
+		<verbose_name lang="de">Betrag pro Seite</verbose_name>
+		<verbose_name_plural lang="de">Beträge pro Seiten</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>€</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge/page_charge_amount_total">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>page_charge_amount_total</key>
+		<path>publication_notice/origin_manuscript/page_charge/page_charge_amount_total</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/amount_total"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/origin_manuscript/page_charge"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en"/>
+		<text lang="en">Total amount</text>
+		<verbose_name lang="en">Total amount</verbose_name>
+		<verbose_name_plural lang="en">Total amounts</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Gesamtbetrag</text>
+		<verbose_name lang="de">Gesamtbetrag</verbose_name>
+		<verbose_name_plural lang="de">Gesamtbeträge</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit>€</unit>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/legal-and-ethics">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>legal-and-ethics</key>
+		<path>publication_notice/legal-and-ethics</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/publication_notice"/>
+		<order>5</order>
+		<title lang="en">Legal and ethics</title>
+		<title lang="de">Rechtliche und ethische Fragen</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/legal-and-ethics/intellectual-property-rights-assurance">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intellectual-property-rights-assurance</key>
+		<path>publication_notice/legal-and-ethics/intellectual-property-rights-assurance</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Intellectual property rights assurance</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Intellectual property rights assurance</verbose_name>
+		<verbose_name_plural lang="en">Intellectual property rights assurances</verbose_name_plural>
+		<title lang="de">Versicherung Urheberrecht</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Versicherung Urheberrecht</verbose_name>
+		<verbose_name_plural lang="de">Versicherungen Urheberrechte</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/legal-and-ethics/intellectual-property-rights-assurance/intellectual-property-rights-assurance-signature">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intellectual-property-rights-assurance-signature</key>
+		<path>publication_notice/legal-and-ethics/intellectual-property-rights-assurance/intellectual-property-rights-assurance-signature</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr/signature"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/legal-and-ethics/intellectual-property-rights-assurance"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">Please add all (co-)authors in the course of the DMS/VBS process.
+Any co-authors will be provided with a co-signature. (For external co-authors who do not have access to the electronic process, proof of approval by e-mail is sufficient. Please file these e-mails in the same DMS/VBS process.)</help>
+		<text lang="en">I assure that the work does not violate the rights of third parties and that I or the above mentioned co-authors are solely entitled to dispose of the copyrighted rights of use of the work.</text>
+		<verbose_name lang="en">Intellectual property rights assurance</verbose_name>
+		<verbose_name_plural lang="en">Intellectual property rights assurances</verbose_name_plural>
+		<help lang="de">Bitte fügen Sie alle (Co)-Autor*innen im Laufweg des DMS/VBS-Vorgangs hinzu.
+Eventuellen Koautor*innen wird eine Mitzeichnung verfügt. (Bei externen Ko-Autor*innen oder Ko-Autor*innen, die keinen Zugang zur elektronischen Vorgangsbearbeitung haben, ist der Nachweis der Zustimmung per Mail ausreichend, bitte legen Sie diese Mails im selben DMS/VBS-Vorgang ab.)</help>
+		<text lang="de">Ich versichere, dass das Werk nicht gegen Rechte Dritter verstößt und dass ich bzw. die o.g. Co-Autor*innen und ich allein berechtigt sind, über die urheberrechtlichen Nutzungsrechte an dem Werk zu verfügen.</text>
+		<verbose_name lang="de">Versicherung Urheberrecht</verbose_name>
+		<verbose_name_plural lang="de">Versicherung Urheberrechte</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/legal-and-ethics/intellectual-property-rights-assurance/conditions">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>conditions</key>
+		<path>publication_notice/legal-and-ethics/intellectual-property-rights-assurance/conditions</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/conditions"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/publication_notice/legal-and-ethics/intellectual-property-rights-assurance"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<help lang="en">The options refer to the licenses of the &lt;a href="https://creativecommons.org/share-your-work/licensing-types-examples/" target=_blank"&gt;Creative Commons family&lt;/a&gt;.</help>
+		<text lang="en">Under which terms of use or license will the dataset be published or shared?</text>
+		<verbose_name lang="en">License / Terms of use</verbose_name>
+		<verbose_name_plural lang="en">Licenses / Terms of use</verbose_name_plural>
+		<help lang="de">Die Auswahlmöglichkeiten orientieren sich an Lizenzen der &lt;a href="http://de.creativecommons.org/was-ist-cc/" target=_blank"&gt;Creative-Commons-Familie&lt;/a&gt;.</help>
+		<text lang="de">Unter welchen Nutzungsbedingungen oder welcher Lizenz sollen die Daten veröffentlicht bzw. geteilt werden?</text>
+		<verbose_name lang="de">Lizenz / Nutzungsbedingung</verbose_name>
+		<verbose_name_plural lang="de">Lizenzen / Nutzungsbedingungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_license_types"/>
+		</optionsets>
+		<conditions/>
+	</question>
+</rdmo>

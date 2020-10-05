@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/clarify_consequences_international_law">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>clarify_consequences_international_law</key>
+		<dc:comment/>
+		<title lang="en">Clarify consequences of different international jurisdictions</title>
+		<text lang="en">Please get in touch with the legal department or a respective contact person at your institution to clarify if this has consequences for the project and its data management and if yes, what consequences these are.</text>
+		<title lang="de">Konsequenzen verschiedener relevanter Gesetzgebungen klären</title>
+		<text lang="de">Setzen Sie sich bitte mit der Rechtsabteilung bzw. einem/einer entsprechenden Ansprechpartner*in an Ihrer Institution in Verbindung, um zu klären, ob sich daraus Konsequenzen für Ihr Projekt ergeben und wenn ja, welche dies sind.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions/>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/contact_data_security_officer">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_data_security_officer</key>
+		<dc:comment/>
+		<title lang="en">Contact data security officer regarding personal data of special categories</title>
+		<text lang="en">At least one of the datasets contains particularly sensitive personal information according ot BDSG § 3, 9. 
+
+Please fill in the data protection questionnaire and send it to the data security officer. Please get in touch with the data protection officer of your institution to check which additional protection measures are necessary.</text>
+		<title lang="de">Datenschutzbeauftragte*n bzgl. personenbezogene Daten besonderer Kategorien kontaktieren</title>
+		<text lang="de">Mindestens einer der Datensätze enthält besonders sensible personenbezogene Daten
+ nach BDSG §3, Abs. 9. 
+
+Füllen Sie hierzu bitte den Datenschutzfragenkatalog aus und senden diesen an den/die Datenschutzbeauftrage*n. Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragte*n Ihrer Institution, welche zusätzlichen Schutzmaßnahmen notwendig sind.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/personal_inf_bdsg_3_9"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/contact_fo">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_fo</key>
+		<dc:comment/>
+		<title lang="en">Inform Forschungskoordination (Fo, Research coordination)</title>
+		<text lang="en">Your planned project is a third-party funded project. Please provide a notice of third-party funding in accordance with the house order Fo. You can export the third-party funding report under the menu item Views.
+
+On a regular basis, Fo should receive the notification at least 8 working days before the planned submission of the application to the funding agency!</text>
+		<title lang="de">Forschungskoordination (Fo) informieren</title>
+		<text lang="de">Bei Ihrem geplanten Projekt handelt es sich um ein Drittmittelprojekt. Bitte stellen Sie eine Drittmittelanzeige gemäß der Hausverfügung Fo zur Verfügung. Im Menüpunkt unter Ansichten können Sie die Drittmittelanzeige exportieren.
+
+Der Eingang der Anzeige bei Fo sollte in der Regel mindestens 8 Arbeitstage vor der geplanten Einreichung des Antrages beim Fördermittelgeber erfolgen!</text>
+		<start_attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/planned_submission"/>
+		<end_attribute/>
+		<days_before>8</days_before>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/planned_submission"/>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/thirdparty"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/contact_IT_department">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_IT_department</key>
+		<dc:comment/>
+		<title lang="en">Contact IT department to acquire infrastructure resources</title>
+		<text lang="en">Please get in touch with your IT department to arrange that the required infrastructure resources are provided.</text>
+		<title lang="de">IT-Abteilung kontaktieren, um Infrastrukturressourcen zu organisieren</title>
+		<text lang="de">Bitte nehmen Sie Kontakt mit der IT-Abteilung auf, um die Bereitstellung der benötigten Infrastrukturressourcen zu organisieren.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/infrastructure_resources"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/contact_IT_or_data_management_expert">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_IT_or_data_management_expert</key>
+		<dc:comment/>
+		<title lang="en">Contact IT or data management expert</title>
+		<text lang="en">Please contact an IT or data managament expert to get support in terms of data usage.</text>
+		<title lang="de">IT- oder Datenmanagementexpert*innen kontaktieren</title>
+		<text lang="de">Bitte kontaktieren Sie Personen mit IT- oder Datenmanagementexpertise, um die notwendige Unterstützung für geplante Datennutzungsszenarien zu erhalten.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/usage_support"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/contact_rights_owner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_rights_owner</key>
+		<dc:comment/>
+		<title lang="en">Contact rights owner</title>
+		<text lang="en">Clarify, if and how this restricts the possibility of long-term preservation and re-use and if the rights onwer ist willing to grant the necessary rights.</text>
+		<title lang="de">Rechteinhaber*in kontaktieren</title>
+		<text lang="de">Prüfen Sie, welche Einschränkungen damit bezüglich der Langzeitarchivierung und Nachnutzung bestehen und ob der/die Rechteinhaber*in bereit ist, ggf. die notwendigen Rechte einzuräumen.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/rights_owner_clear"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/create_data_organisation_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>create_data_organisation_policy</key>
+		<dc:comment/>
+		<title lang="en">Create data organisation policy</title>
+		<text lang="en">Create a policy for a consistent data organisation in the project.</text>
+		<title lang="de">Richtlinien zur Datenorganisation erstellen</title>
+		<text lang="de">Erstellen Sie eine Richtlinie zur einheitlichen Organisation der Daten im Projekt.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions/>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/create_naming_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>create_naming_policy</key>
+		<dc:comment/>
+		<title lang="en">Create data naming policy</title>
+		<text lang="en">Create a guideline for a consistent naming of the data within the project.</text>
+		<title lang="de">Richtlinie zur Benennung der Daten erstellen</title>
+		<text lang="de">Erstellen Sie eine Richtlinie zur einheitlichen Benennung der Daten innerhalb des Projekts.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions/>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/determine_versioning_tool">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>determine_versioning_tool</key>
+		<dc:comment/>
+		<title lang="en">Determine Versioning Tool</title>
+		<text lang="en">Determine, which versioning tool will be used for the versioning.</text>
+		<title lang="de">Versionierungstool bestimmen</title>
+		<text lang="de">Legen Sie fest, welches Versionierungstool genutzt werden soll.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/versioning_tool_undecided"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/dualuse">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse</key>
+		<dc:comment/>
+		<title lang="en">Dual-Use evaluation</title>
+		<text lang="en">Please complete the evaluation of the dual-use potential of research projects in accordance with the Dual-Use House Order of 25.03.2013 at the Robert Koch Institute and send it to L1 via Document Management / Process Processing System (DMS/VBS).</text>
+		<title lang="de">Dual-Use Bewertung</title>
+		<text lang="de">Bitte füllen Sie die Bewertung des Dual-Use-Potenzials von Forschungsvorhaben entsprechend der Dual-Use Hausverfügung vom 25.03.2013 im Robert Koch-Institut aus und senden diese per Dokumentenmanagement-/Vorgangsbearbeitungssysem (DMS/VBS) an L1.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dual_use"/>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dual_use_publication"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/dualuse_intendedpublication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse_intendedpublication</key>
+		<dc:comment/>
+		<title lang="en">Attachment "Dual-Use" evaluation form</title>
+		<text lang="en">Please attach a copy of the "Dual-Use" evaluation form as an attachment to the publication announcement.</text>
+		<title lang="de">Anlage Bewertungsbogen "Dual-Use"</title>
+		<text lang="de">Fügen Sie bitte eine Kopie des Bewertungsbogens "Dual-Use" als Anlage zur Veröffentlichungsanzeige bei.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dualuse_intendedpublication_attachment"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/finish-first-dmp">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>finish-first-dmp</key>
+		<dc:comment/>
+		<title lang="en">Finish first DMP</title>
+		<text lang="en">The first DMP should be finished about 3 months after the project has started.</text>
+		<title lang="de">Ersten DMP abschließen</title>
+		<text lang="de">Der erste DMP sollte 3 Monate nach Projektbeginn abgeschlossen sein.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after>90</days_after>
+		<conditions/>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/identify_rights_owner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>identify_rights_owner</key>
+		<dc:comment/>
+		<title lang="en">Identify rights owner</title>
+		<text lang="en">Identify the rights owner and contact him / her to see if the rights necessary for long-term preservation and re-use will be granted.</text>
+		<title lang="de">Rechteinhaber*in recherchieren</title>
+		<text lang="de">Identifizeren Sie den/die Rechteinhaber*in und prüfen Sie, ob diese*r bereit ist, die ggf. die für die Langzeitarchivierung und Nachnutzung notwendigen Rechte einzuräumen.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/rights_owner_unclear"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/inform_data_security_officer">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>inform_data_security_officer</key>
+		<dc:comment/>
+		<title lang="en">Contact data security officer(s) regarding personal data</title>
+		<text lang="en">At least one of the datasets contains personal data. Please fill out the data protection questionnaire and inform the responsible data security officer of your institution.</text>
+		<title lang="de">Datenschutzbeauftragte*n bzgl. personenbezogene Daten kontaktieren</title>
+		<text lang="de">Mindestens einer der Datensätze enthält personenbezogene Daten. Bitte füllen Sie den Datenschutzfragenktalog aus und infomieren Sie den oder die zuständige*n Datenschutzbeauftragte*n Ihrer Institution.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/personal_data"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/inform_library">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>inform_library</key>
+		<dc:comment/>
+		<title lang="en">Inform library about publication</title>
+		<text lang="en">Please contact the library as soon as your manuscript has been published. 
+
+Please enclose:
+-Copy of the signed publishing contract to Bibliothek Nordufer
+-pdf file of the publication to edoc@rki.de
+
+Note: The last two points do not apply to works created outside the scope of official duties.</text>
+		<title lang="de">Bibliothek über Veröffentlichung informieren</title>
+		<text lang="de">Bitte kontaktieren Sie die Bibliothek, sobald die Veröffentlichung Ihres Manuskripts erfolgt ist. 
+
+Bitte fügen Sie bei:
+-Kopie des unterzeichneten Verlagsvertrags an Bibliothek Nordufer
+-pdf-Datei der Veröffentlichung an edoc@rki.de
+
+Anmerkung: Die beiden letztgenannten Punkte entfallen bei Werken, die außerhalb dienstlicher Tätigkeit entstanden sind.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/manuscript"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/intended_publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intended_publication</key>
+		<dc:comment/>
+		<title lang="en">i</title>
+		<text lang="en">i</text>
+		<title lang="de">Veröffentlichungsanzeige</title>
+		<text lang="de">Bitte füllen Sie die Veröffentlichungsanzeige vor Manuskripteinreichung oder Veröffentlichungsanzeige Datenpublikation aus.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/data_sharing"/>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/data_sharing2"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/mta">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>mta</key>
+		<dc:comment/>
+		<title lang="en">Material Transfer Agreement (MTA)</title>
+		<text lang="en">Please fill out the Material Transfer Agreement (MTA)</text>
+		<title lang="de">Material Transfer Agreement (MTA)</title>
+		<text lang="de">Bitte füllen Sie das Material Transfer Agreement (MTA) aus.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/mta"/>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/mta2"/>
+		</conditions>
+	</task>
+	<task dc:uri="https://rdmo.rki.de/terms/tasks/research_contract">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>research_contract</key>
+		<dc:comment/>
+		<title lang="en">Research contract</title>
+		<text lang="en">Please fill in the research contract and send it to L1.</text>
+		<title lang="de">Forschungsvertrag</title>
+		<text lang="de">Bitte füllen Sie den Forschungsvertrag aus und senden ihn an L1.</text>
+		<start_attribute/>
+		<end_attribute/>
+		<days_before/>
+		<days_after/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/partner"/>
+		</conditions>
+	</task>
+</rdmo>

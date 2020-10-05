@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/additional_rdm_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>additional_rdm_policy</key>
+		<dc:comment>There are additional data management requirements.</dc:comment>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy/yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/other_requirements_options/146"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/client">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>client</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/client"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/data_sharing">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_sharing</key>
+		<dc:comment>The data will be shared.</dc:comment>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/dataset_sharing_options/69"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/data_sharing2">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_sharing2</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/dataset_sharing_options/68"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dfg</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/funder/name"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/funder_name/dfg"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/dmp">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dmp</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dmp/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/dual_use">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dual_use</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+		<relation>eq</relation>
+		<target_text>0</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/dualuse_intendedpublication_attachment">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse_intendedpublication_attachment</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_intended_publication_valuation"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/dualuse_options/yes_copy_valuation"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/dual_use_publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dual_use_publication</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_intended_publication_valuation"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/dualuse_options/no"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/infrastructure_resources">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>infrastructure_resources</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/infrastructure"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/infrastructure_resources/261"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/intellectual_property_rights">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intellectual_property_rights</key>
+		<dc:comment>The project uses data or software that is protected by intellectual property rights.</dc:comment>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/international">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>international</key>
+		<dc:comment>The legal situation of different countries has to be considered.</dc:comment>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/international_yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/law_international">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>law_international</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/international_yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/manuscript">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>manuscript</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr/signature"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/mta">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>mta</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/mta_options/animal_material"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/mta2">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>mta2</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/mta_options/humane_material"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/other_sensitive_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>other_sensitive_data</key>
+		<dc:comment>Other sensitive data being used in the project.</dc:comment>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/partner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/partner_yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/partner2">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner2</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/partner_yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/personal_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personal_data</key>
+		<dc:comment>Personal data is used in the project.</dc:comment>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/personal_data/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/personal_inf_bdsg_3_9">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personal_inf_bdsg_3_9</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/planned_submission">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>planned_submission</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/funder/planned_submission"/>
+		<relation>notempty</relation>
+		<target_text/>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>publication</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/rights_owner_clear">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>rights_owner_clear</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/owner/name"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/rights_owner_unclear">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>rights_owner_unclear</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/owner/name"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no/no"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/thirdparty">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>thirdparty</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/funder/yesno"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/usage_infrastructure">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage_infrastructure</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/infrastructure"/>
+		<relation>eq</relation>
+		<target_text>1</target_text>
+		<target_option/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/usage_support">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage_support</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/support"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no/yes"/>
+	</condition>
+	<condition dc:uri="https://rdmo.rki.de/terms/conditions/versioning_tool_undecided">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>versioning_tool_undecided</key>
+		<dc:comment/>
+		<source dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/versioning_tool"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmo.rki.de/terms/options/software_versioning_technology_options/164"/>
+	</condition>
+</rdmo>

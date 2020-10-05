@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<attribute dc:uri="http://rdmo.rki.de/terms/domain/project">
+		<uri_prefix>http://rdmo.rki.de/terms</uri_prefix>
+		<key>project</key>
+		<path>project</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project</key>
+		<path>project</path>
+		<dc:comment/>
+		<parent/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/abstract">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>abstract</key>
+		<path>project/abstract</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>additional_rdm_policy</key>
+		<path>project/additional_rdm_policy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy/requirements">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>requirements</key>
+		<path>project/additional_rdm_policy/requirements</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/additional_rdm_policy/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/budget">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>budget</key>
+		<path>project/budget</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>coordination</key>
+		<path>project/coordination</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/client">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>client</key>
+		<path>project/coordination/client</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/client/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/coordination/client/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/client"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact</key>
+		<path>project/coordination/contact</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/identifier">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>identifier</key>
+		<path>project/coordination/contact/identifier</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/identifier_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>identifier_type</key>
+		<path>project/coordination/contact/identifier_type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/coordination/contact/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/phone">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>phone</key>
+		<path>project/coordination/contact/phone</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/deputy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>deputy</key>
+		<path>project/coordination/deputy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/deputy/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/coordination/deputy/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/deputy"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/file_reference">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>file_reference</key>
+		<path>project/coordination/file_reference</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/interfaces">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>interfaces</key>
+		<path>project/coordination/interfaces</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/coordination/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/participation_unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>participation_unit</key>
+		<path>project/coordination/participation_unit</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/partner_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_yesno</key>
+		<path>project/coordination/partner_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/project_sponsor">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_sponsor</key>
+		<path>project/coordination/project_sponsor</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/steering_committee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>steering_committee</key>
+		<path>project/coordination/steering_committee</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/team">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>team</key>
+		<path>project/coordination/team</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>project/coordination/unit</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/coordination"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>costs</key>
+		<path>project/costs</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/creation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation</key>
+		<path>project/costs/creation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/creation/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/creation/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/creation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/creation/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/creation/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/creation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>fee</key>
+		<path>project/costs/fee</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee/amount">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>amount</key>
+		<path>project/costs/fee/amount</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee/file_reference">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>file_reference</key>
+		<path>project/costs/fee/file_reference</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/fee"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/ipr">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>ipr</key>
+		<path>project/costs/ipr</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/ipr/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/ipr/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/ipr/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/ipr/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/metadata">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>metadata</key>
+		<path>project/costs/metadata</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/metadata/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/metadata/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/metadata/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/metadata/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>page_charge</key>
+		<path>project/costs/page_charge</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/amount_page">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>amount_page</key>
+		<path>project/costs/page_charge/amount_page</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/amount_total">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>amount_total</key>
+		<path>project/costs/page_charge/amount_total</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/file_reference">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>file_reference</key>
+		<path>project/costs/page_charge/file_reference</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge/type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>type</key>
+		<path>project/costs/page_charge/type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/page_charge"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/pid">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>pid</key>
+		<path>project/costs/pid</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/pid/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/pid/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/pid"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/pid/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/pid/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/pid"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>preservation</key>
+		<path>project/costs/preservation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation/cover_how">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>cover_how</key>
+		<path>project/costs/preservation/cover_how</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/preservation/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/preservation/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive_data</key>
+		<path>project/costs/sensitive_data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/anonymization">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>anonymization</key>
+		<path>project/costs/sensitive_data/anonymization</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/anonymization/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/sensitive_data/anonymization/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/anonymization"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/anonymization/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/sensitive_data/anonymization/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/anonymization"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/security">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>security</key>
+		<path>project/costs/sensitive_data/security</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/security/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/sensitive_data/security/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/security/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/sensitive_data/security/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/sensitive_data/security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/storage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>storage</key>
+		<path>project/costs/storage</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/storage/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/storage/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/storage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/storage/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/storage/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/storage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/usage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage</key>
+		<path>project/costs/usage</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/usage/non_personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>non_personnel</key>
+		<path>project/costs/usage/non_personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/usage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/costs/usage/personnel">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personnel</key>
+		<path>project/costs/usage/personnel</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/costs/usage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/data_management">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_management</key>
+		<path>project/data_management</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/data_management/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/data_management/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/data_management"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dataset</key>
+		<path>project/dataset</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/collaboration_organisation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>collaboration_organisation</key>
+		<path>project/dataset/collaboration_organisation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/collaboration_tools">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>collaboration_tools</key>
+		<path>project/dataset/collaboration_tools</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/collaboration_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>collaboration_yesno</key>
+		<path>project/dataset/collaboration_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/control_tool">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>control_tool</key>
+		<path>project/dataset/control_tool</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creation_methods">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_methods</key>
+		<path>project/dataset/creation_methods</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creator</key>
+		<path>project/dataset/creator</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/creator/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator/thirdparty_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>thirdparty_yesno</key>
+		<path>project/dataset/creator/thirdparty_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>project/dataset/creator/unit</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creator"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_analysis_end">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_analysis_end</key>
+		<path>project/dataset/data_analysis_end</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_analysis_start">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_analysis_start</key>
+		<path>project/dataset/data_analysis_start</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_cleansing_end">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_cleansing_end</key>
+		<path>project/dataset/data_cleansing_end</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_cleansing_start">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_cleansing_start</key>
+		<path>project/dataset/data_cleansing_start</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_collection_end">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_collection_end</key>
+		<path>project/dataset/data_collection_end</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_collection_start">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_collection_start</key>
+		<path>project/dataset/data_collection_start</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_publication_date">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_publication_date</key>
+		<path>project/dataset/data_publication_date</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_security</key>
+		<path>project/dataset/data_security</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/access_permissions">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>access_permissions</key>
+		<path>project/dataset/data_security/access_permissions</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/backup_responsible">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>backup_responsible</key>
+		<path>project/dataset/data_security/backup_responsible</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/backup_responsible/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/data_security/backup_responsible/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/backup_responsible"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/backups">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>backups</key>
+		<path>project/dataset/data_security/backups</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/risks">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>risks</key>
+		<path>project/dataset/data_security/risks</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/security_measures">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>security_measures</key>
+		<path>project/dataset/data_security/security_measures</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/description">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>description</key>
+		<path>project/dataset/description</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/format">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>format</key>
+		<path>project/dataset/format</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/id">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>id</key>
+		<path>project/dataset/id</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/include_software">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>include_software</key>
+		<path>project/dataset/include_software</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/integration">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>integration</key>
+		<path>project/dataset/integration</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/interoperability">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>interoperability</key>
+		<path>project/dataset/interoperability</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>ipr</key>
+		<path>project/dataset/ipr</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/copyrights">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>copyrights</key>
+		<path>project/dataset/ipr/copyrights</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/other_rights">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>other_rights</key>
+		<path>project/dataset/ipr/other_rights</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/owner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>owner</key>
+		<path>project/dataset/ipr/owner</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/owner/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/ipr/owner/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/owner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>metadata</key>
+		<path>project/dataset/metadata</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/creation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation</key>
+		<path>project/dataset/metadata/creation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/creation_automatic">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_automatic</key>
+		<path>project/dataset/metadata/creation_automatic</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/creation_manual">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_manual</key>
+		<path>project/dataset/metadata/creation_manual</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/creation_semi_automatic">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_semi_automatic</key>
+		<path>project/dataset/metadata/creation_semi_automatic</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/mappings">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>mappings</key>
+		<path>project/dataset/metadata/mappings</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/public">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>public</key>
+		<path>project/dataset/metadata/public</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/quality_assurance">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>quality_assurance</key>
+		<path>project/dataset/metadata/quality_assurance</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/responsible_person">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>responsible_person</key>
+		<path>project/dataset/metadata/responsible_person</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/responsible_person/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/metadata/responsible_person/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/responsible_person"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/scope">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>scope</key>
+		<path>project/dataset/metadata/scope</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/standards">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>standards</key>
+		<path>project/dataset/metadata/standards</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/method">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>method</key>
+		<path>project/dataset/method</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>origin</key>
+		<path>project/dataset/origin</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>context_creation_type</key>
+		<path>project/dataset/origin/context_creation_type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type/partner_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_yesno</key>
+		<path>project/dataset/origin/context_creation_type/partner_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type/thirdparty_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>thirdparty_yesno</key>
+		<path>project/dataset/origin/context_creation_type/thirdparty_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/origin/context_creation_type"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>pids</key>
+		<path>project/dataset/pids</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids/responsible_person">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>responsible_person</key>
+		<path>project/dataset/pids/responsible_person</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids/responsible_person/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/pids/responsible_person/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids/responsible_person"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids/subentities">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>subentities</key>
+		<path>project/dataset/pids/subentities</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids/system">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>system</key>
+		<path>project/dataset/pids/system</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/pids/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>preservation</key>
+		<path>project/dataset/preservation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/access_authentication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>access_authentication</key>
+		<path>project/dataset/preservation/access_authentication</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/certification">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>certification</key>
+		<path>project/dataset/preservation/certification</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/data_archiving_date">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_archiving_date</key>
+		<path>project/dataset/preservation/data_archiving_date</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/duration">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>duration</key>
+		<path>project/dataset/preservation/duration</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/embargo_period">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>embargo_period</key>
+		<path>project/dataset/preservation/embargo_period</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/purpose">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>purpose</key>
+		<path>project/dataset/preservation/purpose</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/repository">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>repository</key>
+		<path>project/dataset/preservation/repository</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/repository_arrangements">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>repository_arrangements</key>
+		<path>project/dataset/preservation/repository_arrangements</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/reuse_duration">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reuse_duration</key>
+		<path>project/dataset/preservation/reuse_duration</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/preservation/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/quality_assurance">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>quality_assurance</key>
+		<path>project/dataset/quality_assurance</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/rate">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>rate</key>
+		<path>project/dataset/rate</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/reproducibility">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reproducibility</key>
+		<path>project/dataset/reproducibility</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/reuse_basis">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reuse_basis</key>
+		<path>project/dataset/reuse_basis</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/reuse_scenario">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reuse_scenario</key>
+		<path>project/dataset/reuse_scenario</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/scientific_result">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>scientific_result</key>
+		<path>project/dataset/scientific_result</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/scientific_result/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/scientific_result/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/scientific_result"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive_data</key>
+		<path>project/dataset/sensitive_data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>other</key>
+		<path>project/dataset/sensitive_data/other</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/description">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>description</key>
+		<path>project/dataset/sensitive_data/other/description</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse</key>
+		<path>project/dataset/sensitive_data/other/dualuse</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse_evaluation</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/absorption_properties">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>absorption_properties</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/absorption_properties</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/consequences_other">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>consequences_other</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/consequences_other</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/damage_vulnerability">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>damage_vulnerability</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/damage_vulnerability</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/host_tropism">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>host_tropism</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/host_tropism</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/immunity">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>immunity</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/immunity</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/pathogen">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>pathogen</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/pathogen</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/reduced_effectiveness">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reduced_effectiveness</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/reduced_effectiveness</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/resistance">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>resistance</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/resistance</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/susceptibility">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>susceptibility</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/susceptibility</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/tenacity">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>tenacity</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/tenacity</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/toxin_dispersal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>toxin_dispersal</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/toxin_dispersal</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/toxin_uptake">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>toxin_uptake</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/toxin_uptake</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/transmissibility">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>transmissibility</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/transmissibility</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/use_diagnostic_methods">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>use_diagnostic_methods</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/use_diagnostic_methods</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation/virulence">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>virulence</key>
+		<path>project/dataset/sensitive_data/other/dualuse_evaluation/virulence</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_intended_publication_valuation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse_intended_publication_valuation</key>
+		<path>project/dataset/sensitive_data/other/dualuse_intended_publication_valuation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/sensitive_data/other/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personal_data</key>
+		<path>project/dataset/sensitive_data/personal_data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>anonymization</key>
+		<path>project/dataset/sensitive_data/personal_data/anonymization</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization/examination">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>examination</key>
+		<path>project/dataset/sensitive_data/personal_data/anonymization/examination</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization/explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>explanation</key>
+		<path>project/dataset/sensitive_data/personal_data/anonymization/explanation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>bdsg_3_9</key>
+		<path>project/dataset/sensitive_data/personal_data/bdsg_3_9</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>consent</key>
+		<path>project/dataset/sensitive_data/personal_data/consent</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent/extent">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>extent</key>
+		<path>project/dataset/sensitive_data/personal_data/consent/extent</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent/record">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>record</key>
+		<path>project/dataset/sensitive_data/personal_data/consent/record</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent/statement">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>statement</key>
+		<path>project/dataset/sensitive_data/personal_data/consent/statement</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/deletion">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>deletion</key>
+		<path>project/dataset/sensitive_data/personal_data/deletion</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personal_data_yesno</key>
+		<path>project/dataset/sensitive_data/personal_data_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data_yesno/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/sensitive_data/personal_data_yesno/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data_yesno"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sharing</key>
+		<path>project/dataset/sharing</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/author">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>author</key>
+		<path>project/dataset/sharing/author</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/author/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/sharing/author/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/author"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/coauthor">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>coauthor</key>
+		<path>project/dataset/sharing/coauthor</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/coauthor/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dataset/sharing/coauthor/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/coauthor"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/conditions">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>conditions</key>
+		<path>project/dataset/sharing/conditions</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>explanation</key>
+		<path>project/dataset/sharing/explanation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/findability">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>findability</key>
+		<path>project/dataset/sharing/findability</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/material_transfer_agreement_explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>material_transfer_agreement_explanation</key>
+		<path>project/dataset/sharing/material_transfer_agreement_explanation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/partner_restrictions_explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_restrictions_explanation</key>
+		<path>project/dataset/sharing/partner_restrictions_explanation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/restrictions_explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>restrictions_explanation</key>
+		<path>project/dataset/sharing/restrictions_explanation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/sharing_license">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sharing_license</key>
+		<path>project/dataset/sharing/sharing_license</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dataset/sharing/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/size">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>size</key>
+		<path>project/dataset/size</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/size/number_files">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>number_files</key>
+		<path>project/dataset/size/number_files</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/size"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/size/volume">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>volume</key>
+		<path>project/dataset/size/volume</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/size"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/software_documentation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>software_documentation</key>
+		<path>project/dataset/software_documentation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>storage</key>
+		<path>project/dataset/storage</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage/dms">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dms</key>
+		<path>project/dataset/storage/dms</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage/naming_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>naming_policy</key>
+		<path>project/dataset/storage/naming_policy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage/organisation_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>organisation_policy</key>
+		<path>project/dataset/storage/organisation_policy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage/type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>type</key>
+		<path>project/dataset/storage/type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage/uri">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>uri</key>
+		<path>project/dataset/storage/uri</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/structure">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>structure</key>
+		<path>project/dataset/structure</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project/dataset/title</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/uri">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>uri</key>
+		<path>project/dataset/uri</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage</key>
+		<path>project/dataset/usage</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/description">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>description</key>
+		<path>project/dataset/usage/description</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/frequency">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>frequency</key>
+		<path>project/dataset/usage/frequency</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/infrastructure">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>infrastructure</key>
+		<path>project/dataset/usage/infrastructure</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/support">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>support</key>
+		<path>project/dataset/usage/support</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/technology">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>technology</key>
+		<path>project/dataset/usage/technology</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/variable_documentation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>variable_documentation</key>
+		<path>project/dataset/variable_documentation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/versioning_strategy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>versioning_strategy</key>
+		<path>project/dataset/versioning_strategy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/versioning_tool">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>versioning_tool</key>
+		<path>project/dataset/versioning_tool</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/versioning_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>versioning_yesno</key>
+		<path>project/dataset/versioning_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dmp">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dmp</key>
+		<path>project/dmp</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dmp/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/dmp/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dmp"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dmp/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/dmp/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/dmp"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/external_services">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>external_services</key>
+		<path>project/external_services</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/fas_primary_key">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>fas_primary_key</key>
+		<path>project/fas_primary_key</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>funder</key>
+		<path>project/funder</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/final_submission">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>final_submission</key>
+		<path>project/funder/final_submission</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/id">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>id</key>
+		<path>project/funder/id</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/link_tender">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>link_tender</key>
+		<path>project/funder/link_tender</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/funder/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/overhead">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>overhead</key>
+		<path>project/funder/overhead</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/planned_submission">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>planned_submission</key>
+		<path>project/funder/planned_submission</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/programme">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>programme</key>
+		<path>project/funder/programme</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/programme/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project/funder/programme/title</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder/programme"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/programme/url">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>url</key>
+		<path>project/funder/programme/url</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder/programme"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/project_id">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_id</key>
+		<path>project/funder/project_id</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/rdm_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>rdm_policy</key>
+		<path>project/funder/rdm_policy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/reporting_obligation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reporting_obligation</key>
+		<path>project/funder/reporting_obligation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/funder/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/funder"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/geo_location">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>geo_location</key>
+		<path>project/geo_location</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intended_publication</key>
+		<path>project/intended_publication</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/author_external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>author_external</key>
+		<path>project/intended_publication/author_external</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/author_external/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/intended_publication/author_external/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/author_external"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/journal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>journal</key>
+		<path>project/intended_publication/journal</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication/publisher">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>publisher</key>
+		<path>project/intended_publication/publisher</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/intended_publication"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/language">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>language</key>
+		<path>project/language</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>legal_aspects</key>
+		<path>project/legal_aspects</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/contract_project_coordination_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contract_project_coordination_yesno</key>
+		<path>project/legal_aspects/contract_project_coordination_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/international_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>international_yesno</key>
+		<path>project/legal_aspects/international_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/invention">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>invention</key>
+		<path>project/legal_aspects/invention</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>ipr</key>
+		<path>project/legal_aspects/ipr</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr/signature">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>signature</key>
+		<path>project/legal_aspects/ipr/signature</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/legal_aspects/ipr/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>material_transfer_agreement</key>
+		<path>project/legal_aspects/material_transfer_agreement</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement/creation_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_yesno</key>
+		<path>project/legal_aspects/material_transfer_agreement/creation_yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/legal_aspects/material_transfer_agreement/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>official_approval</key>
+		<path>project/legal_aspects/official_approval</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/data_access_committee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_access_committee</key>
+		<path>project/legal_aspects/official_approval/data_access_committee</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/ethics_committee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>ethics_committee</key>
+		<path>project/legal_aspects/official_approval/ethics_committee</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/statutatory_approval">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>statutatory_approval</key>
+		<path>project/legal_aspects/official_approval/statutatory_approval</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/statutatory_approval/agency">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>agency</key>
+		<path>project/legal_aspects/official_approval/statutatory_approval/agency</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/statutatory_approval"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/statutatory_approval/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project/legal_aspects/official_approval/statutatory_approval/title</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/statutatory_approval"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/statutatory_approval/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/legal_aspects/official_approval/statutatory_approval/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/statutatory_approval"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive_data</key>
+		<path>project/legal_aspects/sensitive_data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/other">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>other</key>
+		<path>project/legal_aspects/sensitive_data/other</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/other/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/legal_aspects/sensitive_data/other/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/other"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/personal_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>personal_data</key>
+		<path>project/legal_aspects/sensitive_data/personal_data</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/personal_data/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/legal_aspects/sensitive_data/personal_data/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/personal_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/privacy_law">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>privacy_law</key>
+		<path>project/legal_aspects/sensitive_data/privacy_law</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/legal_aspects/sensitive_data/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/mach_web">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>mach_web</key>
+		<path>project/mach_web</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/milestone">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>milestone</key>
+		<path>project/milestone</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/origin_manuscript">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>origin_manuscript</key>
+		<path>project/origin_manuscript</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/origin_manuscript/context_creation_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>context_creation_type</key>
+		<path>project/origin_manuscript/context_creation_type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/origin_manuscript"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/origin_manuscript/draft_publishing_contract_type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>draft_publishing_contract_type</key>
+		<path>project/origin_manuscript/draft_publishing_contract_type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/origin_manuscript"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/outcome">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>outcome</key>
+		<path>project/outcome</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner</key>
+		<path>project/partner</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/agreement">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>agreement</key>
+		<path>project/partner/agreement</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>external</key>
+		<path>project/partner/external</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external/contact">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact</key>
+		<path>project/partner/external/contact</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external/contact/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/partner/external/contact/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external/contact"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/guest_stay">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>guest_stay</key>
+		<path>project/partner/guest_stay</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/id">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>id</key>
+		<path>project/partner/id</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>internal</key>
+		<path>project/partner/internal</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact</key>
+		<path>project/partner/internal/contact</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/partner/internal/contact/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact/phone">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>phone</key>
+		<path>project/partner/internal/contact/phone</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/milestone">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>milestone</key>
+		<path>project/partner/milestone</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/partner/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/outcome">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>outcome</key>
+		<path>project/partner/outcome</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/purpose">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>purpose</key>
+		<path>project/partner/purpose</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/rdm_policy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>rdm_policy</key>
+		<path>project/partner/rdm_policy</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/responsibilities">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>responsibilities</key>
+		<path>project/partner/responsibilities</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>project/partner/unit</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/usage_rights">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage_rights</key>
+		<path>project/partner/usage_rights</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/phase">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>phase</key>
+		<path>project/phase</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/physical_objects">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>physical_objects</key>
+		<path>project/physical_objects</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>preservation</key>
+		<path>project/preservation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>archive</key>
+		<path>project/preservation/archive</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive/fair_archive">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>fair_archive</key>
+		<path>project/preservation/archive/fair_archive</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive/nonprofit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>nonprofit</key>
+		<path>project/preservation/archive/nonprofit</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive/nonprofit/explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>explanation</key>
+		<path>project/preservation/archive/nonprofit/explanation</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive/nonprofit"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive/nonprofit/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/preservation/archive/nonprofit/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive/nonprofit"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/preservation/archive/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/archive"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/responsible_person">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>responsible_person</key>
+		<path>project/preservation/responsible_person</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/responsible_person/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>project/preservation/responsible_person/name</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/responsible_person"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/retained">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>retained</key>
+		<path>project/preservation/retained</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/selection_criteria">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>selection_criteria</key>
+		<path>project/preservation/selection_criteria</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/preservation/selection_format">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>selection_format</key>
+		<path>project/preservation/selection_format</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/preservation"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/purpose">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>purpose</key>
+		<path>project/purpose</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/research_field">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>research_field</key>
+		<path>project/research_field</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/research_field/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project/research_field/title</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/research_field"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/research_question">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>research_question</key>
+		<path>project/research_question</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/research_question/keywords">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>keywords</key>
+		<path>project/research_question/keywords</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/research_question"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/research_question/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project/research_question/title</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/research_question"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>schedule</key>
+		<path>project/schedule</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_end">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_end</key>
+		<path>project/schedule/project_end</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/schedule"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_start">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_start</key>
+		<path>project/schedule/project_start</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/schedule"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/support">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>support</key>
+		<path>project/support</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/support/costs">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>costs</key>
+		<path>project/support/costs</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/support"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/support/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>project/support/yesno</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/support"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>project/title</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title/acronym">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>acronym</key>
+		<path>project/title/acronym</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>type</key>
+		<path>project/type</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/usage_rights">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage_rights</key>
+		<path>project/usage_rights</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/work_packages">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>work_packages</key>
+		<path>project/work_packages</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.rki.de/terms/domain/project"/>
+	</attribute>
+</rdmo>

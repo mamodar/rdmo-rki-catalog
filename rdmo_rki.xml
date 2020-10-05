@@ -1,0 +1,2487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>rdmo_rki</key>
+		<dc:comment/>
+		<order>4</order>
+		<title lang="en">General questionnaire</title>
+		<title lang="de">Allgemeiner Fragenkatalog</title>
+	</catalog>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>general</key>
+		<path>rdmo_rki/general</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki"/>
+		<order>0</order>
+		<title lang="en">General</title>
+		<title lang="de">Allgemein</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-title</key>
+		<path>rdmo_rki/general/project-title</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Project</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project</verbose_name>
+		<verbose_name_plural lang="en">Projects</verbose_name_plural>
+		<title lang="de">Projekt</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projekt</verbose_name>
+		<verbose_name_plural lang="de">Projekte</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-title/title">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>title</key>
+		<path>rdmo_rki/general/project-title/title</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">What is the title of the project?</text>
+		<verbose_name lang="en">Title</verbose_name>
+		<verbose_name_plural lang="en">Titles</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lautet der Titel des Projektes?</text>
+		<verbose_name lang="de">Titel</verbose_name>
+		<verbose_name_plural lang="de">Titel</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-title/acronym">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>acronym</key>
+		<path>rdmo_rki/general/project-title/acronym</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/title/acronym"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-title"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<help lang="en">e.g. MaMoDaR is the acronym for Management of Molecular Data In the Research Data Life Cycle</help>
+		<text lang="en">What is the acronym of the project?</text>
+		<verbose_name lang="en">Acronym</verbose_name>
+		<verbose_name_plural lang="en">Acronyms</verbose_name_plural>
+		<help lang="de">z.B. MaMoDaR ist das Akronym für Management Molekularer Daten Im Research Data Life Cycle</help>
+		<text lang="de">Wie lautet das Akronym des Projektes?</text>
+		<verbose_name lang="de">Akronym</verbose_name>
+		<verbose_name_plural lang="de">Akronyme</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-title/keywords">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>keywords</key>
+		<path>rdmo_rki/general/project-title/keywords</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/research_question/keywords"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-title"/>
+		<is_collection>True</is_collection>
+		<order>20</order>
+		<help lang="en"/>
+		<text lang="en">Please give some keywords describing the research question.</text>
+		<verbose_name lang="en">Keyword</verbose_name>
+		<verbose_name_plural lang="en">Keywords</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Bitte geben Sie einige Schlagworte zur Forschungsfrage an.</text>
+		<verbose_name lang="de">Schlagwort</verbose_name>
+		<verbose_name_plural lang="de">Schlagwörter</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/topic-research_field">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>topic-research_field</key>
+		<path>rdmo_rki/general/topic-research_field</path>
+		<dc:comment>for Germany, the classification works, but we might consider also DDC as an option</dc:comment>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">Research field</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Research field</verbose_name>
+		<verbose_name_plural lang="en">Research fields</verbose_name_plural>
+		<title lang="de">Disziplin</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Disziplin</verbose_name>
+		<verbose_name_plural lang="de">Disziplinen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/topic-research_field/research_field">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>research_field</key>
+		<path>rdmo_rki/general/topic-research_field/research_field</path>
+		<dc:comment>for Germany, the classification works, but we might consider also DDC as an option</dc:comment>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/research_field/title"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/topic-research_field"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en">The list of disciplines follows the &lt;a href="http://www.dfg.de/en/dfg_profile/statutory_bodies/review_boards/subject_areas/index.jsp" target=_blank"&gt;subject classification of the DFG (German Research Foundation)&lt;/a&gt;.</help>
+		<text lang="en">Which research field(s) does this project belong to?</text>
+		<verbose_name lang="en">Discipline</verbose_name>
+		<verbose_name_plural lang="en">Disciplines</verbose_name_plural>
+		<help lang="de">Die Liste der Disziplinen entspricht der &lt;a href="http://www.dfg.de/dfg_profil/gremien/fachkollegien/faecher/" target=_blank"&gt;Fachsystematik der Deutschen Forschungsgemeinschaft (DFG)&lt;/a&gt;.</help>
+		<text lang="de">Welcher Disziplin / welchen Disziplinen ist das Projekt zuzuordnen?</text>
+		<verbose_name lang="de">Forschungsdisziplin</verbose_name>
+		<verbose_name_plural lang="de">Forschungsdisziplinen</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/research_fields"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-language">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-language</key>
+		<path>rdmo_rki/general/project-language</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en">Language</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Language</verbose_name>
+		<verbose_name_plural lang="en">Languages</verbose_name_plural>
+		<title lang="de">Sprache</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Sprache</verbose_name>
+		<verbose_name_plural lang="de">Sprachen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-language/language">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>language</key>
+		<path>rdmo_rki/general/project-language/language</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/language"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-language"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Which language is used in the project?</text>
+		<verbose_name lang="en">Language</verbose_name>
+		<verbose_name_plural lang="en">Languages</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">In welcher Sprache wird das Projekt verfasst?</text>
+		<verbose_name lang="de">Sprache</verbose_name>
+		<verbose_name_plural lang="de">Sprachen</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/language_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-geolocation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-geolocation</key>
+		<path>rdmo_rki/general/project-geolocation</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Geolocation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Geolocation</verbose_name>
+		<verbose_name_plural lang="en">Geolocations</verbose_name_plural>
+		<title lang="de">Geografischer Raum</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Geografischer Raum</verbose_name>
+		<verbose_name_plural lang="de">Geografische Räume</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-geolocation/geolocation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>geolocation</key>
+		<path>rdmo_rki/general/project-geolocation/geolocation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/geo_location"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-geolocation"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">What geographical area is covered by the project?</text>
+		<verbose_name lang="en">Geolocation</verbose_name>
+		<verbose_name_plural lang="en">Geolocations</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welcher geografische Raum wird durch das Projekt abgedeckt?</text>
+		<verbose_name lang="de">Geografischer Raum</verbose_name>
+		<verbose_name_plural lang="de">Geografische Räume</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/geolocation_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-schedule-schedule">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-schedule-schedule</key>
+		<path>rdmo_rki/general/project-schedule-schedule</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<title lang="en">Project schedule</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project schedule</verbose_name>
+		<verbose_name_plural lang="en">Project schedules</verbose_name_plural>
+		<title lang="de">Projektablauf</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektablauf</verbose_name>
+		<verbose_name_plural lang="de">Projektabläufe</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-schedule-schedule/project_start">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_start</key>
+		<path>rdmo_rki/general/project-schedule-schedule/project_start</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_start"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">If the project has not yet started, please enter the anticipated starting date.</help>
+		<text lang="en">When does the project start?</text>
+		<verbose_name lang="en">Project start</verbose_name>
+		<verbose_name_plural lang="en">Project starts</verbose_name_plural>
+		<help lang="de">Falls das Projekt noch nicht gestartet ist, geben Sie bitte das voraussichtliche Datum an.</help>
+		<text lang="de">Wann beginnt die Projektlaufzeit?</text>
+		<verbose_name lang="de">Projektbeginn</verbose_name>
+		<verbose_name_plural lang="de">Projektbeginne</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-schedule-schedule/project_end">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project_end</key>
+		<path>rdmo_rki/general/project-schedule-schedule/project_end</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/schedule/project_end"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-schedule-schedule"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">If the end of the project has not yet been determined, please indicate the expected date. If the project does not have an end, please leave the entry open.</help>
+		<text lang="en">When does the project end?</text>
+		<verbose_name lang="en">Project end</verbose_name>
+		<verbose_name_plural lang="en">Project ends</verbose_name_plural>
+		<help lang="de">Falls das Projektende noch nicht feststeht, geben Sie bitte das voraussichtlich Datum an. Sollte das Projekt kein Ende haben, so lassen Sie die Angabe offen.</help>
+		<text lang="de">Wann endet die Projektlaufzeit?</text>
+		<verbose_name lang="de">Projektende</verbose_name>
+		<verbose_name_plural lang="de">Projektenden</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-partners-name</key>
+		<path>rdmo_rki/general/project-partners-name</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>11</order>
+		<title lang="en">Project coordination</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project coordination</verbose_name>
+		<verbose_name_plural lang="en">Project coordinations</verbose_name_plural>
+		<title lang="de">Projektkoordination</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektkoordination</verbose_name>
+		<verbose_name_plural lang="de">Projektkoordinationen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>rdmo_rki/general/project-partners-name/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Which persons are responsible for the project coordination (principal investigators)?</text>
+		<verbose_name lang="en">Principal investigator</verbose_name>
+		<verbose_name_plural lang="en">Principal investigators</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Welche Personen sind verantwortlich für die Projektkoordination (Projektleiter*innen)?</text>
+		<verbose_name lang="de">Projektleiter*in</verbose_name>
+		<verbose_name_plural lang="de">Projektleiter*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name/deputy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>deputy</key>
+		<path>rdmo_rki/general/project-partners-name/deputy</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/deputy/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>10</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Which persons are deputy responsible for the project coordination (deputy principal investigator)?</text>
+		<verbose_name lang="en">Deputy principal investigator</verbose_name>
+		<verbose_name_plural lang="en">Deputy principal investigators</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Welche Personen sind stellvertretend verantwortlich für die Projektkoordination (Stellvertretende*r Projektleiter*innen)?</text>
+		<verbose_name lang="de">Stellvertretende*r Projektleiter*in</verbose_name>
+		<verbose_name_plural lang="de">Stellvertretende*r Projektleiter*innen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name/contact_person">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>contact_person</key>
+		<path>rdmo_rki/general/project-partners-name/contact_person</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>20</order>
+		<help lang="en">Family name, given names</help>
+		<text lang="en">Who is the contact person for the project?</text>
+		<verbose_name lang="en">Contact person</verbose_name>
+		<verbose_name_plural lang="en">Contact persons</verbose_name_plural>
+		<help lang="de">Nachname, Vorname</help>
+		<text lang="de">Wer ist die Kontaktperson für das Projekt?</text>
+		<verbose_name lang="de">Kontaktperson</verbose_name>
+		<verbose_name_plural lang="de">Kontaktpersonen</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name/unit">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>unit</key>
+		<path>rdmo_rki/general/project-partners-name/unit</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/unit"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>30</order>
+		<help lang="en"/>
+		<text lang="en">Which organizational unit is responsible?</text>
+		<verbose_name lang="en">Organizational unit</verbose_name>
+		<verbose_name_plural lang="en">Organizational units</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welche Organisationseinheit ist verantwortlich?</text>
+		<verbose_name lang="de">Organisationseinheit</verbose_name>
+		<verbose_name_plural lang="de">Organisationseinheiten</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name/partner_name_internal">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_internal</key>
+		<path>rdmo_rki/general/project-partners-name/partner_name_internal</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/internal/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name"/>
+		<is_collection>True</is_collection>
+		<order>40</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (internal)?</text>
+		<verbose_name lang="en">Cooperation partner (internal)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (internal)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (intern)?</text>
+		<verbose_name lang="de">Kooperationspartner (intern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (intern)</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/unit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name/partner_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_yesno</key>
+		<path>rdmo_rki/general/project-partners-name/partner_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/coordination/partner_yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-name"/>
+		<is_collection>False</is_collection>
+		<order>60</order>
+		<help lang="en"/>
+		<text lang="en">Is there a project partner?</text>
+		<verbose_name lang="en">Project partner</verbose_name>
+		<verbose_name_plural lang="en">Project partners</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Gibt es einen Projektpartner?</text>
+		<verbose_name lang="de">Projektpartner</verbose_name>
+		<verbose_name_plural lang="de">Projektpartner</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-partner">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>project-partners-partner</key>
+		<path>rdmo_rki/general/project-partners-partner</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>21</order>
+		<title lang="en">Project partners</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Project partner</verbose_name>
+		<verbose_name_plural lang="en">Project partners</verbose_name_plural>
+		<title lang="de">Projektpartner</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Projektpartner</verbose_name>
+		<verbose_name_plural lang="de">Projektpartner</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/partner"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="http://example.com/terms/questions/rdmo_rki/general/project-partners-partner/material_transfer_agreement">
+		<uri_prefix>http://example.com/terms</uri_prefix>
+		<key>material_transfer_agreement</key>
+		<path>rdmo_rki/general/project-partners-partner/material_transfer_agreement</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/material_transfer_agreement"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-partner"/>
+		<is_collection>False</is_collection>
+		<order>40</order>
+		<help lang="en"/>
+		<text lang="en">Should biological material be exchanged within the framework of the cooperation?</text>
+		<verbose_name lang="en">Material Transfer Agreement</verbose_name>
+		<verbose_name_plural lang="en">Material Transfer Agreements</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Soll im Rahmen der Kooperation biologisches Material ausgetauscht werden?</text>
+		<verbose_name lang="de">Material Transfer Agreement</verbose_name>
+		<verbose_name_plural lang="de">Material Transfer Agreements</verbose_name_plural>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/mta_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-partner/partner_name_external">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>partner_name_external</key>
+		<path>rdmo_rki/general/project-partners-partner/partner_name_external</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/partner/external/contact/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/project-partners-partner"/>
+		<is_collection>True</is_collection>
+		<order>40</order>
+		<help lang="en">Please insert the name of project partner in detail.</help>
+		<text lang="en">Who is cooperation partner (external)?</text>
+		<verbose_name lang="en">Cooperation partner (external)</verbose_name>
+		<verbose_name_plural lang="en">Cooperation partners (external)</verbose_name_plural>
+		<help lang="de">Bitte geben Sie hier den ausführlichen Namen des Projektpartners an.</help>
+		<text lang="de">Wer ist Kooperationspartner (extern)?</text>
+		<verbose_name lang="de">Kooperationspartner (extern)</verbose_name>
+		<verbose_name_plural lang="de">Kooperationspartner (extern)</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/thirdparty">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>thirdparty</key>
+		<path>rdmo_rki/general/thirdparty</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>30</order>
+		<title lang="en">Third party project</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Third party project</verbose_name>
+		<verbose_name_plural lang="en">Third party projects</verbose_name_plural>
+		<title lang="de">Drittmittelprojekt</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Drittmittelprojekt</verbose_name>
+		<verbose_name_plural lang="de">Drittmittelprojekte</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/thirdparty/thirdparty_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>thirdparty_yesno</key>
+		<path>rdmo_rki/general/thirdparty/thirdparty_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/thirdparty"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en"/>
+		<text lang="en">Is it a third-party funded project?</text>
+		<verbose_name lang="en">Third-party funded project</verbose_name>
+		<verbose_name_plural lang="en">Third-party funded projects</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Handelt es sich um ein Drittmittelprojekt?</text>
+		<verbose_name lang="de">Drittmittelprojekt</verbose_name>
+		<verbose_name_plural lang="de">Drittmittelprojekte</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/thirdparty/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>rdmo_rki/general/thirdparty/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/funder/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/thirdparty"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Who is funding the project?</text>
+		<verbose_name lang="en">Funder</verbose_name>
+		<verbose_name_plural lang="en">Funders</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wer fördert das Projekt?</text>
+		<verbose_name lang="de">Förderer</verbose_name>
+		<verbose_name_plural lang="de">Förderer</verbose_name_plural>
+		<widget_type>select</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/funder_name"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/dmp">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dmp</key>
+		<path>rdmo_rki/general/dmp</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>40</order>
+		<title lang="en">Data Management Plan (DMP)</title>
+		<help lang="en"/>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<title lang="de">Datenmanagementplan (DMP)</title>
+		<help lang="de"/>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/thirdparty"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/dmp/dmp_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dmp_yesno</key>
+		<path>rdmo_rki/general/dmp/dmp_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dmp/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/dmp"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">If the research funding agency does not specify a DMP, a generic DMP will be created according to RKI specifications. You will find it after the survey in the list of views.</help>
+		<text lang="en">Would you like to create a data management plan (DMP) according to the specifications of the selected funder?</text>
+		<verbose_name lang="en">Data Management Plan (DMP)</verbose_name>
+		<verbose_name_plural lang="en">Data Management Plans (DMPs)</verbose_name_plural>
+		<help lang="de">Sofern vom Forschungsförderer keine Vorgabe zum DMP besteht, wird ein generischer DMP nach RKI-Spezifika erstellt. Diesen finden Sie im Anschluss an die Befragung in der Liste der Ansichten.</help>
+		<text lang="de">Möchten Sie einen Datenmanagementplan (DMP) nach den Vorgaben des gewählten Förderers erstellen?</text>
+		<verbose_name lang="de">Datenmanagementplan (DMP)</verbose_name>
+		<verbose_name_plural lang="de">Datenmanagementpläne (DMPs)</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/thirdparty"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/other-requirements-yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>other-requirements-yesno</key>
+		<path>rdmo_rki/general/other-requirements-yesno</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>50</order>
+		<title lang="en">Other requirements I</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Other requirements I</verbose_name>
+		<verbose_name_plural lang="en">Other requirements I</verbose_name_plural>
+		<title lang="de">Weitere Anforderungen I</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Weitere Anforderungen I</verbose_name>
+		<verbose_name_plural lang="de">Weitere Anforderungen I</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/other-requirements-yesno/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>rdmo_rki/general/other-requirements-yesno/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/other-requirements-yesno"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">This information is required for a DFG data management plan.
+
+Examples of discipline-specific requirements are: - &lt;a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/guidelines_biodiversity_research.pdf" target=_blank"&gt;Guidelines on the Handling
+			of Research Data in Biodiversity Research&lt;/a&gt; - &lt;a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf" target=_blank"&gt;Guidelines for the
+			provision and use of quantitative data in education research (German)&lt;/a&gt; - &lt;a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf"
+			target=_blank"&gt;Elegibility criteria for funding for scholarly editions in the literary studies (German)&lt;/a&gt; - Recommendations on &lt;a
+			href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf" target=_blank"&gt;data standards and tools&lt;/a&gt; as well as &lt;a
+			href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf" target=_blank"&gt;legal aspects&lt;/a&gt; associated with language corpora (German)</help>
+		<text lang="en">Are there requirements regarding the data management from other parties (e.g. the scholarly/scientific community)?</text>
+		<verbose_name lang="en">Other requirement</verbose_name>
+		<verbose_name_plural lang="en">Other requirements</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Beispiele für fachspezifische Empfehlungen und Richtlinien sind: - &lt;a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_biodiversitaetsforschung.pdf"
+			target=_blank"&gt;Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; - Empfehlungen zur &lt;a
+			href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/richtlinien_forschungsdaten_bildungsforschung.pdf" target=_blank"&gt;Bereitstellung und Nutzung quantitativer Daten in der Bildungsforschung&lt;/a&gt; -
+			&lt;a href="http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/foerderkriterien_editionen_literaturwissenschaft.pdf" target=_blank"&gt;Förderkriterien für wissenschaftliche Editionen in der
+			Literaturwissenschaft&lt;/a&gt; - Empfehlungen zu - &lt;a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_sprachkorpora.pdf"
+			target=_blank"&gt;datentechnischen Standards und Tools&lt;/a&gt; sowie zu - &lt;a href="http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf"
+			target=_blank"&gt;rechtlichen Fragen&lt;/a&gt; bei der Erhebung von Sprachkorpora</help>
+		<text lang="de">Gibt es von weiteren Seiten (z. B. von der Fachcommunity) Anforderungen an das Datenmanagement, die beachtet werden müssen?</text>
+		<verbose_name lang="de">Weitere Anforderung</verbose_name>
+		<verbose_name_plural lang="de">Weitere Anforderungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/other_requirements_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/other-requirements-requirements">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>other-requirements-requirements</key>
+		<path>rdmo_rki/general/other-requirements-requirements</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general"/>
+		<is_collection>False</is_collection>
+		<order>51</order>
+		<title lang="en">Other requirements II</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Other requirement II</verbose_name>
+		<verbose_name_plural lang="en">Other requirements II</verbose_name_plural>
+		<title lang="de">Weitere Anforderungen II</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Weitere Anforderung II</verbose_name>
+		<verbose_name_plural lang="de">Weitere Anforderungen II</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/other-requirements-requirements/requirements">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>requirements</key>
+		<path>rdmo_rki/general/other-requirements-requirements/requirements</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/additional_rdm_policy/requirements"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/general/other-requirements-requirements"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">This information is required for a DFG data management plan.
+
+Please briefly outline them and refer to more detailed sources of information if necessary. Please also indicate, if the rules / guidelines are mandatory or optional.</help>
+		<text lang="en">Which are these additional requirements regarding data management?</text>
+		<verbose_name lang="en">Additional requirement</verbose_name>
+		<verbose_name_plural lang="en">Additional requirements</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Bitte skizzieren Sie sie kurz und verweisen Sie ggf. auf weiterführende Informationen. Geben Sie bitte auch an, welchen Grad an Verbindlichkeit sie haben.</help>
+		<text lang="de">Welche Anforderungen an das Datenmanagement sind dies?</text>
+		<verbose_name lang="de">Weitere Anforderung</verbose_name>
+		<verbose_name_plural lang="de">Weitere Anforderungen</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>content-classification</key>
+		<path>rdmo_rki/content-classification</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki"/>
+		<order>4</order>
+		<title lang="en">Content classification</title>
+		<title lang="de">Inhaltliche Einordnung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-dataset">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-dataset</key>
+		<path>rdmo_rki/content-classification/data-dataset</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<title lang="en">Datasets</title>
+		<help lang="en">The following questions collect information on the data that is produced or used in the project. They also help to estimate the value of the data in terms of potential re-use and long-term preservation. Before data is newly created,
+			is advisable to check if there is existing data that could be re-used. This way, redundant collection or creation of research data is prevented. This saves efforts and costs. Furthermore, in the case of personal data, the principles of the General
+			Data Protection Regulation (&lt;a href="https://gdpr-info.eu/" target=_blank"&gt;GDPR&lt;/a&gt;) like data minimisation (&lt;a href="https://gdpr-info.eu/art-5-gdpr/" target=_blank"&gt;Art.5 Section 1&lt;/a&gt;) and in
+			Germany the Bundesdatenschutzgesetz (&lt;a ="https://dsgvo-gesetz.de/bdsg/" target=_blank"&gt; BDSG&lt;/a&gt;) apply. The information regarding the data collected, produced or used in the project is gathered along datasets. The of
+			these datasets is an important conceptional decision that has to be made individually and carefully for each project.</help>
+		<verbose_name lang="en">Dataset</verbose_name>
+		<verbose_name_plural lang="en">Datasets</verbose_name_plural>
+		<title lang="de">Datensätze</title>
+		<help lang="de">Die nächsten Fragen dienen zur Beschreibung der Datensätze, die im Projekt erzeugt und/oder verwendet werden. Sie helfen zudem, den Wert der Daten hinsichtlich der potentiellen Nachnutzung und einer späteren Archivierung einschätzen
+			können. Vor der Erzeugung von Daten empfiehlt es sich zu prüfen, ob bereits vorhandene Daten nachgenutzt werden können. Die Vermeidung doppelter Erhebungen spart Aufwand und Kosten. Handelt es sich um personenbezogene Daten, gelten die Grundsätze der
+			EU-Datenschutzgrundverordnung (&lt;a href="https://dsgvo-gesetz.de/" target=_blank"&gt;DSGVO&lt;/a&gt;) wie z.B. Datenminimierung (&lt;a href="https://dsgvo-gesetz.de/art-5-dsgvo/" target=_blank"&gt;Art.5
+			Abs.1&lt;/a&gt;) und das Bundesdatenschutzgesetz (&lt;a ="https://dsgvo-gesetz.de/bdsg/" target=_blank"&gt;BDSG&lt;/a&gt;). Die Angaben zu den im Projekt erzeugten oder verwendeten Daten sind nach „Datensätzen“ strukturiert. Die
+			Definition dessen, was jeweils ein ist, ist eine wichtige konzeptionelle Entscheidung, die für jedes Vorhaben bzw. Projekt individuell getroffen und sorgfältig abgewogen werden muss.</help>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-dataset/description">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>description</key>
+		<path>rdmo_rki/content-classification/data-dataset/description</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/description"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-dataset"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">This information is needed for a DFG data management plan.
+
+Please briefly describe the data type and / or the method used to create or collect the data, for example: 1. Line (new line char: "Enter") 2. Line (new line char: "double space") 3. Line (new line char:
+			"&amp;#xA;") 4. Line (new line char: "&amp;#xD;") * quantitative online survey * 3D model / digital reconstruction of a stone age settlement * software developed within the project</help>
+		<text lang="en">What kind of datasets are they?</text>
+		<verbose_name lang="en">Dataset description</verbose_name>
+		<verbose_name_plural lang="en">Dataset descriptions</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Bitte beschreiben Sie hier kurz, um welchen Datentyp es sich handelt und mit welcher Methode die Daten erhoben oder erstellt wurden, z.B.: * quantitative Online-Befragung * 3D-Modellierung / digitale Rekonstruktion einer
+			steinzeitlichen Siedlung * Software, die im Projekt entwickelt wird</help>
+		<text lang="de">Um was für Datensätze handelt es sich?</text>
+		<verbose_name lang="de">Datensatzbeschreibung</verbose_name>
+		<verbose_name_plural lang="de">Datensatzbeschreibungen</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-existing_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-existing_data</key>
+		<path>rdmo_rki/content-classification/data-existing_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Data origin</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Datenursprung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-existing_data/uri">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>uri</key>
+		<path>rdmo_rki/content-classification/data-existing_data/uri</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/pids"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-existing_data"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<help lang="en"/>
+		<text lang="en">If re-used, under which addresses, PIDs or URLs can the datasets be found?</text>
+		<verbose_name lang="en">Uniform Resource Identifier (URI)</verbose_name>
+		<verbose_name_plural lang="en">Uniform Resource Identifiers (URIs)</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wenn nachgenutzt, unter welchen Adressen, PIDs oder URLs sind die Datensätze verfügbar?</text>
+		<verbose_name lang="de">Uniform Resource Identifier (URI)</verbose_name>
+		<verbose_name_plural lang="de">Uniform Resource Identifier (URIs)</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-reuse">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-reuse</key>
+		<path>rdmo_rki/content-classification/data-reuse</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Reuse</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Nachnutzung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-reuse/scenario">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>scenario</key>
+		<path>rdmo_rki/content-classification/data-reuse/scenario</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/reuse_scenario"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-reuse"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">This information is needed for a DFG data management plan.
+
+It is important to set the fundamental course as to whether or not the data will be permitted for reuse. Of course, the potential for subsequent use can not be the sole decision criterion, but legal impediments, such as Privacy,
+			copyright and business secrets must be taken into account. Otherwise, consider the re-use potential against the disadvantages, e.g. a decrease in the readiness to participate and the expected extra effort of a data publication.</help>
+		<text lang="en">Which individuals, groups or institutions could be interested in re-using these datasets? What consequences does the re-use potential have for the provision of the data later?</text>
+		<verbose_name lang="en">Reuse scenario</verbose_name>
+		<verbose_name_plural lang="en">Reuse scenarios</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Wichtig ist die grundsätzliche Weichenstellung, ob die Daten zur Nachnutzung zugelassen werden oder nicht. Selbstverständlich kann das Nachnutzungspotential dabei nicht alleiniges Entscheidungskriterium sein, sondern rechtliche
+			Hinderungsgründe, wie z.B. Datenschutz, Urheberrecht und die Wahrung von Geschäftsgeheimnissen, müssen berücksichtigt werden. Wägen Sie ansonsten das Nachnutzungspotential gegen die Nachteile ab, beispielsweise gegen ein Absinken der
+			Teilnahmebereitschaft und den zu erwartenden Mehraufwand einer Datenveröffentlichung.</help>
+		<text lang="de">Für welche Personen, Gruppen oder Institutionen könnten diese Datensätze (für die Nachnutzung) von Interesse sein? Welche Konsequenzen hat das Nachnutzungspotential später für die Bereitstellung der Daten?</text>
+		<verbose_name lang="de">Nachnutzungsszenario</verbose_name>
+		<verbose_name_plural lang="de">Nachnutzungsszenarien</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-reproducibility">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-reproducibility</key>
+		<path>rdmo_rki/content-classification/data-reproducibility</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en">Reproducibility</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Reproduzierbarkeit</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-reproducibility/reproducibility">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reproducibility</key>
+		<path>rdmo_rki/content-classification/data-reproducibility/reproducibility</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/reproducibility"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/content-classification/data-reproducibility"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Some data can, technically, be created anew at any time, as is the case with scientific experiments or digitised versions of analog objects (as long as the originals are still there and in good shape). However, this can consume a
+			considerable amount of time and cost. With respect to long-term preservation, the effort of re-creation has to be weighed up against the effort of long-term preservation. Other data cannot be collected or created anew. Examples are all kinds of
+			"time stamped" observations, be they from social science, astrophysics or any other discipline. Observations represent a certain phenomenon at a certain time and / or place and are therefore not repeatable. Their value for re-use as well as
+			the loss in case of failed preservation is much higher than that of reproducible data.</help>
+		<text lang="en">Are the datasets reproducible in the sense that they could be created / collected anew in case they get lost?</text>
+		<verbose_name lang="en">Reproducibility</verbose_name>
+		<verbose_name_plural lang="en">Reproducibility</verbose_name_plural>
+		<help lang="de">Manche Daten können im Prinzip jederzeit neu erstellt werden. Beispiele hierfür sind etwa naturwissenschaftliche Experimentdaten oder auch Digitalisate (durch Digitalisierung entstandenes Produkt, Resultat) analoger Objekte (solange die Originale nicht verlorengehen). Der Aufwand und die
+			Kosten hierfür können natürlich durchaus beträchtlich sein. Im Hinblick auf die Frage der Notwendigkeit einer späteren Langzeitarchivierung sollte in diesen Fällen der Aufwand einer erneuten Erstellung gegen den Aufwand der Langzeitarchivierung
+			abgewogen werden. Andere Daten wiederum lassen sich per se nicht erneut erheben. Dies ist etwa bei jeglicher Art von episodischer Beobachtungen, sei es sozialwissenschaftlicher oder naturwissenschaftlicher Art, der Fall, da diese ein bestimmtes
+			Phänomen an einem bestimmten Zeitpunkt und/oder Ort abbilden und somit i.d.R. nicht wiederholbar sind. Ihr Wert für die Nachnutzung durch andere wie auch der Verlust bei einer nicht erfolgten oder misslungenen Langzeitarchivierung ist ungleich höher
+			als bei reproduzierbaren Daten.</help>
+		<text lang="de">Sind die Datensätze reproduzierbar, d. h. ließen sie sich, wenn sie verloren gingen, erneut erstellen oder erheben?</text>
+		<verbose_name lang="de">Reproduzierbarkeit</verbose_name>
+		<verbose_name_plural lang="de">Reproduzierbarkeit</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_reproducible_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>technical-classification</key>
+		<path>rdmo_rki/technical-classification</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki"/>
+		<order>4</order>
+		<title lang="en">Technical classification</title>
+		<title lang="de">Technische Einordnung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-volume">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-volume</key>
+		<path>rdmo_rki/technical-classification/data-volume</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<title lang="en">Data size</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Datengröße</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-volume/volume">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>volume</key>
+		<path>rdmo_rki/technical-classification/data-volume/volume</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/size/volume"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-volume"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">What is the actual or expected size of the data associated with the project?</text>
+		<verbose_name lang="en">Volume</verbose_name>
+		<verbose_name_plural lang="en">Volumes</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Was ist die tatsächliche oder erwartete Größe der zum Projekt zugehörigen Daten?</text>
+		<verbose_name lang="de">Größe</verbose_name>
+		<verbose_name_plural lang="de">Größen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>float</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_size_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-volume/rate">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>rate</key>
+		<path>rdmo_rki/technical-classification/data-volume/rate</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/rate"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-volume"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Optional. This is only of concern if the data production rate reaches TB scale.</help>
+		<text lang="en">How much data is produced per year?</text>
+		<verbose_name lang="en">Production rate</verbose_name>
+		<verbose_name_plural lang="en">Production rates</verbose_name_plural>
+		<help lang="de">Optional. Dies ist nur relevant, wenn das Wachstum die TB-Größenordnung erreicht.
+
+Erzeugungsrate = Anstieg/Wachstum der Speichergrößen von Daten, die zum Projekt zugehörig sind</help>
+		<text lang="de">Wie hoch ist die erwartete Erzeugungsrate der Daten pro Jahr?</text>
+		<verbose_name lang="de">Erzeugungsrate</verbose_name>
+		<verbose_name_plural lang="de">Erzeugungsraten</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>integer</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-formats">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-formats</key>
+		<path>rdmo_rki/technical-classification/data-formats</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<title lang="en">Formats</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Formate</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-formats/format">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>format</key>
+		<path>rdmo_rki/technical-classification/data-formats/format</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/format"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-formats"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en">This information is needed for a DFG data management plan.
+
+When choosing a data format, one should consider the consequences for collaborative use, long-term preservation as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in
+			the respective scholarly community. More criteria and detailed explanations can be found e.g. in the &lt;a href="https://www.forschungsdaten.org/images/b/b0/Leitfaden_Data-Management-WissGrid.pdf" target=_blank"&gt;WissGrid-Leitfaden,
+			pp. 22 f.&lt;/a&gt;).</help>
+		<text lang="en">Which file formats are used?</text>
+		<verbose_name lang="en">Format</verbose_name>
+		<verbose_name_plural lang="en">Formats</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Bei der Wahl des Dateiformates sollten auch die Konsequenzen für die kollaborative Nutzung, die Langzeitarchivierung sowie die Nachnutzung beachtet werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein
+			bzw. in der spezifischen Community verbreitete Formate zu nutzen. Weitere Kriterien sowie detaillierte Erläuterungen sind z.B. im &lt;a href="https://www.forschungsdaten.org/images/b/b0/Leitfaden_Data-Management-WissGrid.pdf"
+			target=_blank"&gt;WissGrid-Leitfaden, S. 22 f.&lt;/a&gt;) zu finden.</help>
+		<text lang="de">In welchen Formaten liegen die Daten vor?</text>
+		<verbose_name lang="de">Format</verbose_name>
+		<verbose_name_plural lang="de">Formate</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-tools">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-tools</key>
+		<path>rdmo_rki/technical-classification/data-tools</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<title lang="en">Tools</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Werkzeuge</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-tools/creation_methods">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>creation_methods</key>
+		<path>rdmo_rki/technical-classification/data-tools/creation_methods</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/creation_methods"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-tools"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">This information is necessary to be able to reconstruct the process by which the data was generated. It is also a prerequisite to judge the objectivity, reliability and validity of the dataset. For reproducible data, it is also
+			required to re-generate the data if need be.</help>
+		<text lang="en">Which tools, software, technologies or processes are used to generate or collect the data?</text>
+		<verbose_name lang="en">Creation method</verbose_name>
+		<verbose_name_plural lang="en">Creation methods</verbose_name_plural>
+		<help lang="de">Diese Informationen sind für alle Arten von Daten relevant, um ihre Genese (Entstehung, Entwicklung) nachvollziehen zu können. Bei reproduzierbaren Daten kommt ein weiterer Aspekt hinzu. Diese müssen nicht notwendigerweise aufbewahrt werden - allerdings müssen
+			alle Geräte, Software und auch Informationen über die Vorgehensweise erhalten bleiben, die notwendig sind, um die Daten erneut erstellen zu können.</help>
+		<text lang="de">Welche Instrumente, Software, Technologien oder Verfahren werden zur Erzeugung oder Erfassung der Daten genutzt?</text>
+		<verbose_name lang="de">Erzeugungsverfahren</verbose_name>
+		<verbose_name_plural lang="de">Erzeugungsverfahren</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-tools/usage_technology">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>usage_technology</key>
+		<path>rdmo_rki/technical-classification/data-tools/usage_technology</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/technology"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-tools"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">To be able to re-use data (e.g. to replicate studies, for meta analysis or to solve new research questions), along with the data the software, equipment and knowledge about special methods to use the data are required . Just as with
+			the formats, the recommendation is: the more standardised, open and established, the better for re-use.</help>
+		<text lang="en">Which tools, software, processes or technologies are necessary to use the data?</text>
+		<verbose_name lang="en">Data Usage technology</verbose_name>
+		<verbose_name_plural lang="en">Data Usage technologies</verbose_name_plural>
+		<help lang="de">Um Daten nachnutzen zu können, bspw. für die Replikation von Studien, Metaanalysen oder die Beantwortung neuer Forschungsfragen, werden neben den Daten selbst auch die Software, Geräte etc. und das Wissen über spezielle Verfahren zur
+			Nutzung benötigt. Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablierter diese sind, desto einfacher ist i.d.R. eine Nachnutzung möglich.</help>
+		<text lang="de">Welche Instrumente, Software, Verfahren oder Technologien sind notwendig, um die Daten zu nutzen?</text>
+		<verbose_name lang="de">Datennutzungstechnologie</verbose_name>
+		<verbose_name_plural lang="de">Datennutzungstechnologien</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-versioning">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-versioning</key>
+		<path>rdmo_rki/technical-classification/data-versioning</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification"/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<title lang="en">Versioning</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Versionierung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-versioning/strategy">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>strategy</key>
+		<path>rdmo_rki/technical-classification/data-versioning/strategy</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/versioning_strategy"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/technical-classification/data-versioning"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">Please briefly describe the project-internal regulations for the versioning of data sets (e.g.: What kind of changes require a new version? How are changes documented? What are the naming rules for different versions?)</help>
+		<text lang="en">Which versioning strategy is applied for these datasets?</text>
+		<verbose_name lang="en"/>
+		<verbose_name_plural lang="en"/>
+		<help lang="de">Bitte beschreiben Sie hier kurz projektinterne Regelungen zur Versionierung von Datensätzen (z.B.: Welche Änderungen machen eine neue Version erforderlich? Wie werden die Änderungen dokumentiert? Wie werden die verschiedenen Versionen benannt?)</help>
+		<text lang="de">Welche Versionierungsstrategie wird für diese Datensätze angewandt?</text>
+		<verbose_name lang="de"/>
+		<verbose_name_plural lang="de"/>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_versioning_technology_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-usage</key>
+		<path>rdmo_rki/data-usage</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki"/>
+		<order>5</order>
+		<title lang="en">Data usage</title>
+		<title lang="de">Datennutzung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/scenarios-usage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>scenarios-usage</key>
+		<path>rdmo_rki/data-usage/scenarios-usage</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Usage scenarios</title>
+		<help lang="en">The following questions will help to estimate, which ressources are necessary to enable the envisioned data usage scenarios during the project. These can be technical / IT resources as well as expertise brought in by e.g. data or IT experts.</help>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Nutzungsszenarien</title>
+		<help lang="de">Die folgenden Fragen dienen dazu einzuschätzen, welche Ressourcen für die geplante Nutzung der Daten während der Projektlaufzeit nötig sind. Dabei kann es sich um technische bzw. IT-Ressourcen handeln, aber auch um Expertise, die z.B.
+			Datenmanagement- oder IT-Expert*innen eingebracht wird.</help>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/scenarios-usage/infrastructure">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>infrastructure</key>
+		<path>rdmo_rki/data-usage/scenarios-usage/infrastructure</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/infrastructure"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/scenarios-usage"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en">Central Processing Unit (CPU)</help>
+		<text lang="en">To what extent will infrastructure resources be required (e.g. CPU hours, bandwidth, storage space... etc.).</text>
+		<verbose_name lang="en">Required infrastructure resources</verbose_name>
+		<verbose_name_plural lang="en">Required infrastructure resources</verbose_name_plural>
+		<help lang="de">Central Processing Unit (CPU) = Prozessor</help>
+		<text lang="de">In welchem Umfang werden Infrastrukturressourcen benötigt (CPU-Stunden, Bandbreite, Speicherplatz etc.)?</text>
+		<verbose_name lang="de">Benötigte Infrastrukturressourcen</verbose_name>
+		<verbose_name_plural lang="de">Benötigte Infrastrukturressourcen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/infrastructure_resources"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/scenarios-usage/support">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>support</key>
+		<path>rdmo_rki/data-usage/scenarios-usage/support</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/usage/support"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/scenarios-usage"/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<help lang="en">Usage Scenario = Usage scenarios describe sequences of user actions with the respective system reaction and the corresponding usage requirements. Example: The user action includes the selection of a patient in the system. The system reacts and displays the patients' laboratory values. The usage requirement would be that users must be able to recognize the patients' laboratory values on the system.</help>
+		<text lang="en">Are there actual or potential usage scenarios that could benefit from support by a data management or IT expert, or that even require such support?</text>
+		<verbose_name lang="en">Need for support</verbose_name>
+		<verbose_name_plural lang="en">Need for support</verbose_name_plural>
+		<help lang="de">Nutzungsszenario = Mit Nutzungsszenarien werden Abfolgen von Benutzeraktionen beschrieben mit der jeweiligen Systemreaktion und den dazugehörigen Nutzungsanforderungen. Beispiel: Die Benutzeraktion beinhaltet das Auswählen einer/s Patient*in im System. Das System reagiert und stellt die Laborwerte der Patient*innen dar. Die Nutzungsanforderung wäre, dass Benutzer*innen am System den Laborwert der Patient*innen erkennen können müssen.</help>
+		<text lang="de">Gibt es beabsichtigte (ggf. auch potentielle) Nutzungsszenarien, für die die Unterstützung durch Datenmanagement- oder IT-Expert*innen sinnvoll oder notwendig ist?</text>
+		<verbose_name lang="de">Unterstützungsbedarf</verbose_name>
+		<verbose_name_plural lang="de">Unterstützungsbedarfe</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/yes_with_text_no"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-storage">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-storage-and-security-storage</key>
+		<path>rdmo_rki/data-usage/data-storage-and-security-storage</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>11</order>
+		<title lang="en">Data organisation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Datenorganisation</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-storage/type">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>type</key>
+		<path>rdmo_rki/data-usage/data-storage-and-security-storage/type</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/storage/type"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-storage"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">This information is required for a DFG data management plan and other DMPs.</help>
+		<text lang="en">Where are the datasets stored during the project?</text>
+		<verbose_name lang="en">Storage location</verbose_name>
+		<verbose_name_plural lang="en">Storage locations</verbose_name_plural>
+		<help lang="de">Diese Information wird u.a. für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Wo werden die Datensätze während des Projektes gespeichert?</text>
+		<verbose_name lang="de">Speicherort</verbose_name>
+		<verbose_name_plural lang="de">Speicherorte</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-data_security">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-storage-and-security-data_security</key>
+		<path>rdmo_rki/data-usage/data-storage-and-security-data_security</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>12</order>
+		<title lang="en">Data storage and security</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Datenspeicherung und -sicherheit</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-data_security/access_permissions">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>access_permissions</key>
+		<path>rdmo_rki/data-usage/data-storage-and-security-data_security/access_permissions</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/access_permissions"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-data_security"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">e.g. project members, partners of the project, only in-house, external partners</help>
+		<text lang="en">Who is allowed to access the datasets?</text>
+		<verbose_name lang="en">Access permission</verbose_name>
+		<verbose_name_plural lang="en">Access permissions</verbose_name_plural>
+		<help lang="de">z.B. Projektmitglieder, Projektpartner, nur Interne, externe Partner</help>
+		<text lang="de">Wer darf auf die Datensätze zugreifen?</text>
+		<verbose_name lang="de">Zugriffsberechtigung</verbose_name>
+		<verbose_name_plural lang="de">Zugriffsberechtigungen</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-data_security/backups">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>backups</key>
+		<path>rdmo_rki/data-usage/data-storage-and-security-data_security/backups</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/backups"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-data_security"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">This question refers to backups while the data is being worked with. Questions of long-term preservation will be adressed in the respective section.</help>
+		<text lang="en">How and how often will backups of the data be created?</text>
+		<verbose_name lang="en">Backup</verbose_name>
+		<verbose_name_plural lang="en">Backups</verbose_name_plural>
+		<help lang="de">Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</help>
+		<text lang="de">Wie und wie oft werden Backups der Daten erstellt?</text>
+		<verbose_name lang="de">Backup</verbose_name>
+		<verbose_name_plural lang="de">Backups</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-data_security/name">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>name</key>
+		<path>rdmo_rki/data-usage/data-storage-and-security-data_security/name</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/backup_responsible/name"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-storage-and-security-data_security"/>
+		<is_collection>True</is_collection>
+		<order>3</order>
+		<help lang="en">Family name, given names
+
+This question refers to backups while the data is being worked with. Questions of long-term preservation will be adressed in the respective section.</help>
+		<text lang="en">Who is responsible for the backups?</text>
+		<verbose_name lang="en">Backup responsibility</verbose_name>
+		<verbose_name_plural lang="en">Backup responsibilities</verbose_name_plural>
+		<help lang="de">Nachname, Vorname
+
+Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</help>
+		<text lang="de">Wer ist verantwortlich für die Erstellung der Backups?</text>
+		<verbose_name lang="de">Backup Verantwortlichtkeit</verbose_name>
+		<verbose_name_plural lang="de">Backup Verantwortlichkeiten</verbose_name_plural>
+		<widget_type>text</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-sharing-and-re-use-publication</key>
+		<path>rdmo_rki/data-usage/data-sharing-and-re-use-publication</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>52</order>
+		<title lang="en">Data sharing and re-use</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Weitergabe und Veröffentlichung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>rdmo_rki/data-usage/data-sharing-and-re-use-publication/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">Will datasets be published or shared?</text>
+		<verbose_name lang="en">Data sharing and re-use</verbose_name>
+		<verbose_name_plural lang="en">Data sharings and re-uses</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Sollen Datensätze veröffentlicht oder geteilt werden?</text>
+		<verbose_name lang="de">Weitergabe und Veröffentlichung</verbose_name>
+		<verbose_name_plural lang="de">Weitergabe und Veröffentlichungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_sharing_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication_2">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data-sharing-and-re-use-publication_2</key>
+		<path>rdmo_rki/data-usage/data-sharing-and-re-use-publication_2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>52</order>
+		<title lang="en">Data sharing and re-use II</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Weitergabe und Veröffentlichung II</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication_2/explanation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>explanation</key>
+		<path>rdmo_rki/data-usage/data-sharing-and-re-use-publication_2/explanation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/explanation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication_2"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">If no, please explain why not. Please differentiate between legal and contractual reasons and voluntary restrictions.</text>
+		<verbose_name lang="en">Explanation non-publication</verbose_name>
+		<verbose_name_plural lang="en">Explanations non-publications</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Wenn nicht, begründen Sie dies bitte und unterscheiden Sie dabei zwischen rechtlichen und/oder vertraglichen Gründen und freiwilligen Einschränkungen.</text>
+		<verbose_name lang="de">Begründung Nichtveröffentlichung</verbose_name>
+		<verbose_name_plural lang="de">Begründungen Nichtveröffentlichungen</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication_2/data_publication_date">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>data_publication_date</key>
+		<path>rdmo_rki/data-usage/data-sharing-and-re-use-publication_2/data_publication_date</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_publication_date"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/data-sharing-and-re-use-publication_2"/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<help lang="en">This information is required for a DFG data management plan. Please indicate here your first plans for the time frame when the data will be made available for reuse.</help>
+		<text lang="en">When will the data be published (if they are)?</text>
+		<verbose_name lang="en">Publication date</verbose_name>
+		<verbose_name_plural lang="en">Publication dates</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt. Bitte geben Sie hier erste Planungen zum zeitlichen Rahmen an wann die Daten für die Nachnutzung bereitgestellt werden.</help>
+		<text lang="de">Wann werden die Daten veröffentlicht?</text>
+		<verbose_name lang="de">Veröffentlichungsdatum</verbose_name>
+		<verbose_name_plural lang="de">Veröffentlichungsdaten</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/quality-assurance-dataset">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>quality-assurance-dataset</key>
+		<path>rdmo_rki/data-usage/quality-assurance-dataset</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage"/>
+		<is_collection>False</is_collection>
+		<order>61</order>
+		<title lang="en">Quality assurance</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Dataset</verbose_name>
+		<verbose_name_plural lang="en">Datasets</verbose_name_plural>
+		<title lang="de">Qualitätssicherung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/quality-assurance-dataset/measures">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>measures</key>
+		<path>rdmo_rki/data-usage/quality-assurance-dataset/measures</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/data_security/security_measures"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/data-usage/quality-assurance-dataset"/>
+		<is_collection>False</is_collection>
+		<order>7</order>
+		<help lang="en">This information is needed for a DFG data management plan.
+
+Examples are checks for completeness, data reconciliation, sampling procedures. These measures serve to identify documentation errors and arithmetical anomalies.</help>
+		<text lang="en">Which measures of quality assurance are taken for these datasets?</text>
+		<verbose_name lang="en">Quality assurance measures</verbose_name>
+		<verbose_name_plural lang="en">Quality assurances measures</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Beispiele sind Überprüfung auf Vollständigkeit, Datenabgleich, Stichprobenverfahren. Diese Maßnahmen dienen dazu Dokumentationsfehler und rechnerische Auffälligkeiten zu ermitteln.</help>
+		<text lang="de">Welche Maßnahmen zur Qualitätssicherung werden für diese Datensätze ergriffen?</text>
+		<verbose_name lang="de">Qualitätssicherungsmaßnahme</verbose_name>
+		<verbose_name_plural lang="de">Qualitätssicherungsmaßnahmen</verbose_name_plural>
+		<widget_type>textarea</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>legal-and-ethics</key>
+		<path>rdmo_rki/legal-and-ethics</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki"/>
+		<order>5</order>
+		<title lang="en">Legal and ethics</title>
+		<title lang="de">Rechtliche und ethische Fragen</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-assurance">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intellectual-property-rights-assurance</key>
+		<path>rdmo_rki/legal-and-ethics/intellectual-property-rights-assurance</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<title lang="en">Intellectual property rights assurance</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Versicherung Urheberrecht</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-assurance/conditions">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>conditions</key>
+		<path>rdmo_rki/legal-and-ethics/intellectual-property-rights-assurance/conditions</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sharing/conditions"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-assurance"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">This information is needed for a DFG data management plan.
+
+The options refer to the licenses of the &lt;a href="https://creativecommons.org/share-your-work/licensing-types-examples/" target=_blank"&gt;Creative Commons family&lt;/a&gt;.</help>
+		<text lang="en">Under which terms of use or license is the data expected to be published or shared?</text>
+		<verbose_name lang="en">Planned License / Terms of use</verbose_name>
+		<verbose_name_plural lang="en">Planned Licenses / Terms of use</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Die Auswahlmöglichkeiten orientieren sich an Lizenzen der &lt;a href="http://de.creativecommons.org/was-ist-cc/" target=_blank"&gt;Creative-Commons-Familie&lt;/a&gt;.</help>
+		<text lang="de">Unter welchen Nutzungsbedingungen oder welcher Lizenz sollen die Daten voraussichtlich veröffentlicht bzw. geteilt werden?</text>
+		<verbose_name lang="de">Geplante Lizenz / Nutzungsbedingung</verbose_name>
+		<verbose_name_plural lang="de">Geplante Lizenzen / Nutzungsbedingungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_license_types"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data_yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-personal_data_yesno</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-personal_data_yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>21</order>
+		<title lang="en">Personal data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Personenbezogene Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data_yesno/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-personal_data_yesno/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/sensitive_data/personal_data/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data_yesno"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">The handling and processing of personal data is regulated by law. The uniform application throughout the EU is based on the &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679"
+			target=_blank"&gt;EU General Data Protection Regulation (GDPR)&lt;/a&gt;. It allows for regulatory leeway at national level. In Germany, this is regulated by the&lt;a href="http://www.gesetze-im-internet.de/englisch_bdsg/index.html"
+			target=_blank"&gt; Federal Data Protection Act (BDSG)&lt;/a&gt; , and for universities, the individual data protection laws of the individual federal states apply, e.g. &lt;a
+			href="http://gesetze.berlin.de/jportal/?quelle=jlink&amp;query=DSG+BE&amp;psml=bsbeprod.psml&amp;max=true" target=_blank"&gt; the data protection law of Berlin (BlnDSG)&lt;/a&gt;. The european GDPR defines personal data as all information relating
+			to an identified or identifiable natural person (Art. 4(1) GPDR). A person is &lt;b&gt;identified&lt;/b&gt; if it is clearly identifiable to whom the data belongs. A person becomes &lt;b&gt;identifiable&lt;/b&gt; if it can be identified by means of
+			additional information.</help>
+		<text lang="en">Do the records created and used in the project contain personal data?</text>
+		<verbose_name lang="en">Personal data</verbose_name>
+		<verbose_name_plural lang="en">Personal data</verbose_name_plural>
+		<help lang="de">Der Umgang und die Verarbeitung personenbezogener Daten ist gesetzlich geregelt. Die EU-weit einheitliche Anwendung erfolgt nach der &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679"
+			target=_blank"&gt;EU-Datenschutz-Grundverordnung (DSGVO)&lt;/a&gt;. Sie gestattet Regelungsspielräume auf nationaler Ebene. In Deutschland regelt dies das &lt;a href="http://www.gesetze-im-internet.de/bdsg_2018/"
+			target=_blank"&gt;Bundesdatenschutzgesetz (BDSG)&lt;/a&gt;. Für Hochschulen gelten zum großen Teil die individuellen Datenschutzgesetze der Länder, z.B. das &lt;a
+			href="http://gesetze.berlin.de/jportal/?quelle=jlink&amp;query=DSG+BE&amp;psml=bsbeprod.psml&amp;max=true" target=_blank"&gt;Datenschutzgesetz Berlin (BlnDSG)&lt;/a&gt;. Die europäische DSGVO definiert personenbezogene Daten als alle Informationen,
+			die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen (Art. 4 DSGVO, Abs. 1). &lt;b&gt;Identifiziert &lt;/b&gt;ist eine Person, wenn eindeutig erkennbar ist, zu welcher Person die Daten gehören.
+			&lt;b&gt;Identifizierbar&lt;/b&gt; wird eine Person, wenn sie mittels Zusatzinformationen identifiziert werden kann.</help>
+		<text lang="de">Enthalten die im Projekt erstellten und genutzten Datensätze personenbezogene Daten?</text>
+		<verbose_name lang="de">Personenbezogene Daten</verbose_name>
+		<verbose_name_plural lang="de">Personenbezogene Daten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-personal_data</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-personal_data</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>24</order>
+		<title lang="en">Sensitive data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Sensible Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/personal_data"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>bdsg_3_9</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-personal_data/bdsg_3_9</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/bdsg_3_9"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">According to the GDPR, this includes “personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the
+			purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person’s sex life or sexual orientation“ &lt;a href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679"
+			target=_blank"&gt;(Art. 9(1) GPDR)&lt;/a&gt;. Such data is considered to be particularly sensitive and requires even more stringent protective measures than those required for personal data in general. If you answer "Yes" to this
+			question, please contact the data protection officer of your institution to find out what additional protection measures are necessary.</help>
+		<text lang="en">Do those datasets contain personal data of special categories?</text>
+		<verbose_name lang="en">Personal data special category</verbose_name>
+		<verbose_name_plural lang="en">Personal data special categories</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Hierunter fallen laut DSGVO personenbezogene „Daten, aus denen die rassische und ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche überzeugungen oder die Gewerkschaftszugehörigkeit hervorgehen, sowie die
+			Verarbeitung von genetischen Daten, biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person, Gesundheitsdaten oder Daten zum Sexualleben oder der sexuellen Orientierung einer natürlichen Person “ &lt;a
+			href="https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679" target=_blank"&gt;(Art. 9 DSGVO, Abs. 1)&lt;/a&gt;. Solche Daten gelten als besonders sensibel und erfordern noch strengere Schutzmaßnahmen, als bei
+			personenbezogenen Daten generell bereits erforderlich sind. Wenn Sie diese Frage mit "Ja" beantworten, informieren Sie sich bei der/dem Datenschutzbeauftragten Ihrer Institution, welche zusätzlichen Schutzmaßnahmen notwendig sind.</help>
+		<text lang="de">Enthalten diese Datensätze personenbezogene Daten besonderer Kategorien?</text>
+		<verbose_name lang="de">Personenbezogene Daten besondere Kategorie</verbose_name>
+		<verbose_name_plural lang="de">Personenbezogene Daten besonderer Kategorien</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data/anonymization">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>anonymization</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-personal_data/anonymization</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/anonymization"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">Will the data be anonymised or pseudonymised?</text>
+		<verbose_name lang="en">Anonymization / Pseudonymization</verbose_name>
+		<verbose_name_plural lang="en">Anonymization / Pseudonymization</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Werden die Daten anonymisiert oder pseudonymisiert?</text>
+		<verbose_name lang="de">Anonymisierung / Pseudonymisierung</verbose_name>
+		<verbose_name_plural lang="de">Anonymisierungen / Pseudonymisierungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_anonymisation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data/extent">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>extent</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-personal_data/extent</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/consent/extent"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">he collection, processing, archiving and publication of personal data is only admissible, if there is a corresponding 'informed consent' of the person concerned. Only in very few exceptional cases, this is not needed. Where required,
+			please get in touch with the data protection officer of your institution for further information on the necessary conditions for consent.</help>
+		<text lang="en">To what extent is the "informed consent" obtained from the persons concerned?</text>
+		<verbose_name lang="en">Informed consent</verbose_name>
+		<verbose_name_plural lang="en">Informed consents</verbose_name_plural>
+		<help lang="de">Grundsätzlich gilt, dass eine Erhebung, Verarbeitung, Archivierung und Veröffentlichung personenbezogener Daten nur zulässig ist, wenn eine entsprechende „informierte Einwilligung“ der Betroffenen vorliegt. Nur in ganz wenigen
+			Ausnahmefällen wird diese nicht benötigt. Bitte informieren Sie sich ggf. bei der/dem Datenschutzbeauftragten Ihrer Institution über die notwendigen Bedingungen für die Einwilligung.</help>
+		<text lang="de">In welchem Umfang wird die "informierte Einwilligung" der Betroffenen eingeholt?</text>
+		<verbose_name lang="de">Informierte Einwilligung</verbose_name>
+		<verbose_name_plural lang="de">Informierte Einwilligungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/informed_consent_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data/deletion">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>deletion</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-personal_data/deletion</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/personal_data/deletion"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-personal_data"/>
+		<is_collection>False</is_collection>
+		<order>6</order>
+		<help lang="en"/>
+		<text lang="en">By when will the (unanonymised or unpseudonymised) original data be safely deleted?</text>
+		<verbose_name lang="en">Personal data deletion</verbose_name>
+		<verbose_name_plural lang="en">Personal data deletions</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Bis wann werden die (unanonymisierten bzw. unpseudonymisierten) Originaldaten spätestens sicher vernichtet?</text>
+		<verbose_name lang="de">Personenbezogene Daten Vernichtung</verbose_name>
+		<verbose_name_plural lang="de">Personenbezogene Daten Vernichtungen</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-other">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-other</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-other</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>26</order>
+		<title lang="en">Other sensitive data</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Weitere sensible Daten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-other/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-other/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-other"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">Examples are data that contain trade or business secrets or geoinformation on endangered species.</help>
+		<text lang="en">Do those datasets contain sensitive data other than personal data?</text>
+		<verbose_name lang="en">Non-personal sensitive data</verbose_name>
+		<verbose_name_plural lang="en">Non-personal sensitive data</verbose_name_plural>
+		<help lang="de">Beispiele hierfür sind etwa Daten, die Betriebs- oder Geschäftsgeheimnisse oder Ortsangaben zu bedrohten Tier- oder Pflanzenarten enthalten.</help>
+		<text lang="de">Enthalten diese Datensätze nicht-personenbezogene sensible Daten?</text>
+		<verbose_name lang="de">Nicht-personenbezogene sensible Daten</verbose_name>
+		<verbose_name_plural lang="de">Nicht-personenbezogene sensible Daten</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-other/dualuse_evaluation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>dualuse_evaluation</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-other/dualuse_evaluation</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/sensitive_data/other/dualuse_evaluation"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-other"/>
+		<is_collection>False</is_collection>
+		<order>2</order>
+		<help lang="en">see &lt;a href = "https://portal.rki.local/cocoon/portal/portallink=doctype=Aufgabe&amp;id=15" target=_blank"&gt;"House disposition: Dual Use"&lt;/a&gt;)</help>
+		<text lang="en">Has a dual-use valuation already been carried out in accordance with the "dual-use" house disposition?</text>
+		<verbose_name lang="en">Dual-use valuation</verbose_name>
+		<verbose_name_plural lang="en">Dual-use valuations</verbose_name_plural>
+		<help lang="de">siehe &lt;a href = "https://portal.rki.local/cocoon/portal/portallink=doctype=Aufgabe&amp;id=15" target=_blank"&gt;"Hausverfügung: Dual Use"&lt;/a&gt;)</help>
+		<text lang="de">Ist eine Dual-Use-Bewertung entsprechend der Hausverfügung "Dual-Use" bereits erfolgt?</text>
+		<verbose_name lang="de">Dual-Use-Bewertung</verbose_name>
+		<verbose_name_plural lang="de">Dual-Use-Bewertungen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-official_approval">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>sensitive-data-official_approval</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-official_approval</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>28</order>
+		<title lang="en">Official approval</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Official approval</verbose_name>
+		<verbose_name_plural lang="en">Official approvals</verbose_name_plural>
+		<title lang="de">Offizielle Genehmigung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Offizielle Genehmigung</verbose_name>
+		<verbose_name_plural lang="de">Offizielle Genehmigungen</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-official_approval/ethics_committee">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>ethics_committee</key>
+		<path>rdmo_rki/legal-and-ethics/sensitive-data-official_approval/ethics_committee</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/official_approval/ethics_committee"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/sensitive-data-official_approval"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Has the project been approved by a research ethics committee?</text>
+		<verbose_name lang="en">Ethics committee approval</verbose_name>
+		<verbose_name_plural lang="en">Ethics committees approvals</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wurde das Forschungsvorhaben von einer Ethikkommission begutachtet?</text>
+		<verbose_name lang="de">Ethikkommission Begutachtung</verbose_name>
+		<verbose_name_plural lang="de">Ethikkommissionen Begutachtungen</verbose_name_plural>
+		<widget_type>radio</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/ethics_permit_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intellectual-property-rights-yesno</key>
+		<path>rdmo_rki/legal-and-ethics/intellectual-property-rights-yesno</path>
+		<dc:comment/>
+		<attribute/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>30</order>
+		<title lang="en">Intellectual property rights I</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Intellectual property rights I</verbose_name>
+		<verbose_name_plural lang="en">Intellectual property rights I</verbose_name_plural>
+		<title lang="de">Urheber- oder verwandte Schutzrechte I</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Urheber- oder verwandte Schutzrechte I</verbose_name>
+		<verbose_name_plural lang="de">Urheber- oder verwandte Schutzrechte I</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-yesno/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>rdmo_rki/legal-and-ethics/intellectual-property-rights-yesno/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects/ipr/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-yesno"/>
+		<is_collection>False</is_collection>
+		<order>0</order>
+		<help lang="en">This information is needed for a DFG data management plan.
+
+Data or software can be subject to intellectual or industrial property rights. Applicable laws differ broadly even within EU. According to the German copyright law (UrhG) works of literature, scholarship and the arts that can be
+			regarded as a “personal intellectual creation” are protected by copyright. Copyright protection expires 70 years after the death of the copyright holder. Mere data, e.g. measured data or survey data, and metadata (except in some cases descriptive
+			metadata) are not protected by copyright. § 2 of the UrhG lists the following kinds of protected works (list is not concluded): * linguistic works such as written works, speeches and computer programs * works of music * pantomimic works including
+			works of the art of dance * works or the fine arts including works of architecture and the applied arts as well as sketches of such works * works of photography and cinematography * descriptions and illustrations of scholarly or technical nature such
+			as drawings, plans, maps, sketches, tables and three-dimensional represenations According to § 3, copyright is also applicable to translations and other modifications or adaptions of a work if they are individual intellectual creations of the editor.
+			Finally, according to § 4 copyright also extents to collected editions and database works. Collected editions are “collections of work, data or other independent elements that are individual intellectual creations based on the selection and
+			arrangement of the elements”. Database works are defined as “collected editions, the elements of which are arranged in a systematic or methodical way and can be accessed individually by electronic means or in other ways”. Other relevant property
+			rights can be trademarks, patents, utility models, plant variety rights protection, integrated circuit layout design protection, geographical indications or registered designs.</help>
+		<text lang="en">Does the project use and/or produce data that is protected by intellectual or industrial property rights?</text>
+		<verbose_name lang="en">Intellectual property rights I</verbose_name>
+		<verbose_name_plural lang="en">Intellectual property rights I</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.
+
+Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Die Rechtslage kann selbst in der EU von Land zu Land erheblich abweichen. In Deutschland sind nach dem Urheberrechtsgesetz (UrhG) Werke der Literatur,
+			Wissenschaft und Kunst, die eine „persönliche geistige Schöpfung“ darstellen, urheberrechtlich geschützt. Der urheberrechtliche Schutz erlischt 70 Jahre nach dem Tod der bzw. des Urheberin/s. Reine Daten, z.B. Messdaten oder Surveydaten, aber auch
+			Metadaten (bis auf ggf. „beschreibende“ Metadaten) sind hingegen nicht schutzfähig. In § 2 nennt das UrhG folgende geschützte Werkarten, wobei die Aufzählung nicht abschließend ist: * Sprachwerke, wie Schriftwerke, Reden und Computerprogramme * Werke
+			der Musik * pantomimische Werke einschließlich Werke der Tanzkunst * Werke der bildenden Künste einschließlich der Werke der Baukunst und der angewandten Kunst und Entwürfe solcher Werke * Lichtbildwerke einschließlich der Werke, die ähnlich wie
+			Lichtbildwerke geschaffen werden * Darstellungen wissenschaftlicher oder technischer Art wie Zeichnungen, Pläne, Karten, Skizzen, Tabellen und plastische Darstellungen. Nach § 3 sind auch „Übersetzungen und andere Bearbeitungen“ von Werken geschützt,
+			die persönliche geistige Schöpfungen des Bearbeiters sind“. Schließlich sind nach § 4 auch Sammelwerke und Datenbankwerke geschützt, was im Bereich Forschungsdaten durchaus relevant sein kann. Sammelbankwerke werden dabei definiert als „Sammlungen
+			von Werken, Daten oder anderen unabhängigen Elementen, die aufgrund der Auswahl oder Anordnung der Elemente eine persönliche geistige Schöpfung sind“. Bei einem „Datenbankwerk im Sinne des Gesetzes“ handelt es sich um ein „Sammelwerk, dessen Elemente
+			systematisch oder methodisch angeordnet und einzeln mit Hilfe elektronischer Mittel oder auf andere Weise zugänglich sind“. Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Gebrauchsmuster, Sortenschutz [bei
+			Pflanzenzüchtungen], Halbleiterschutz, Marken, geographische Herkunftsangaben, eingetragene Designs oder geschäftliche Bezeichnungen sein.</help>
+		<text lang="de">Werden Daten genutzt und/oder erstellt, die durch Urheber- oder verwandte Schutzrechte geschützt sind?</text>
+		<verbose_name lang="de">Urheber- oder verwandte Schutzrechte</verbose_name>
+		<verbose_name_plural lang="de">Urheber- oder verwandte Schutzrechte</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>intellectual-property-rights-dataset</key>
+		<path>rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/legal_aspects"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics"/>
+		<is_collection>False</is_collection>
+		<order>31</order>
+		<title lang="en">Intellectual property rights II</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Urheber- oder verwandte Schutzrechte II</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset/copyrights">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>copyrights</key>
+		<path>rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset/copyrights</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/copyrights"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset"/>
+		<is_collection>True</is_collection>
+		<order>0</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">Does copyright law apply to these datasets?</text>
+		<verbose_name lang="en">Copyright</verbose_name>
+		<verbose_name_plural lang="en">Copyrights</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Be- oder entstehen an diesen Datensätzen Urheberrechte?</text>
+		<verbose_name lang="de">Urheberrecht</verbose_name>
+		<verbose_name_plural lang="de">Urheberrechte</verbose_name_plural>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_copyright_laws"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset/other_rights">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>other_rights</key>
+		<path>rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset/other_rights</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/ipr/other_rights"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/legal-and-ethics/intellectual-property-rights-dataset"/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">Do other intellectual property rights apply to these datasets?</text>
+		<verbose_name lang="en">Other intellectual property right</verbose_name>
+		<verbose_name_plural lang="en">Other intellectual property rights</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Be- oder entstehen an diesen Datensätzen andere Schutzrechte?</text>
+		<verbose_name lang="de">Schutzrecht</verbose_name>
+		<verbose_name_plural lang="de">Schutzrechte</verbose_name_plural>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/dataset_other_rights"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/metadata-and-referencing">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>metadata-and-referencing</key>
+		<path>rdmo_rki/metadata-and-referencing</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki"/>
+		<order>6</order>
+		<title lang="en">Metadata and referencing</title>
+		<title lang="de">Metadaten und Referenzierung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/metadata-and-referencing/metadata-dataset">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>metadata-dataset</key>
+		<path>rdmo_rki/metadata-and-referencing/metadata-dataset</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/metadata-and-referencing"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<title lang="en">Metadata</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Metadaten</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/metadata-and-referencing/metadata-dataset/standards">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>standards</key>
+		<path>rdmo_rki/metadata-and-referencing/metadata-dataset/standards</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/metadata/standards"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/metadata-and-referencing/metadata-dataset"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en"/>
+		<text lang="en">Which standards, ontologies, classifications etc. are used to describe the data and context information?</text>
+		<verbose_name lang="en">Standard</verbose_name>
+		<verbose_name_plural lang="en">Standards</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Welche Standards, Ontologien, Klassifikationen etc. werden zur Beschreibung der Daten und Kontextinformation genutzt?</text>
+		<verbose_name lang="de">Standard</verbose_name>
+		<verbose_name_plural lang="de">Standards</verbose_name_plural>
+		<widget_type>checkbox</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/metadata_standards"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>storage-and-long-term-preservation</key>
+		<path>rdmo_rki/storage-and-long-term-preservation</path>
+		<dc:comment/>
+		<catalog dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki"/>
+		<order>10</order>
+		<title lang="en">Storage and long-term preservation</title>
+		<title lang="de">Speicherung und Langzeitarchivierung</title>
+	</section>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>long-term-preservation-datasets_2</key>
+		<path>rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation"/>
+		<is_collection>False</is_collection>
+		<order>10</order>
+		<title lang="en">Storage and Long-term preservation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Speicherung und Langzeitarchivierung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2/yesno">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>yesno</key>
+		<path>rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2/yesno</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/yesno"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2"/>
+		<is_collection>False</is_collection>
+		<order>1</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">Do those datasets have to preserved for the long-term?</text>
+		<verbose_name lang="en">Long-term preservation</verbose_name>
+		<verbose_name_plural lang="en">Long-term preservations</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Müssen diese Datensätze langfristig aufbewahrt werden?</text>
+		<verbose_name lang="de">Langzeitarchivierung</verbose_name>
+		<verbose_name_plural lang="de">Langzeitarchivierungen</verbose_name_plural>
+		<widget_type>yesno</widget_type>
+		<value_type>boolean</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2/repository">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>repository</key>
+		<path>rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2/repository</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/repository"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets_2"/>
+		<is_collection>False</is_collection>
+		<order>5</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">Where will the data (including metadata, documentation and, if applicable, relevant code) be stored or archived after the end of the project?</text>
+		<verbose_name lang="en">Repository</verbose_name>
+		<verbose_name_plural lang="en">Repositories</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Wo werden die Daten (einschließlich Metadaten, Dokumentation und ggf. relevantem Code bzw. relevanter Software) nach Projektende gespeichert bzw. archiviert?</text>
+		<verbose_name lang="de">Repositorium</verbose_name>
+		<verbose_name_plural lang="de">Repositorien</verbose_name_plural>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/preservation_repository_options"/>
+		</optionsets>
+		<conditions>
+			<condition dc:uri="https://rdmo.rki.de/terms/conditions/dfg"/>
+		</conditions>
+	</question>
+	<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>long-term-preservation-datasets</key>
+		<path>rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation"/>
+		<section dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation"/>
+		<is_collection>False</is_collection>
+		<order>11</order>
+		<title lang="en">Long-term preservation</title>
+		<help lang="en"/>
+		<verbose_name lang="en">Data set</verbose_name>
+		<verbose_name_plural lang="en">Data sets</verbose_name_plural>
+		<title lang="de">Langzeitarchivierung</title>
+		<help lang="de"/>
+		<verbose_name lang="de">Datensatz</verbose_name>
+		<verbose_name_plural lang="de">Datensätze</verbose_name_plural>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets/purpose">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>purpose</key>
+		<path>rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets/purpose</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/purpose"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<is_collection>True</is_collection>
+		<order>2</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">What are the reasons this dataset has to be preserved for the long-term?</text>
+		<verbose_name lang="en">Long-term preservation reason</verbose_name>
+		<verbose_name_plural lang="en">Long-term preservation reasons</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Aus welchen Gründen müssen die Daten langfristig aufbewahrt werden?</text>
+		<verbose_name lang="de">Langzeitarchivierungsgrund</verbose_name>
+		<verbose_name_plural lang="de">Langzeitarchivierungsgründe</verbose_name_plural>
+		<widget_type>checkbox</widget_type>
+		<value_type>option</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.rki.de/terms/options/preservation_motivation_options"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets/duration">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>duration</key>
+		<path>rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets/duration</path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/duration"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<is_collection>False</is_collection>
+		<order>3</order>
+		<help lang="en">This information is needed for a DFG data management plan.</help>
+		<text lang="en">How long will the data be stored?</text>
+		<verbose_name lang="en">Retention period</verbose_name>
+		<verbose_name_plural lang="en">Retention periods</verbose_name_plural>
+		<help lang="de">Diese Information wird für einen DFG Datenmanagementplan benötigt.</help>
+		<text lang="de">Wie lange müssen die Daten aufbewahrt werden?</text>
+		<verbose_name lang="de">Aufbewahrungsfrist</verbose_name>
+		<verbose_name_plural lang="de">Aufbewahrungsfristen</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets/reuse_duration">
+		<uri_prefix>https://rdmo.rki.de/terms</uri_prefix>
+		<key>reuse_duration</key>
+		<path>rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets/reuse_duration</path>
+		<dc:comment>Original H2020 question</dc:comment>
+		<attribute dc:uri="https://rdmo.rki.de/terms/domain/project/dataset/preservation/reuse_duration"/>
+		<questionset dc:uri="https://rdmo.rki.de/terms/questions/rdmo_rki/storage-and-long-term-preservation/long-term-preservation-datasets"/>
+		<is_collection>False</is_collection>
+		<order>4</order>
+		<help lang="en"/>
+		<text lang="en">How long is it intended that the data remains re-usable.</text>
+		<verbose_name lang="en">Re-use duration</verbose_name>
+		<verbose_name_plural lang="en">Re-use duration</verbose_name_plural>
+		<help lang="de"/>
+		<text lang="de">Wie lang sollen die Daten nach Projektende (nach)nutzbar sein?</text>
+		<verbose_name lang="de">Nachnutzungsdauer</verbose_name>
+		<verbose_name_plural lang="de">Nachnutzungsdauer</verbose_name_plural>
+		<widget_type>date</widget_type>
+		<value_type>datetime</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<optionsets/>
+		<conditions/>
+	</question>
+</rdmo>
